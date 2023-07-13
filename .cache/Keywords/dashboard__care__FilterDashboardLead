@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "E39E0B464CD84D79761E05B87CE1F8FC",
+  "keywordClasses": [
+    {
+      "name": "dashboard.care.FilterDashboardLead",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

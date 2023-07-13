@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_Selamat DatangTim bukan sekelompok ora_d5ee54</name>
+   <tag></tag>
+   <elementGuidId>67063ca0-f6df-40d1-b287-c128b2a97978</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/form</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>form.absolute.top-40.right-56.text-gray-600</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>872860f5-6ca0-45c0-9d36-e067df3aa21e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>absolute top-40 right-56 text-gray-600</value>
+      <webElementGuid>633e9440-6f23-49c7-ac51-24319c8a2d82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Selamat DatangTim bukan sekelompok orang yang bekerja sama.Tim adalah sekelompok orang yang saling percaya.-Simon SinekMasukLupa kata sandi?</value>
+      <webElementGuid>6aac833f-7fb1-475b-aad4-645e7ba7ec22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;w-screen h-screen bg-white relative&quot;]/form[@class=&quot;absolute top-40 right-56 text-gray-600&quot;]</value>
+      <webElementGuid>9d9a764c-bb66-450b-92cb-599299fdff21</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/form</value>
+      <webElementGuid>1426f7c2-e189-466b-b3cc-3abad4afe7e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>1731d825-28d6-4a13-b4d7-2738ea21c54c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//form[(text() = 'Selamat DatangTim bukan sekelompok orang yang bekerja sama.Tim adalah sekelompok orang yang saling percaya.-Simon SinekMasukLupa kata sandi?' or . = 'Selamat DatangTim bukan sekelompok orang yang bekerja sama.Tim adalah sekelompok orang yang saling percaya.-Simon SinekMasukLupa kata sandi?')]</value>
+      <webElementGuid>e3237eaf-cce9-4a07-9608-91c871064687</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

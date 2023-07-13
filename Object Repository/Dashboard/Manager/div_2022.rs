@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_2022</name>
+   <tag></tag>
+   <elementGuidId>05568f44-09f6-4703-995f-d03b94a7f858</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/div[4]/div[2]/div[2]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>48b5d3b5-ec51-4938-aad7-bab07f03950d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hover:bg-blue-100 px-3 py-1 cursor-pointer</value>
+      <webElementGuid>617f07c4-2ae2-478d-9ce0-58e373bdb251</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2022</value>
+      <webElementGuid>b395422a-5be1-4dc4-b420-728db38b65ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;container-layout&quot;]/div[@class=&quot;main-layout px-10 overflow-auto&quot;]/div[@class=&quot;flex justify-between pb-10&quot;]/div[@class=&quot;flex-initial w-3/12&quot;]/div[@class=&quot;relative font-medium select-none&quot;]/div[@class=&quot;absolute w-full top-14 bg-white z-10 pb-6 rounded shadow-box-button&quot;]/div[@class=&quot;bg-blue-200 w-full p-2 flex&quot;]/div[@class=&quot;w-1/2 pl-1&quot;]/div[@class=&quot;select-none mt-2 bg-white rounded shadow-box-button overflow-auto h-40&quot;]/div[@class=&quot;hover:bg-blue-100 px-3 py-1 cursor-pointer&quot;]</value>
+      <webElementGuid>58a0618c-4453-4d07-89d6-13afe2ead8da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/div[4]/div[2]/div[2]/div[2]</value>
+      <webElementGuid>a2f86147-603d-453b-afa1-3f11439007d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Desember'])[1]/following::div[7]</value>
+      <webElementGuid>388acdda-de7d-47e4-a236-cfc125b46c88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::div[10]</value>
+      <webElementGuid>03b5dc18-a5ca-4fec-98d4-b292d9c3102d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terapkan'])[1]/preceding::div[10]</value>
+      <webElementGuid>442511cc-3bf0-48c0-aa9d-792ac4cff648</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='2022']/parent::*</value>
+      <webElementGuid>fba9d2f9-dc0e-405e-be49-9b96bf4b62a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/div[2]/div[2]</value>
+      <webElementGuid>9c25bf21-a4bc-4272-9130-97631fc0c0d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '2022' or . = '2022')]</value>
+      <webElementGuid>904b04cf-2cef-4449-ab02-ec10f6e9564c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

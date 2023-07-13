@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "DEF7514FFFB3EC930DDDFE654B3779C9",
+  "keywordClasses": [
+    {
+      "name": "care.katalon.Login",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

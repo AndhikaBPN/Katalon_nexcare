@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "80029B2DC6E09402E224ADB4788C7AA1",
+  "keywordClasses": [
+    {
+      "name": "care.katalon.VerifyElement",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

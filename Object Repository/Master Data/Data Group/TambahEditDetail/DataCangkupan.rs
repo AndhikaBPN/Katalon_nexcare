@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DataCangkupan</name>
+   <tag></tag>
+   <elementGuidId>4f69d008-ee24-4539-9b80-12ec8d9f2e28</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'btndatascope' and @type = 'button' and (text() = 'Data Scope' or . = 'Data Scope')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@id='btndatascope']/div[2])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btndatascope</value>
+      <webElementGuid>8a8d9020-8529-4074-9526-207002fb012b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9e496a80-2556-4721-967c-de683cf150a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Data Scope</value>
+      <webElementGuid>50f4862c-ee0e-4202-978b-951fbd62f1f3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

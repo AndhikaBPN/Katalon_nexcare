@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Tambah Kolom</name>
+   <tag></tag>
+   <elementGuidId>af1f81be-da73-480f-9bda-c75c173e7b64</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.border.border-softblue.rounded-full.px-5.py-2.flex.items-center.cursor-pointer.select-none</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4584d7b4-26e2-40ca-ba7f-d24819d63ad5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>border border-softblue rounded-full px-5 py-2 flex items-center cursor-pointer select-none</value>
+      <webElementGuid>d07af1c2-3be0-41fb-853f-14a2113df8b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tambah Kolom</value>
+      <webElementGuid>368e7584-3ce6-47c6-b016-36bad91291bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-layout&quot;]/div[@class=&quot;main-layout px-10 overflow-auto&quot;]/div[@class=&quot;flex text-gray-600 white-container&quot;]/div[@class=&quot;w-full bg-white rounded-lg p-5 relative&quot;]/div[@class=&quot;w-full flex justify-between mb-5&quot;]/div[@class=&quot;border border-softblue rounded-full px-5 py-2 flex items-center cursor-pointer select-none&quot;]</value>
+      <webElementGuid>f7533db4-9a8d-4452-9202-c2dd0174828f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[3]/div[2]/div/div/div[2]</value>
+      <webElementGuid>5d025b09-cc67-4de2-be4f-b6d65516e1f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pt Rukun Mitra Sejati Blitar'])[1]/following::div[6]</value>
+      <webElementGuid>ad380736-d113-4dd4-b610-d558ea848b71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select is focused ,type to refine list, press Down to open the menu,'])[1]/following::div[9]</value>
+      <webElementGuid>6cbd34b6-065f-4a7a-abda-0bb1b95e6ffd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Principal'])[1]/preceding::div[1]</value>
+      <webElementGuid>d7669795-8341-420e-a061-63430c116d70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div/div[2]</value>
+      <webElementGuid>ef84cd35-bd5c-40fc-89d6-4ea13d8451b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Tambah Kolom' or . = 'Tambah Kolom')]</value>
+      <webElementGuid>c58bebf2-8821-43c1-acab-087d2ab4ad5c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>IView</name>
+   <tag></tag>
+   <elementGuidId>e8276a6c-ab1b-4bd2-a65e-d31591a800f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ckbimportdataview</value>
+      <webElementGuid>7d2e990a-d0f2-4240-afce-cb91d5f9a653</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

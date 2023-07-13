@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "98567742EDA0001165D0DBEACECC284F",
+  "keywordClasses": [
+    {
+      "name": "care.katalon.HandleWebDriver",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

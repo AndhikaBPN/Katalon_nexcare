@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Poin  Komisi</name>
+   <tag></tag>
+   <elementGuidId>64b9d947-7ee4-4038-94cc-d4986a9a7480</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#btnaddnewschema</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btnaddnewschema']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d162409b-8ff3-47dd-a42c-aa63382d0ccc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btnaddnewschema</value>
+      <webElementGuid>1565e8d8-fb65-4b31-88cb-7b8769fe3853</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>
+                                            flex items-center text-white py-2 px-6 rounded-lg 
+                                            bg-olddarkblue cursor-pointer
+                                        </value>
+      <webElementGuid>5947dcc8-0d31-4052-9e01-0c96274beb79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Poin &amp; Komisi</value>
+      <webElementGuid>cb29916f-1505-456f-9bf0-76a645bfb0c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btnaddnewschema&quot;)</value>
+      <webElementGuid>cc426b32-32f7-47f3-88be-e55bc5faff20</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='btnaddnewschema']</value>
+      <webElementGuid>7f720768-4a79-42b7-a8b4-fcda7c925087</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div[2]/div/button</value>
+      <webElementGuid>059df344-a76a-43df-a8ad-36012b9a04b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CS Level 1'])[1]/following::button[1]</value>
+      <webElementGuid>35632fae-688e-4c66-b6f1-edf67dc1ac46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skema Komisi'])[3]/following::button[1]</value>
+      <webElementGuid>5fa28c22-b9d2-41c8-a58f-1362c06027c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/preceding::button[1]</value>
+      <webElementGuid>4e26f02e-58f2-46d6-b9fc-7d6dc543c1a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>c4e0b08e-538b-4463-8edf-7c21b5be338d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'btnaddnewschema' and (text() = 'Poin &amp; Komisi' or . = 'Poin &amp; Komisi')]</value>
+      <webElementGuid>e21c48a1-7681-44eb-9539-0cdc2411f69f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

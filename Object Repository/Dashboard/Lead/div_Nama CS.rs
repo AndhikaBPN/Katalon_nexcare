@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Nama CS</name>
+   <tag></tag>
+   <elementGuidId>8e2f2463-4eed-41f3-b425-67bd4b5ff97f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'ddscsname']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ddscsname']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ddscsname</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4ec15963-5c55-4ee8-bd3c-fd5eac1b707a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ddscsname</value>
+      <webElementGuid>39134656-abc6-462a-be43-04628c4d73b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex justify-between items-center cursor-pointer p-2</value>
+      <webElementGuid>d38fe826-c39f-4732-b83f-f19fb715b427</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Nama CS </value>
+      <webElementGuid>c615f7b5-90af-49b5-9335-6cd4b6428166</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ddscsname&quot;)</value>
+      <webElementGuid>d183be86-abe7-4464-a9c4-217d558bcf92</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='ddscsname']</value>
+      <webElementGuid>62632acd-0ee9-4c53-93ac-d3bf5e27cddc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div/div/div/div[2]/div</value>
+      <webElementGuid>121772c0-2dc6-4848-be97-0f30f6e9c2d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::div[2]</value>
+      <webElementGuid>1cc3eb24-3986-4fce-a6d6-d5048bda5f9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Officer'])[1]/following::div[8]</value>
+      <webElementGuid>d46c3f99-87f2-47e6-ad72-eb32628078cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cari Nama CS'])[1]/preceding::div[2]</value>
+      <webElementGuid>754927cc-6dd8-46bc-9374-7eb2278bbe81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div[2]/div</value>
+      <webElementGuid>2a9e89ea-08b3-437c-873c-116079c195ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'ddscsname' and (text() = ' Nama CS ' or . = ' Nama CS ')]</value>
+      <webElementGuid>481361e7-0cf0-4a18-8999-e5214b9f1c65</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

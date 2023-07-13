@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "D80913C6248D0BD18FCF7F0713977770",
+  "keywordClasses": [
+    {
+      "name": "care.katalon.Logout",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Username  Password salah</name>
+   <tag></tag>
+   <elementGuidId>3b90bf1f-14b1-4294-9b62-645e2e5cf3bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/form/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.text-darkred.font-medium</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>70af30bf-5b98-431c-8a32-c3e0b3ea7707</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-darkred font-medium</value>
+      <webElementGuid>17ac7fcf-4d12-4539-b7a3-788e983e4952</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Username / Password salah!</value>
+      <webElementGuid>17525452-1514-4841-be29-fef2c9c177f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;w-screen h-screen bg-white relative&quot;]/form[@class=&quot;absolute top-40 right-56 text-gray-600&quot;]/div[@class=&quot;h-16 flex items-center&quot;]/p[@class=&quot;text-darkred font-medium&quot;]</value>
+      <webElementGuid>6ce3514e-6531-462e-9742-d77f99c97be7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/form/div[2]/p</value>
+      <webElementGuid>666b6b14-1b92-47d3-8811-c3bf73453c43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/preceding::p[1]</value>
+      <webElementGuid>3e1a5c71-5bc1-4600-a2c5-d692ce6e7307</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lupa kata sandi?'])[1]/preceding::p[1]</value>
+      <webElementGuid>66c995e8-6abe-4538-b7ce-5a5c57f28114</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Username / Password salah!']/parent::*</value>
+      <webElementGuid>357d6a60-f5dc-4139-bef1-a391089f405d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/p</value>
+      <webElementGuid>0e125799-fda7-4d5e-9710-9f3f717bd1da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Username / Password salah!' or . = 'Username / Password salah!')]</value>
+      <webElementGuid>8b75cd59-7ccd-45f8-b6f5-d92bbcaadfcc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

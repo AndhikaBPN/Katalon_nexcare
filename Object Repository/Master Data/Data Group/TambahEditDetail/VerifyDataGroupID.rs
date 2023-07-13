@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>VerifyDataGroupID</name>
+   <tag></tag>
+   <elementGuidId>bacaf143-d685-4ae9-a632-14c666034013</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'tsldatagroupid' and @name = 'dataGroupId']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;tsldatagroupid&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>tsldatagroupid</value>
+      <webElementGuid>6b236ed0-0bff-478f-a10b-a6c4bd9acd87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>dataGroupId</value>
+      <webElementGuid>4609f2a3-30e2-4be7-a673-31694a92af8c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

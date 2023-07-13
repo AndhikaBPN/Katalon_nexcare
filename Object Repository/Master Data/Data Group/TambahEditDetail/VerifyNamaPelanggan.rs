@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>VerifyNamaPelanggan</name>
+   <tag></tag>
+   <elementGuidId>b4dc3a31-05d9-4480-9fa6-b655e8fd1101</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;mlscustomername&quot;]/div/div[1]/div[${indexRow}]/div/div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>f374bcef-f526-4e49-8e83-fbb4ba1fcf2c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

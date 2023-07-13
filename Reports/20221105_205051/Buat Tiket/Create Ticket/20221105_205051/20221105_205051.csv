@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create Ticket,Firefox 106.0,,,2022-11-05 20:51:01,2022-11-05 21:36:07,45m - 6.372s,FAILED
+,,,,,,,
+Test Cases/Daftar Tiket/Buat Tiket/Buat Tiket Baru,Firefox 106.0,,,2022-11-05 20:51:01,2022-11-05 21:47:57,56m - 56.099s,FAILED
+handleWebDriver = new care.katalon.HandleWebDriver(),Firefox 106.0,,,2022-11-05 20:51:02,2022-11-05 20:51:02,0.007s,PASSED
+handleWebDriver.startAndOpenWebBrowser(baseUrl),Firefox 106.0,,,2022-11-05 20:51:02,2022-11-05 20:51:09,7.178s,PASSED
+generalAction = new care.katalon.GeneralAction(),Firefox 106.0,,,2022-11-05 20:51:09,2022-11-05 20:51:09,0.017s,PASSED
+handleTestData = new care.katalon.HandleTestData(),Firefox 106.0,,,2022-11-05 20:51:09,2022-11-05 20:51:09,0.008s,PASSED
+buattiketbaru = new daftartiket.care.BuatTiketBaru(),Firefox 106.0,,,2022-11-05 20:51:09,2022-11-05 20:51:09,0.007s,PASSED
+"generalAction.login(""Operator"")",Firefox 106.0,,,2022-11-05 20:51:09,2022-11-05 20:51:11,1.531s,PASSED
+"excelLocation = ""Daftar Tiket\Buat Tiket\Buat Tiket - add.xlsx""",Firefox 106.0,,,2022-11-05 20:51:11,2022-11-05 20:51:11,0.001s,PASSED
+"sheetName = ""BuatTiket-add""",Firefox 106.0,,,2022-11-05 20:51:11,2022-11-05 20:51:11,0.000s,PASSED
+tiketnumber = new java.util.ArrayList(),Firefox 106.0,,,2022-11-05 20:51:11,2022-11-05 20:51:11,0.000s,PASSED
+"listHashMapCreateTicket = handleTestData.readTestData(excelLocation, sheetName, true)",Firefox 106.0,,,2022-11-05 20:51:11,2022-11-05 20:51:12,1.632s,PASSED
+"for ([i = 0, i < listHashMapCreateTicket.size(), (i++)])",Firefox 106.0,,,2022-11-05 20:51:12,2022-11-05 21:47:43,56m - 30.645s,FAILED
+logInfo(tiketnumber.toString()),Firefox 106.0,,,2022-11-05 21:47:43,2022-11-05 21:47:43,0.003s,PASSED
+"buattiketbaru.editOneSheet(excelLocation, sheetName, tiketnumber, 2)",Firefox 106.0,,,2022-11-05 21:47:43,2022-11-05 21:47:45,2.308s,PASSED
+generalAction.logout(),Firefox 106.0,,,2022-11-05 21:47:45,2022-11-05 21:47:57,12.181s,PASSED

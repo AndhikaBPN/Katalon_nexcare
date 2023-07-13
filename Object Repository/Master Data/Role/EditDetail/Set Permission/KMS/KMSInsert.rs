@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>KMSInsert</name>
+   <tag></tag>
+   <elementGuidId>df67a26d-8b70-4bff-aeb0-f7187b46ba78</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ckbkmsinsert</value>
+      <webElementGuid>ba24ebfe-5121-4c20-b139-6e86ddd47723</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
