@@ -33,7 +33,7 @@ public class DataCustomer {
 	VerifyElement VerifyElement = new VerifyElement()
 
 	public void menuDataCustomer() {
-		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Sidebar/Sidebar Master Data'))
+		GeneralAction.clickElement(findTestObject('Object Repository/Sidebar/Sidebar Master Data'))
 		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/btnDataGroup'))
 		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Menu Level 2 Master Data/Data customer'))
 	}

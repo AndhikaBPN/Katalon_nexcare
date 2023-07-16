@@ -49,7 +49,6 @@ for (int i = 0; i < listHashMapDataGroup.size(); i++) {
 		dataGroup.saveDataGroup()
 		dataGroup.viewDetail(groupID)
 		dataGroup.verifyDataGroup(getHashMapDataGroup)
-		dataGroup.refreshPage()
 		dataGroup.closeViewDetail()
 	} catch (Exception e) {
 		KeywordUtil.markFailed(e.printStackTrace())

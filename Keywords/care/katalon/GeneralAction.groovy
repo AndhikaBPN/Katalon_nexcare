@@ -285,9 +285,9 @@ class GeneralAction {
 		clickElementAndType(findTestObject('Object Repository/Login/username'), username)
 		clickElementAndType(findTestObject('Object Repository/Login/password'), password)
 		clickElement(findTestObject('Object Repository/Login/masuk'))
-		
-		if (WebUI.verifyElementPresent(findTestObject('Object Repository/spyLogin/verif_grochat_account/button_Tidak'), 5)) {
-			clickElement(findTestObject('Object Repository/spyLogin/verif_grochat_account/button_Tidak'))
+
+		if (WebUI.verifyElementPresent(findTestObject('Object Repository/Login/button_Tidak'), 5)) {
+			clickElement(findTestObject('Object Repository/Login/button_Tidak'))
 		}
 
 

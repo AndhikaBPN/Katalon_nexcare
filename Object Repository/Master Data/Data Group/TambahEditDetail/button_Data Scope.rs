@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Data Scope</name>
+   <tag></tag>
+   <elementGuidId>f04d385c-4baa-4f48-899d-ccfe09701a55</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@id='btndatascope'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.block > div.flex.mb-3 > #btndatascope</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ad750956-effd-4905-b377-a47cc2f20772</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f850086c-ebc9-4618-9a97-6a2bbfb6d94b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btndatascope</value>
+      <webElementGuid>decffc21-0561-4c8e-a16c-d3f6bd3d3774</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rounded-full font-bold px-5 py-2 flex items-center bg-white text-darkblue border-2 border-white</value>
+      <webElementGuid>c7907360-6859-4465-a22b-f18e52540dda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Data Scope</value>
+      <webElementGuid>93ccb851-c873-4faa-bb3d-1422e5050fd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;container-layout&quot;]/div[@class=&quot;main-layout px-10 overflow-auto&quot;]/div[@class=&quot;data-group-container&quot;]/div[@class=&quot;block&quot;]/div[@class=&quot;flex mb-3&quot;]/button[@id=&quot;btndatascope&quot;]</value>
+      <webElementGuid>075dc887-5b2b-438d-bcff-df1bf533eb0d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@id='btndatascope'])[2]</value>
+      <webElementGuid>4b388d38-c70c-4461-b0dc-1be20a60acf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[3]/div/div[2]/div/button[2]</value>
+      <webElementGuid>d9bf7946-1092-4520-9a38-287e64af5c57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Group'])[3]/following::button[1]</value>
+      <webElementGuid>e92f98af-f8b1-4d05-bddc-dbd68ad96d8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpan'])[1]/following::button[2]</value>
+      <webElementGuid>14faf48a-5076-4ffe-b4db-7994df16f9ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Group ID'])[1]/preceding::button[1]</value>
+      <webElementGuid>04ce228b-1334-482b-a569-cd08449ca6a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button[2]</value>
+      <webElementGuid>6a34f8e8-3872-41ef-87ef-df6fca5a5806</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @id = 'btndatascope' and (text() = 'Data Scope' or . = 'Data Scope')]</value>
+      <webElementGuid>01462ed6-8d32-4e52-919b-5c20fe73506e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

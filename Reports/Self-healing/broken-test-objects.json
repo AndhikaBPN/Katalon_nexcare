@@ -1,3 +1,41 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Master Data/Data Group/View",
+      "brokenLocator": "//div[@class\u003d\u0027overflow-auto\u0027]/div/div/div/div[1][.\u003d\u0027katalonlima\u0027]/following-sibling::div[5]/span[@id\u003d\u0027btndetaildatagroup\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@id \u003d \u0027btndetaildatagroup\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Master Data/Data Group/View_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Master Data/Data Group/TambahEditDetail/btnViewDetail",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Administrator\u0027])[1]/following::*[name()\u003d\u0027svg\u0027][1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Master Data/Data Group/TambahEditDetail/btnViewDetail_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Master Data/Data Group/TambahEditDetail/Page_NexCARE/pathdetailDataGroup",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "#btndetaildatagroup \u003e svg \u003e g \u003e path:nth-of-type(2)",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Master Data/Data Group/TambahEditDetail/Page_NexCARE/pathdetailDataGroup_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Master Data/Data Group/TambahEditDetail/PilihDistributor",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027mlscustomername\u0027]/div/div/div[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Master Data/Data Group/TambahEditDetail/PilihDistributor_idRelative.png"
+    }
+  ]
 }

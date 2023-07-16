@@ -6,6 +6,8 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
+import java.util.concurrent.ConcurrentHashMap.KeySetView
+
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -35,14 +37,14 @@ public class DataGroup {
 	VerifyElement VerifyElement = new VerifyElement()
 
 	public void menuDataGroup() {
-		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Sidebar/Sidebar Master Data'))
+		GeneralAction.clickElement(findTestObject('Object Repository/Sidebar/Sidebar Master Data'))
 		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/btnDataGroup'))
-		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Menu Level 2 Master Data/Data group'))
 	}
 
 	public void addDataGroup() {
 		WebUI.waitForElementClickable(findTestObject('Object Repository/Master Data/Data Group/Tambah'), 3)
 		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/Tambah'))
+		refreshPage()
 	}
 
 	public void addDataScope() {
@@ -68,9 +70,9 @@ public class DataGroup {
 		String groupID = hashMapsetDataGroup.get("groupID")
 		String deskripsi = hashMapsetDataGroup.get("deskripsi")
 		String customerName = hashMapsetDataGroup.get("customerName")
-		String chkboxAllCust = hashMapsetDataGroup.get("chkboxAllCust")
+		//		String chkboxAllCust = hashMapsetDataGroup.get("chkboxAllCust")
 		String principalName = hashMapsetDataGroup.get("principalName")
-		String chkboxAllPrincipal = hashMapsetDataGroup.get("chkboxAllPrincipal")
+		//		String chkboxAllPrincipal = hashMapsetDataGroup.get("chkboxAllPrincipal")
 
 		WebUI.waitForElementClickable(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/GrupID'), 3)
 		GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/GrupID'), groupID)
@@ -87,7 +89,7 @@ public class DataGroup {
 				GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan'),
 						findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan'), allCustomerName[i])
 			}
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/CloseSelection'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown'))
 		}
 		if(principalName.equalsIgnoreCase("ALL")) {
 			WebUI.verifyElementNotChecked(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'), 3, FailureHandling.STOP_ON_FAILURE)
@@ -98,7 +100,7 @@ public class DataGroup {
 				GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal'),
 						findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal'), allPrincipal[i])
 			}
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/CloseSelection'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown'))
 		}
 	}
 
@@ -109,11 +111,14 @@ public class DataGroup {
 
 	public void closeViewDetail () {
 		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/Tutup'))
+		WebUI.delay(2)
 	}
 
 	public void viewDetail (String groupID) {
 		WebUI.waitForPageLoad(GlobalVariable.timeoutLoadingInSeccond)
-		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/View' , [('groupID') : groupID]))
+		GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup'), groupID)
+		WebUI.sendKeys(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup'), Keys.chord(Keys.ENTER))
+		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/pathdetailDataGroup'))
 	}
 
 	public void editDataScope(String groupID) {

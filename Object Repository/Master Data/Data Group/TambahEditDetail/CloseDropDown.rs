@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CloseDropDown</name>
+   <tag></tag>
+   <elementGuidId>f25f0081-e2ae-4228-8960-65a4ca387970</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.topbar.shadow-md.flex.justify-between.items-center.px-10</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>348b3fd0-6e42-488c-8df9-b355e3e94ea1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>topbar shadow-md flex justify-between items-center px-10</value>
+      <webElementGuid>6f69f3e7-ab90-463e-81d5-7abc6103935c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>14 Juli 2023 | 10:35super adminAdmin NexCareNotifikasiTidak ada notifikasiLihat Semua </value>
+      <webElementGuid>8aa8b9e5-c82e-4b1f-aa62-a6c171db6c00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;topbar shadow-md flex justify-between items-center px-10&quot;]</value>
+      <webElementGuid>deb8bec3-9b9d-4922-b223-69efa72da5f4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div</value>
+      <webElementGuid>ad8d7487-aedf-4061-9f71-0013fa6461f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div</value>
+      <webElementGuid>6e825c34-183a-4826-8651-ad7c9d881f08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '14 Juli 2023 | 10:35super adminAdmin NexCareNotifikasiTidak ada notifikasiLihat Semua ' or . = '14 Juli 2023 | 10:35super adminAdmin NexCareNotifikasiTidak ada notifikasiLihat Semua ')]</value>
+      <webElementGuid>1014183e-b8cc-438b-a1fa-bfa6b2116ebc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

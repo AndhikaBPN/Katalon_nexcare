@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pathdetailDataGroup</name>
+   <tag></tag>
+   <elementGuidId>237fdf1e-6684-4040-9ba5-0c23ae1a6814</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btndetaildatagroup > svg > g > path:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;btndetaildatagroup&quot;)/svg[1]/g[1]/path[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>fef86f39-6629-48dd-a638-81d2c54033f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M12.0708 6.0752C10.0693 6.07639 8.11447 6.68005 6.46076 7.80761C4.80706 8.93517 3.53106 10.5344 2.79883 12.3972C3.53016 14.2607 4.80601 15.8606 6.46002 16.9883C8.11403 18.116 10.0695 18.7192 12.0713 18.7192C14.0732 18.7192 16.0286 18.116 17.6826 16.9883C19.3366 15.8606 20.6125 14.2607 21.3438 12.3972C20.6115 10.5342 19.3354 8.9349 17.6815 7.80733C16.0276 6.67976 14.0725 6.07619 12.0708 6.0752ZM12.0708 16.6122C11.2372 16.6122 10.4223 16.365 9.7291 15.9018C9.03595 15.4387 8.4957 14.7804 8.17668 14.0102C7.85765 13.24 7.77418 12.3925 7.93682 11.5749C8.09945 10.7573 8.50089 10.0062 9.09037 9.41674C9.67985 8.82726 10.4309 8.42582 11.2485 8.26319C12.0662 8.10055 12.9136 8.18402 13.6838 8.50304C14.454 8.82207 15.1123 9.36231 15.5755 10.0555C16.0386 10.7486 16.2858 11.5635 16.2858 12.3972C16.2856 13.515 15.8414 14.5869 15.051 15.3774C14.2606 16.1678 13.1886 16.6119 12.0708 16.6122ZM12.0708 9.8682C11.5706 9.868 11.0815 10.0162 10.6655 10.2939C10.2495 10.5717 9.92519 10.9666 9.73362 11.4287C9.54206 11.8908 9.49183 12.3993 9.5893 12.89C9.68677 13.3806 9.92755 13.8313 10.2812 14.1851C10.6348 14.5389 11.0855 14.7799 11.5761 14.8775C12.0667 14.9752 12.5752 14.9252 13.0374 14.7338C13.4996 14.5424 13.8946 14.2183 14.1725 13.8023C14.4505 13.3864 14.5988 12.8974 14.5988 12.3972C14.5994 12.065 14.5343 11.736 14.4075 11.429C14.2806 11.122 14.0945 10.843 13.8596 10.6081C13.6248 10.3732 13.3459 10.1869 13.0389 10.0599C12.732 9.93295 12.403 9.8678 12.0708 9.8682Z</value>
+      <webElementGuid>83b632f8-6cfa-4212-bc2a-d2748730a621</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>white</value>
+      <webElementGuid>78b9ab33-ee23-42c8-8891-5d88a12b79e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btndetaildatagroup&quot;)/svg[1]/g[1]/path[2]</value>
+      <webElementGuid>4266d05e-acf2-49a4-80db-5022ce413ec0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

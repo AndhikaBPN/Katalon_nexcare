@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'C:\\Users\\NEXSOFT\\Documents\\Nexsoft\\Sharing\\Nexcare\\katalon\\care\\Data Files\\TestData\\NexCare\\'</initValue>
+      <initValue>'D:\\Tugas\\nexSOFT\\Katalon\\care\\Data Files\\TestData\\NexCare\\'</initValue>
       <name>pathDataFiles</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
