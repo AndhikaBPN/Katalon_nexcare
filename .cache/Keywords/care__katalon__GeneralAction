@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "547A65AF6B24261B7286EF2B628E10A2",
+  "keywordFileContentHash": "4017DAA98E77119D3A553C32EDEC6496",
   "keywordClasses": [
     {
       "name": "care.katalon.GeneralAction",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

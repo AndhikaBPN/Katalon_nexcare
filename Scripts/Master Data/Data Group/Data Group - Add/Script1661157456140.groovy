@@ -42,14 +42,17 @@ for (int i = 0; i < listHashMapDataGroup.size(); i++) {
 	try {
 		HashMap getHashMapDataGroup = listHashMapDataGroup.get(i)
 		String groupID = getHashMapDataGroup.get('groupID')
+		String category = getHashMapDataGroup.get('category')
 		KeywordUtil.logInfo(getHashMapDataGroup.toString())
 		String testDataNumber = getHashMapDataGroup.get('TD')
 		dataGroup.addDataGroup()
 		dataGroup.setDataGroup(getHashMapDataGroup)
 		dataGroup.saveDataGroup()
-		dataGroup.viewDetail(groupID)
-		dataGroup.verifyDataGroup(getHashMapDataGroup)
-		dataGroup.closeViewDetail()
+		if (category.equalsIgnoreCase("Positive")) {
+			dataGroup.viewDetail(groupID)
+			dataGroup.verifyDataGroup(getHashMapDataGroup)
+			dataGroup.closeViewDetail()
+		}
 	} catch (Exception e) {
 		KeywordUtil.markFailed(e.printStackTrace())
 		continue;

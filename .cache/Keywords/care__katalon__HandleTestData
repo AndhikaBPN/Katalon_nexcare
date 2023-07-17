@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "47BC1FEEE06A0A23BFE90BFFE429EC74",
+  "keywordFileContentHash": "153145BBBC2264558F268EEE660E2785",
   "keywordClasses": [
     {
       "name": "care.katalon.HandleTestData",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

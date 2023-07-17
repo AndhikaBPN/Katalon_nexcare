@@ -70,9 +70,7 @@ public class DataGroup {
 		String groupID = hashMapsetDataGroup.get("groupID")
 		String deskripsi = hashMapsetDataGroup.get("deskripsi")
 		String customerName = hashMapsetDataGroup.get("customerName")
-		//		String chkboxAllCust = hashMapsetDataGroup.get("chkboxAllCust")
 		String principalName = hashMapsetDataGroup.get("principalName")
-		//		String chkboxAllPrincipal = hashMapsetDataGroup.get("chkboxAllPrincipal")
 
 		WebUI.waitForElementClickable(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/GrupID'), 3)
 		GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/GrupID'), groupID)
@@ -80,28 +78,34 @@ public class DataGroup {
 
 		addDataScope()
 
-		if(customerName.equalsIgnoreCase("All")) {
-			WebUI.verifyElementNotChecked(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'), 3, FailureHandling.STOP_ON_FAILURE)
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'))
-		}else {
-			List allCustomerName = customerName.split(',')
-			for(int i = 0; i < allCustomerName.size(); i++) {
-				GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan'),
-						findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan'), allCustomerName[i])
+		if(!customerName.equalsIgnoreCase("")) {
+			if(customerName.equalsIgnoreCase("All")) {
+				WebUI.verifyElementNotChecked(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'), 3, FailureHandling.STOP_ON_FAILURE)
+				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'))
+			}else {
+				List allCustomerName = customerName.split(',')
+						for(int i = 0; i < allCustomerName.size(); i++) {
+							GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan'),
+									findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan'), allCustomerName[i])
+						}
+				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown'))
 			}
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown'))
 		}
-		if(principalName.equalsIgnoreCase("ALL")) {
-			WebUI.verifyElementNotChecked(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'), 3, FailureHandling.STOP_ON_FAILURE)
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'))
-		}else {
-			List allPrincipal = principalName.split(',')
-			for(int i = 0; i < allPrincipal.size(); i++) {
-				GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal'),
-						findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal'), allPrincipal[i])
+		
+		if(!principalName.equalsIgnoreCase("")) {
+			if(principalName.equalsIgnoreCase("ALL")) {
+				WebUI.verifyElementNotChecked(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'), 3, FailureHandling.STOP_ON_FAILURE)
+				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'))
+			}else {
+				List allPrincipal = principalName.split(',')
+						for(int i = 0; i < allPrincipal.size(); i++) {
+							GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal'),
+									findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal'), allPrincipal[i])
+						}
+				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown'))
 			}
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown'))
 		}
+		
 	}
 
 	public void listEditDataGroup (String groupID) {
@@ -128,6 +132,7 @@ public class DataGroup {
 
 	public void saveDataGroup() {
 		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/Simpan'))
+		verifySaveDataGroup()
 		WebUI.waitForPageLoad(GlobalVariable.timeoutLoadingInSeccond)
 		WebUI.delay(3)
 	}
@@ -148,58 +153,66 @@ public class DataGroup {
 
 		addDataScope()
 
-		if(customerName.equalsIgnoreCase("All")) {
-			try {
-				WebElement webElement = WebUIAbstractKeyword.findWebElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'), 3)
-				if(!webElement.isSelected()) {
-					GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'))
+		if(!customerName.equalsIgnoreCase("")) {
+			if(customerName.equalsIgnoreCase("All")) {
+				try {
+					WebElement webElement = WebUIAbstractKeyword.findWebElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'), 3)
+							if(!webElement.isSelected()) {
+								GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'))
+							}
+				}catch(Exception e) {
+					KeywordUtil.markFailedAndStop(e.printStackTrace())
 				}
-			}catch(Exception e) {
-				KeywordUtil.markFailedAndStop(e.printStackTrace())
-			}
-		}else {
-			try {
-				WebElement webElement = WebUIAbstractKeyword.findWebElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'), 3)
-				if(webElement.isSelected()) {
-					GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'))
+			}else {
+				try {
+					WebElement webElement = WebUIAbstractKeyword.findWebElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'), 3)
+							if(webElement.isSelected()) {
+								GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'))
+							}
+				}catch(Exception e) {
+					KeywordUtil.markFailedAndStop(e.printStackTrace())
 				}
-			}catch(Exception e) {
-				KeywordUtil.markFailedAndStop(e.printStackTrace())
+				GeneralAction.deleteValue(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/ClearPelanggan'))
+				List allCustomerName = customerName.split(',')
+				for(int i = 0; i < allCustomerName.size(); i++) {
+					GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan'),
+							findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan'), allCustomerName[i])
+				}
+				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/CloseSelection'))
 			}
-			GeneralAction.deleteValue(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/ClearPelanggan'))
-			List allCustomerName = customerName.split(',')
-			for(int i = 0; i < allCustomerName.size(); i++) {
-				GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan'),
-						findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan'), allCustomerName[i])
-			}
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/CloseSelection'))
 		}
-		if(principalName.equalsIgnoreCase("ALL")) {
-			try {
-				WebElement webElement = WebUIAbstractKeyword.findWebElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'), 3)
-				if(!webElement.isSelected()) {
-					GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'))
+		
+		if(!principalName.equalsIgnoreCase("")) {
+			if(principalName.equalsIgnoreCase("ALL")) {
+				try {
+					WebElement webElement = WebUIAbstractKeyword.findWebElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'), 3)
+							if(!webElement.isSelected()) {
+								GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'))
+							}
+				}catch(Exception e) {
+					KeywordUtil.markFailedAndStop(e.printStackTrace())
 				}
-			}catch(Exception e) {
-				KeywordUtil.markFailedAndStop(e.printStackTrace())
-			}
-		}else {
-			try {
-				WebElement webElement = WebUIAbstractKeyword.findWebElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'), 3)
-				if(webElement.isSelected()) {
-					GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'))
+			}else if(principalName.equalsIgnoreCase("")) {
+				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/CloseSelection'))
+			}else {
+				try {
+					WebElement webElement = WebUIAbstractKeyword.findWebElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'), 3)
+							if(webElement.isSelected()) {
+								GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'))
+							}
+				}catch(Exception e) {
+					KeywordUtil.markFailedAndStop(e.printStackTrace())
 				}
-			}catch(Exception e) {
-				KeywordUtil.markFailedAndStop(e.printStackTrace())
+				GeneralAction.deleteValue(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/ClearPrincipal'))
+				List allPrincipal = principalName.split(',')
+				for(int i = 0; i < allPrincipal.size(); i++) {
+					GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal'),
+							findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal'), allPrincipal[i])
+				}
+				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/CloseSelection'))
 			}
-			GeneralAction.deleteValue(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/ClearPrincipal'))
-			List allPrincipal = principalName.split(',')
-			for(int i = 0; i < allPrincipal.size(); i++) {
-				GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal'),
-						findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal'), allPrincipal[i])
-			}
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/CloseSelection'))
 		}
+		
 	}
 
 	public void verifyDataGroup(HashMap hashMapVerifyDataGroup) {
@@ -242,6 +255,15 @@ public class DataGroup {
 				KeywordUtil.logInfo('iniiiiiiiiiii pricipal ' + ActualprincipalName.toString())
 				VerifyElement.verifyMatch(ActualprincipalName, allprincipalName[i], false)
 			}
+		}
+	}
+	
+	public void verifySaveDataGroup() {
+		String notif = WebUI.getText(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif'))
+		if (notif.equalsIgnoreCase("Data dengan group_id ini sudah pernah disimpan") || notif.equalsIgnoreCase("Data Scope Distributor dan Principal tidak boleh kosong!")) {
+			KeywordUtil.logInfo('Message: ' + notif)
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/button_OK'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/btnDataGroup'))
 		}
 	}
 }
