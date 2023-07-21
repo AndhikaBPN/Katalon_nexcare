@@ -84,28 +84,27 @@ public class DataGroup {
 				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'))
 			}else {
 				List allCustomerName = customerName.split(',')
-						for(int i = 0; i < allCustomerName.size(); i++) {
-							GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan'),
-									findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan'), allCustomerName[i])
-						}
+				for(int i = 0; i < allCustomerName.size(); i++) {
+					GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan'),
+							findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan'), allCustomerName[i])
+				}
 				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown'))
 			}
 		}
-		
+
 		if(!principalName.equalsIgnoreCase("")) {
 			if(principalName.equalsIgnoreCase("ALL")) {
 				WebUI.verifyElementNotChecked(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'), 3, FailureHandling.STOP_ON_FAILURE)
 				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'))
 			}else {
 				List allPrincipal = principalName.split(',')
-						for(int i = 0; i < allPrincipal.size(); i++) {
-							GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal'),
-									findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal'), allPrincipal[i])
-						}
+				for(int i = 0; i < allPrincipal.size(); i++) {
+					GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal'),
+							findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal'), allPrincipal[i])
+				}
 				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown'))
 			}
 		}
-		
 	}
 
 	public void listEditDataGroup (String groupID) {
@@ -157,18 +156,18 @@ public class DataGroup {
 			if(customerName.equalsIgnoreCase("All")) {
 				try {
 					WebElement webElement = WebUIAbstractKeyword.findWebElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'), 3)
-							if(!webElement.isSelected()) {
-								GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'))
-							}
+					if(!webElement.isSelected()) {
+						GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'))
+					}
 				}catch(Exception e) {
 					KeywordUtil.markFailedAndStop(e.printStackTrace())
 				}
 			}else {
 				try {
 					WebElement webElement = WebUIAbstractKeyword.findWebElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'), 3)
-							if(webElement.isSelected()) {
-								GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'))
-							}
+					if(webElement.isSelected()) {
+						GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'))
+					}
 				}catch(Exception e) {
 					KeywordUtil.markFailedAndStop(e.printStackTrace())
 				}
@@ -181,14 +180,14 @@ public class DataGroup {
 				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/CloseSelection'))
 			}
 		}
-		
+
 		if(!principalName.equalsIgnoreCase("")) {
 			if(principalName.equalsIgnoreCase("ALL")) {
 				try {
 					WebElement webElement = WebUIAbstractKeyword.findWebElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'), 3)
-							if(!webElement.isSelected()) {
-								GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'))
-							}
+					if(!webElement.isSelected()) {
+						GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'))
+					}
 				}catch(Exception e) {
 					KeywordUtil.markFailedAndStop(e.printStackTrace())
 				}
@@ -197,9 +196,9 @@ public class DataGroup {
 			}else {
 				try {
 					WebElement webElement = WebUIAbstractKeyword.findWebElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'), 3)
-							if(webElement.isSelected()) {
-								GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'))
-							}
+					if(webElement.isSelected()) {
+						GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'))
+					}
 				}catch(Exception e) {
 					KeywordUtil.markFailedAndStop(e.printStackTrace())
 				}
@@ -212,7 +211,6 @@ public class DataGroup {
 				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/CloseSelection'))
 			}
 		}
-		
 	}
 
 	public void verifyDataGroup(HashMap hashMapVerifyDataGroup) {
@@ -237,10 +235,11 @@ public class DataGroup {
 		List allCustomerName = customerName.split(',')
 		for(int i = 0; i < allCustomerName.size(); i++) {
 			if (customerName.equalsIgnoreCase("All")) {
-				WebUI.verifyElementChecked(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'), 3)
+				boolean chkAll = WebUI.verifyElementChecked(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'), 3)
+				KeywordUtil.logInfo("ELEMENT CHECKED = " + chkAll)
 			}else {
 				String ActualcustomerName = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/VerifyNamaPelanggan', [('indexRow') : (i+1).toString()]))
-				KeywordUtil.logInfo('iniiiiiiiiiiiiiiiiiii nama ' + ActualcustomerName.toString())
+				KeywordUtil.logInfo('NAMA DISTRIBUTOR = ' + ActualcustomerName.toString())
 				VerifyElement.verifyMatch(ActualcustomerName, allCustomerName[i], false)
 			}
 		}
@@ -249,15 +248,16 @@ public class DataGroup {
 		List allprincipalName = principalName.split(',')
 		for(int i = 0; i < allprincipalName.size(); i++) {
 			if (principalName.equalsIgnoreCase("All")) {
-				WebUI.verifyElementChecked(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'), 3)
+				boolean chkAll = WebUI.verifyElementChecked(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'), 3)
+				KeywordUtil.logInfo("ELEMENT CHECKED = " + chkAll)
 			}else {
 				String ActualprincipalName = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/VerifyNamaPrincipal', [('indexRow') : (i+1).toString()]))
-				KeywordUtil.logInfo('iniiiiiiiiiii pricipal ' + ActualprincipalName.toString())
+				KeywordUtil.logInfo('NAMA PRINCIPAL = ' + ActualprincipalName.toString())
 				VerifyElement.verifyMatch(ActualprincipalName, allprincipalName[i], false)
 			}
 		}
 	}
-	
+
 	public void verifySaveDataGroup() {
 		String notif = WebUI.getText(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif'))
 		if (notif.equalsIgnoreCase("Data dengan group_id ini sudah pernah disimpan") || notif.equalsIgnoreCase("Data Scope Distributor dan Principal tidak boleh kosong!")) {

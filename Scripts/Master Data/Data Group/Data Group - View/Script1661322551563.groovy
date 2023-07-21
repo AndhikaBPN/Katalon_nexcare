@@ -34,17 +34,23 @@ generalAction.login("")
 
 dataGroup.menuDataGroup()
 
-String excelLocation = 'Master Data\\Data Group\\dataGroup - edit.xlsx'
-String sheetNameDataGroup = 'DataGroup-edit'
+String excelLocation = 'Master Data\\Data Group\\dataGroup - view.xlsx'
+String sheetNameDataGroup = 'DataGroup-view'
 
 List<HashMap> listHashMapDataGroup = handleTestData.readTestData(excelLocation, sheetNameDataGroup, true)
 
 for (int i = 0; i < listHashMapDataGroup.size(); i++) {
-	HashMap getHashMapDataGroup = listHashMapDataGroup.get(i)
-	String groupID = getHashMapDataGroup.get('groupID')
-	
-	dataGroup.viewDetail(groupID)
-	dataGroup.verifyDataGroup(getHashMapDataGroup)
-	dataGroup.closeViewDetail()
-//	generalAction.logoutAndCloseBrowser()
+	try {
+		HashMap getHashMapDataGroup = listHashMapDataGroup.get(i)
+		String groupID = getHashMapDataGroup.get('groupID')
+		
+		dataGroup.viewDetail(groupID)
+		dataGroup.verifyDataGroup(getHashMapDataGroup)
+		dataGroup.closeViewDetail()
+	} catch (Exception e) {
+		KeywordUtil.markFailed(e.printStackTrace())
+		continue;
+	}
 }
+
+generalAction.logoutAndCloseBrowser()
