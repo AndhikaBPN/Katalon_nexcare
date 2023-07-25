@@ -129,9 +129,9 @@ public class DataGroup {
 		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/Edit', , [('groupID') : groupID]))
 	}
 
-	public void saveDataGroup() {
+	public void saveDataGroup(String td) {
 		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/Simpan'))
-		verifySaveDataGroup()
+		verifySaveDataGroup(td)
 		WebUI.waitForPageLoad(GlobalVariable.timeoutLoadingInSeccond)
 		WebUI.delay(3)
 	}
@@ -258,10 +258,10 @@ public class DataGroup {
 		}
 	}
 
-	public void verifySaveDataGroup() {
+	public void verifySaveDataGroup(String tD) {
 		String notif = WebUI.getText(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif'))
 		if (notif.equalsIgnoreCase("Data dengan group_id ini sudah pernah disimpan") || notif.equalsIgnoreCase("Data Scope Distributor dan Principal tidak boleh kosong!")) {
-			KeywordUtil.logInfo('Message: ' + notif)
+			KeywordUtil.logInfo('Message: ' + tD + ' ' + notif)
 			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/button_OK'))
 			GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/btnDataGroup'))
 		}

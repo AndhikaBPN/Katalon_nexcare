@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Pilih Nama CS</name>
+   <tag></tag>
+   <elementGuidId>cff5a3ba-04a2-46e6-98af-44636dfe5335</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mlscustomerservicename']/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fa45a74a-15e5-4b50-bf76-c3b0b850bd00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> css-1hwfws3</value>
+      <webElementGuid>a140551f-9a28-4b41-87c3-2cf73505b247</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pilih Nama CS</value>
+      <webElementGuid>c736a5f4-c398-4b22-bb78-f70580601ad7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mlscustomerservicename&quot;)/div[@class=&quot;css-yk16xz-control&quot;]/div[@class=&quot;css-1hwfws3&quot;]</value>
+      <webElementGuid>30c671e6-58c7-4b62-a593-bb45acacd28c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mlscustomerservicename']/div/div</value>
+      <webElementGuid>7711271a-4286-4189-bfea-030979e81e09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama CS'])[1]/following::div[3]</value>
+      <webElementGuid>80668173-fe08-4bd6-a020-1ac731f6e4f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skema Komisi'])[1]/following::div[9]</value>
+      <webElementGuid>13e5b8ca-236e-4911-bbc7-c57ac134c2b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Periode'])[1]/preceding::div[7]</value>
+      <webElementGuid>f4014d9d-f591-44dd-906c-b8a11b16f864</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/div/div/div</value>
+      <webElementGuid>fcf78037-8dca-4d0a-b155-6acfa9c452f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pilih Nama CS' or . = 'Pilih Nama CS')]</value>
+      <webElementGuid>754c98bb-5e73-4721-95d8-51fd0ac73e08</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

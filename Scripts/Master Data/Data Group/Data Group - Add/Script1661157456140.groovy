@@ -47,7 +47,7 @@ for (int i = 0; i < listHashMapDataGroup.size(); i++) {
 		String testDataNumber = getHashMapDataGroup.get('TD')
 		dataGroup.addDataGroup()
 		dataGroup.setDataGroup(getHashMapDataGroup)
-		dataGroup.saveDataGroup()
+		dataGroup.saveDataGroup(testDataNumber)
 		if (category.equalsIgnoreCase("Positive")) {
 			dataGroup.viewDetail(groupID)
 			dataGroup.verifyDataGroup(getHashMapDataGroup)

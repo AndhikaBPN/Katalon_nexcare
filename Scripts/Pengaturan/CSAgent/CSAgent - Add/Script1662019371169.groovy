@@ -44,7 +44,6 @@ for (int i = 0; i < listHashMapCSAgent.size(); i++) {
 		HashMap getHashMapCSAgent = listHashMapCSAgent.get(i)
 		KeywordUtil.logInfo(getHashMapCSAgent.toString())
 		String testDataNumber = getHashMapCSAgent.get('TD')
-		
 		csagent.setCSAgent(getHashMapCSAgent)
 		
 	}catch (Exception e) {
@@ -52,3 +51,5 @@ for (int i = 0; i < listHashMapCSAgent.size(); i++) {
 		continue;
 	}
 }
+
+generalAction.logoutAndCloseBrowser()

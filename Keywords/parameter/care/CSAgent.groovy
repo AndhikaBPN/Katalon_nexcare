@@ -32,13 +32,19 @@ public class CSAgent {
 
 	GeneralAction GeneralAction = new GeneralAction()
 	VerifyElement VerifyElement = new VerifyElement()
+	
+	public void refreshPage() {
+		WebUI.refresh()
+	}
 
 	public void menuCSAgent() {
-		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Pengaturan'))
-		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Menu Level 2 Pengaturan/Cs agent'))
+		GeneralAction.clickElement(findTestObject('Object Repository/Sidebar/Sidebar Pengaturan'))
+		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/btnCSAgent'))
+		refreshPage()
 	}
 
 	public void setCSAgent(HashMap hashMapSetCSAgent) {
+		String TD = hashMapSetCSAgent.get("TD")
 		String NamaCS = hashMapSetCSAgent.get("NamaCS")
 		String ShiftCS = hashMapSetCSAgent.get("ShiftCS")
 		String monthStart = hashMapSetCSAgent.get("monthStart")
@@ -48,26 +54,27 @@ public class CSAgent {
 
 		List allCSName = NamaCS.split(',')
 		for(int i = 0; i < allCSName.size(); i++) {
-			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Pengaturan/CS Agent/Nama CS'),
+			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Pengaturan/CS Agent/Pilih Nama CS'),
 					findTestObject('Object Repository/Pengaturan/CS Agent/SelectCSAgent'), allCSName[i])
 		}
-		GeneralAction.clickElement(findTestObject('Object Repository/Pengaturan/CS Agent/CloseSelection'))
+		GeneralAction.clickElement(findTestObject('Object Repository/Pengaturan/CS Agent/CloseDropDown'))
 		GeneralAction.clickElement(findTestObject('Object Repository/Pengaturan/CS Agent/Periode'))
 		String ActualMonth = ''
-
-		while (!monthStart.equalsIgnoreCase(ActualMonth)==true) {
+		
+		while (!monthStart.equalsIgnoreCase(ActualMonth)) {
 			ActualMonth = GeneralAction.getTextFromElement(findTestObject('Object Repository/Pengaturan/CS Agent/VerifyMonth'))
 			if(!monthStart.equalsIgnoreCase(ActualMonth)) {
-				GeneralAction.clickElement(findTestObject('Object Repository/Pengaturan/CS Agent/nextMonth'))
 				KeywordUtil.logInfo("Actual aaa " + ActualMonth)
 				KeywordUtil.logInfo("Expected " + monthStart)
+				GeneralAction.clickElement(findTestObject('Object Repository/Pengaturan/CS Agent/nextMonth'))
 			}else {
 				break;
 			}
 		}
+		
 		GeneralAction.clickElement(findTestObject('Object Repository/Pengaturan/CS Agent/PeriodeStart', [('periodeStart') : periodeStart]))
 
-		while (!monthEnd.equalsIgnoreCase(ActualMonth)==true) {
+		while (!monthEnd.equalsIgnoreCase(ActualMonth)) {
 			ActualMonth = GeneralAction.getTextFromElement(findTestObject('Object Repository/Pengaturan/CS Agent/VerifyMonth'))
 			if(!monthEnd.equalsIgnoreCase(ActualMonth)) {
 				GeneralAction.clickElement(findTestObject('Object Repository/Pengaturan/CS Agent/nextMonth'))
@@ -78,13 +85,21 @@ public class CSAgent {
 			}
 		}
 		GeneralAction.clickElement(findTestObject('Object Repository/Pengaturan/CS Agent/PeriodeEnd', [('periodeEnd') : periodeEnd]))
-		GeneralAction.clickElement(findTestObject('Object Repository/Pengaturan/CS Agent/CloseSelection'))
+		GeneralAction.clickElement(findTestObject('Object Repository/Pengaturan/CS Agent/CloseDropDown'))
 
 		GeneralAction.clickElement(findTestObject('Object Repository/Pengaturan/CS Agent/Shift CS'))
 		GeneralAction.clickElement(findTestObject('Object Repository/Pengaturan/CS Agent/SelectShift', [('ShiftCS') : ShiftCS]))
-
-		GeneralAction.clickElement(findTestObject('Object Repository/Pengaturan/CS Agent/Simpan'))
+		save()
+	}
+	
+	public void save(String tD) {
+		GeneralAction.clickElement(findTestObject('Object Repository/Pengaturan/CS Agent/btnSimpan'))
 		GeneralAction.clickElement(findTestObject('Object Repository/Pengaturan/CS Agent/KonfrimasiSimpan'))
+		String validasiShift = GeneralAction.getTextFromElement(findTestObject('Object Repository/Pengaturan/CS Agent/Validasi Shift'))
+		if (validasiShift.contains('sudah berada dalam range tanggal berikut')) {
+			KeywordUtil.logInfo(tD + ' ' + validasiShift)
+			GeneralAction.clickElement(findTestObject('Object Repository/Pengaturan/CS Agent/btnYa'))
+		}
 		WebUI.delay(2)
 	}
 }
