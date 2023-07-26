@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pathEditDataGroup</name>
+   <tag></tag>
+   <elementGuidId>1313e552-8ba3-4fa5-b982-3c2014b5686b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>9ec54483-f5cb-49a0-8ad5-ef8bcb12205d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M5.95898 16.0114V18.9474H8.89498L17.555 10.2874L14.619 7.35543L5.95898 16.0114ZM19.826 8.01743C19.9713 7.87128 20.0529 7.67355 20.0529 7.46743C20.0529 7.26132 19.9713 7.06358 19.826 6.91743L17.994 5.08043C17.8478 4.9351 17.6501 4.85352 17.444 4.85352C17.2379 4.85352 17.0401 4.9351 16.894 5.08043L15.459 6.51343L18.395 9.44943L19.826 8.01743Z</value>
+      <webElementGuid>89d573fe-d30f-4837-9205-ee1c3d6bf4e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>white</value>
+      <webElementGuid>655cfcea-3019-4518-b991-7d37582c460a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btneditdatagroup&quot;)/svg[1]/g[1]/path[2]</value>
+      <webElementGuid>c83dee9f-211b-444c-8390-1482bba43392</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

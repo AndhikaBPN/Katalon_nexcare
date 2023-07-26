@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "C1184AB057AF9E80DDCF4F544348E5F1",
+  "keywordFileContentHash": "79FFE09B9A2C3CC572BD04EE4C96ECFA",
   "keywordClasses": [
     {
       "name": "masterdata.care.DataGroup",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

@@ -40,12 +40,22 @@ String sheetNameDataGroup = 'DataGroup-edit'
 List<HashMap> listHashEditMapDataGroup = handleTestData.readTestData(excelLocation, sheetNameDataGroup, true)
 
 for (int i = 0; i < listHashEditMapDataGroup.size(); i++) {
-	HashMap getHashMapDataGroup = listHashEditMapDataGroup.get(i)
-	String groupID = getHashMapDataGroup.get('groupID')
-	
-	dataGroup.editDataScope(groupID)
-	dataGroup.editDetail(getHashMapDataGroup)
-	dataGroup.saveDataGroup()
-	dataGroup.refreshPage()
+	try {
+		HashMap getHashMapDataGroup = listHashEditMapDataGroup.get(i)
+				String groupID = getHashMapDataGroup.get('groupID')
+				String TD = getHashMapDataGroup.get('TD')
+				String category = getHashMapDataGroup.get('category')
+				
+				dataGroup.viewEdit(groupID)
+				dataGroup.editDetail(getHashMapDataGroup)
+				dataGroup.saveDataGroup(TD)
+				if(category.equalsIgnoreCase('positive')) {
+					dataGroup.viewDetail(groupID)
+					dataGroup.verifyDataGroup(getHashMapDataGroup)
+					dataGroup.closeViewDetail()
+				}
+	} catch (Exception e) {
+		e.printStackTrace()
+	}
 }
 generalAction.logoutAndCloseBrowser()

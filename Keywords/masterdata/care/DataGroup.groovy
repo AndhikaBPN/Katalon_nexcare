@@ -61,6 +61,12 @@ public class DataGroup {
 		WebUI.waitForPageLoad(GlobalVariable.timeoutLoadingInSeccond)
 		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/ListDataGroup' , [('groupID') : groupID]))
 	}
+	
+	public void searchDataGroup(String groupID) {
+		WebUI.waitForPageLoad(GlobalVariable.timeoutLoadingInSeccond)
+		GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup'), groupID)
+		WebUI.sendKeys(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup'), Keys.chord(Keys.ENTER))
+	}
 
 	public void refreshPage() {
 		WebUI.refresh()
@@ -118,10 +124,14 @@ public class DataGroup {
 	}
 
 	public void viewDetail (String groupID) {
-		WebUI.waitForPageLoad(GlobalVariable.timeoutLoadingInSeccond)
-		GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup'), groupID)
-		WebUI.sendKeys(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup'), Keys.chord(Keys.ENTER))
+		searchDataGroup(groupID)
 		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/pathdetailDataGroup'))
+	}
+	
+	public void viewEdit(String groupID) {
+		searchDataGroup(groupID)
+		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/btnEditDataGroup'))
+		refreshPage()
 	}
 
 	public void editDataScope(String groupID) {
@@ -148,7 +158,7 @@ public class DataGroup {
 		String customerName = hashMapEditDataGroup.get("customerName")
 		String principalName = hashMapEditDataGroup.get("principalName")
 
-		GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi'), deskripsi)
+		GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/Description'), deskripsi)
 
 		addDataScope()
 
@@ -157,6 +167,7 @@ public class DataGroup {
 				try {
 					WebElement webElement = WebUIAbstractKeyword.findWebElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'), 3)
 					if(!webElement.isSelected()) {
+						KeywordUtil.logInfo('Message: TERAPKAN SEMUA TIDAK TERCENTANG')
 						GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'))
 					}
 				}catch(Exception e) {
@@ -166,6 +177,7 @@ public class DataGroup {
 				try {
 					WebElement webElement = WebUIAbstractKeyword.findWebElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'), 3)
 					if(webElement.isSelected()) {
+						KeywordUtil.logInfo('Message: TERAPKAN SEMUA TERCENTANG')
 						GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'))
 					}
 				}catch(Exception e) {
@@ -174,11 +186,14 @@ public class DataGroup {
 				GeneralAction.deleteValue(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/ClearPelanggan'))
 				List allCustomerName = customerName.split(',')
 				for(int i = 0; i < allCustomerName.size(); i++) {
+					KeywordUtil.logInfo('DISTRIBUTOR NAME: ' + allCustomerName[i])
 					GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan'),
 							findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan'), allCustomerName[i])
 				}
-				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/CloseSelection'))
+				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/navbar'))
 			}
+		} else {
+			GeneralAction.deleteValue(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/ClearPelanggan'))
 		}
 
 		if(!principalName.equalsIgnoreCase("")) {
@@ -205,11 +220,14 @@ public class DataGroup {
 				GeneralAction.deleteValue(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/ClearPrincipal'))
 				List allPrincipal = principalName.split(',')
 				for(int i = 0; i < allPrincipal.size(); i++) {
+					KeywordUtil.logInfo('DISTRIBUTOR NAME: ' + allPrincipal[i])
 					GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal'),
 							findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal'), allPrincipal[i])
 				}
-				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/CloseSelection'))
+				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/navbar'))
 			}
+		} else {
+			GeneralAction.deleteValue(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/ClearPelanggan'))
 		}
 	}
 
