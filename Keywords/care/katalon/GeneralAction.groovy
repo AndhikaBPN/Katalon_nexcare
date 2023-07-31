@@ -96,6 +96,7 @@ class GeneralAction {
 		try {
 			clickElement(testObject)
 			WebUI.sendKeys(testObjectResult, sendValue)
+			WebUI.waitForElementPresent(testObjectResult, 5)
 			WebUI.sendKeys(testObjectResult, Keys.chord(Keys.ENTER))
 		}catch(Exception e) {
 			KeywordUtil.markFailedAndStop(e.printStackTrace())
@@ -367,5 +368,12 @@ class GeneralAction {
 	def logout() {
 		clickElement(findTestObject('Object Repository/Home Page(General)/Keluar'))
 		clickElement(findTestObject('Object Repository/Home Page(General)/Konfrimasi Keluar'))
+	}
+
+	def closeBrowser() {
+		WebUI.delay(2)
+		def driver = DriverFactory.getWebDriver()
+		driver.quit()
+		WebUI.closeBrowser()
 	}
 }

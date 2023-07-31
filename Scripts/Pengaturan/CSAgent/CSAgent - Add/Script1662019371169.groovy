@@ -31,25 +31,28 @@ GeneralAction generalAction = new GeneralAction()
 HandleTestData handleTestData = new HandleTestData()
 CSAgent csagent = new CSAgent()
 
-generalAction.login("")
-
-csagent.menuCSAgent()
-
-String excelLocation = 'Pengaturan\\CS Agent\\CS Agent - add.xlsx'
-String sheetNameCSAgent = 'CSAgent-add'
-
-List<HashMap> listHashMapCSAgent = handleTestData.readTestData(excelLocation, sheetNameCSAgent, true)
-for (int i = 0; i < listHashMapCSAgent.size(); i++) {
-	try {
-		HashMap getHashMapCSAgent = listHashMapCSAgent.get(i)
-		KeywordUtil.logInfo(getHashMapCSAgent.toString())
-		String testDataNumber = getHashMapCSAgent.get('TD')
-		csagent.setCSAgent(getHashMapCSAgent)
-		
-	}catch (Exception e) {
-		KeywordUtil.markFailed(e.printStackTrace())
-		continue;
+try {
+	generalAction.login("")
+	csagent.menuCSAgent()
+	
+	String excelLocation = 'Pengaturan\\CS Agent\\CS Agent - add.xlsx'
+	String sheetNameCSAgent = 'CSAgent-add'
+	
+	List<HashMap> listHashMapCSAgent = handleTestData.readTestData(excelLocation, sheetNameCSAgent, true)
+	for (int i = 0; i < listHashMapCSAgent.size(); i++) {
+		try {
+			HashMap getHashMapCSAgent = listHashMapCSAgent.get(i)
+					KeywordUtil.logInfo(getHashMapCSAgent.toString())
+					String testDataNumber = getHashMapCSAgent.get('TD')
+					csagent.setCSAgent(getHashMapCSAgent)
+					
+		}catch (Exception e) {
+			KeywordUtil.markFailed(e.printStackTrace())
+			continue;
+		}
 	}
+	generalAction.logoutAndCloseBrowser()
+} catch (Exception e) {
+	e.printStackTrace()
+	generalAction.closeBrowser()
 }
-
-generalAction.logoutAndCloseBrowser()

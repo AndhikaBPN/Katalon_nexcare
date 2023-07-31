@@ -61,7 +61,7 @@ public class DataGroup {
 		WebUI.waitForPageLoad(GlobalVariable.timeoutLoadingInSeccond)
 		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/ListDataGroup' , [('groupID') : groupID]))
 	}
-	
+
 	public void searchDataGroup(String groupID) {
 		WebUI.waitForPageLoad(GlobalVariable.timeoutLoadingInSeccond)
 		GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup'), groupID)
@@ -127,7 +127,7 @@ public class DataGroup {
 		searchDataGroup(groupID)
 		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/pathdetailDataGroup'))
 	}
-	
+
 	public void viewEdit(String groupID) {
 		searchDataGroup(groupID)
 		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/btnEditDataGroup'))
@@ -175,6 +175,7 @@ public class DataGroup {
 				}
 			}else {
 				try {
+					GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/navbar'))
 					WebElement webElement = WebUIAbstractKeyword.findWebElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan'), 3)
 					if(webElement.isSelected()) {
 						KeywordUtil.logInfo('Message: TERAPKAN SEMUA TERCENTANG')
@@ -190,9 +191,10 @@ public class DataGroup {
 					GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan'),
 							findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan'), allCustomerName[i])
 				}
-				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/navbar'))
+				//				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/navbar'))
 			}
 		} else {
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/navbar'))
 			GeneralAction.deleteValue(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/ClearPelanggan'))
 		}
 
@@ -210,6 +212,7 @@ public class DataGroup {
 				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/CloseSelection'))
 			}else {
 				try {
+					GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/navbar'))
 					WebElement webElement = WebUIAbstractKeyword.findWebElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'), 3)
 					if(webElement.isSelected()) {
 						GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal'))
@@ -224,10 +227,11 @@ public class DataGroup {
 					GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal'),
 							findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal'), allPrincipal[i])
 				}
-				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/navbar'))
+				//				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/navbar'))
 			}
 		} else {
-			GeneralAction.deleteValue(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/ClearPelanggan'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/navbar'))
+			GeneralAction.deleteValue(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/ClearPrincipal'))
 		}
 	}
 
@@ -278,7 +282,7 @@ public class DataGroup {
 
 	public void verifySaveDataGroup(String tD) {
 		String notif = WebUI.getText(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif'))
-		if (notif.equalsIgnoreCase("Data dengan group_id ini sudah pernah disimpan") || notif.equalsIgnoreCase("Data Scope Distributor dan Principal tidak boleh kosong!")) {
+		if (notif.equalsIgnoreCase("Data dengan group_id ini sudah pernah disimpan") || notif.equalsIgnoreCase("Data Scope Distributor dan Principal tidak boleh kosong!") || notif.equalsIgnoreCase("Kolom description belum diisi. Silakan cek kembali")) {
 			KeywordUtil.logInfo('Message: ' + tD + ' ' + notif)
 			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/button_OK'))
 			GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/btnDataGroup'))

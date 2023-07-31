@@ -30,32 +30,37 @@ GeneralAction generalAction = new GeneralAction()
 HandleTestData handleTestData = new HandleTestData()
 DataGroup dataGroup = new DataGroup()
 
-generalAction.login("")
-
-dataGroup.menuDataGroup()
-
-String excelLocation = 'Master Data\\Data Group\\dataGroup - add.xlsx'
-String sheetNameDataGroup = 'DataGroup-add'
-
-List<HashMap> listHashMapDataGroup = handleTestData.readTestData(excelLocation, sheetNameDataGroup, true)
-for (int i = 0; i < listHashMapDataGroup.size(); i++) {
-	try {
-		HashMap getHashMapDataGroup = listHashMapDataGroup.get(i)
-		String groupID = getHashMapDataGroup.get('groupID')
-		String category = getHashMapDataGroup.get('category')
-		KeywordUtil.logInfo(getHashMapDataGroup.toString())
-		String testDataNumber = getHashMapDataGroup.get('TD')
-		dataGroup.addDataGroup()
-		dataGroup.setDataGroup(getHashMapDataGroup)
-		dataGroup.saveDataGroup(testDataNumber)
-		if (category.equalsIgnoreCase("Positive")) {
-			dataGroup.viewDetail(groupID)
-			dataGroup.verifyDataGroup(getHashMapDataGroup)
-			dataGroup.closeViewDetail()
+try {
+	generalAction.login("")
+	dataGroup.menuDataGroup()
+	
+	String excelLocation = 'Master Data\\Data Group\\dataGroup - add.xlsx'
+	String sheetNameDataGroup = 'DataGroup-add'
+	
+	List<HashMap> listHashMapDataGroup = handleTestData.readTestData(excelLocation, sheetNameDataGroup, true)
+	for (int i = 0; i < listHashMapDataGroup.size(); i++) {
+		try {
+			HashMap getHashMapDataGroup = listHashMapDataGroup.get(i)
+					String groupID = getHashMapDataGroup.get('groupID')
+					String category = getHashMapDataGroup.get('category')
+					KeywordUtil.logInfo(getHashMapDataGroup.toString())
+					String testDataNumber = getHashMapDataGroup.get('TD')
+					KeywordUtil.logInfo("TD: " + testDataNumber)
+					dataGroup.addDataGroup()
+					dataGroup.setDataGroup(getHashMapDataGroup)
+					dataGroup.saveDataGroup(testDataNumber)
+					if (category.equalsIgnoreCase("Positive")) {
+						dataGroup.viewDetail(groupID)
+						dataGroup.verifyDataGroup(getHashMapDataGroup)
+						dataGroup.closeViewDetail()
+					}
+		} catch (Exception e) {
+			KeywordUtil.markFailed(e.printStackTrace())
+			continue;
 		}
-	} catch (Exception e) {
-		KeywordUtil.markFailed(e.printStackTrace())
-		continue;
 	}
+	generalAction.logoutAndCloseBrowser()
+} catch (Exception e) {
+	e.printStackTrace()
+	generalAction.closeBrowser()
 }
-generalAction.logoutAndCloseBrowser()
