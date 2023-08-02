@@ -73,10 +73,10 @@ public class DataGroup {
 	}
 
 	public void setDataGroup(HashMap hashMapsetDataGroup) {
-		String groupID = hashMapsetDataGroup.get("groupID")
-		String deskripsi = hashMapsetDataGroup.get("deskripsi")
-		String customerName = hashMapsetDataGroup.get("customerName")
-		String principalName = hashMapsetDataGroup.get("principalName")
+		String groupID = hashMapsetDataGroup.get("groupID") // katalonlima
+		String deskripsi = hashMapsetDataGroup.get("deskripsi") // Penambahan Data Group Oleh Katalon 05.
+		String customerName = hashMapsetDataGroup.get("customerName") // PT CAHAYA AGUNG CEMERLANG GROBOGAN
+		String principalName = hashMapsetDataGroup.get("principalName") // Nestle
 
 		WebUI.waitForElementClickable(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/GrupID'), 3)
 		GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/GrupID'), groupID)

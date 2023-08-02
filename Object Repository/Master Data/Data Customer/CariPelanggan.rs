@@ -6,15 +6,15 @@
    <elementGuidId>5697f6a2-890d-4cc4-9a5d-076af8971c59</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ddscustomer']/div/div</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'ddscustomer']</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>ddldistributor</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +22,6 @@
       <name>id</name>
       <type>Main</type>
       <value>ddscustomer</value>
-      <webElementGuid>923eaae3-625e-4955-a232-927449da677d</webElementGuid>
+      <webElementGuid>0824f88e-adf5-425e-bf15-fc1894b1a331</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -37,6 +37,6 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'C:\\Users\\NEXSOFT\\Documents\\Nexsoft\\Katalon\\Katalon_nexcare\\Data Files\\TestData\\NexCare\\'</initValue>
-      <name>pathFiles</name>
+      <name>pathTestData</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -26,16 +26,22 @@ import internal.GlobalVariable
 import care.katalon.GeneralAction
 import care.katalon.VerifyElement
 import groovy.json.StringEscapeUtils
+import groovy.ui.Console
 
 public class DataCustomer {
 
 	GeneralAction GeneralAction = new GeneralAction()
 	VerifyElement VerifyElement = new VerifyElement()
 
+	public void refreshWeb() {
+		WebUI.refresh()
+		WebUI.delay(1)
+	}
+
 	public void menuDataCustomer() {
 		GeneralAction.clickElement(findTestObject('Object Repository/Sidebar/Sidebar Master Data'))
-		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/btnDataGroup'))
-		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Menu Level 2 Master Data/Data customer'))
+		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/btnDataDistributor'))
+		refreshWeb()
 	}
 
 	public void cariPelanggan(String customerName) {
@@ -56,15 +62,25 @@ public class DataCustomer {
 		String IndeksStatus = hashMapsetDataCustomer.get('IndeksStatus')
 
 		WebUI.delay(2)
+
 		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Customer/TambahKolom'))
-		GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Customer/NamaPrincipal'),
-				findTestObject('Object Repository/Master Data/Data Customer/SelectPrincipal', [('IndeksPrincipal') : IndeksPrincipal]), principalName)
+		KeywordUtil.logInfo("PRINCIPAL NAME: " + principalName)
+
+		if(!principalName.equalsIgnoreCase("")) {
+			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Customer/Pilih Principal'),
+					findTestObject('Object Repository/Master Data/Data Customer/SelectPrincipal', [('IndeksPrincipal') : IndeksPrincipal]), principalName)
+		}
+
 		GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Data Customer/KodePelanggan'), nsCode)
 		GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Data Customer/KodeCabang'), branchCode)
 		GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Data Customer/ClientID'), clientID)
 		GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Data Customer/KodeDistributor'), distributorCode)
-		GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Customer/Status'),
-				findTestObject('Object Repository/Master Data/Data Customer/SelectStatus', [('IndeksStatus') : IndeksStatus]), status )
+
+		if(!status.equalsIgnoreCase("")) {
+			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Data Customer/Status'),
+					findTestObject('Object Repository/Master Data/Data Customer/SelectStatus', [('IndeksStatus') : IndeksStatus]), status )
+		}
+
 		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Customer/Tambah'))
 	}
 
@@ -152,5 +168,20 @@ public class DataCustomer {
 	public void saveDocument() {
 		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Customer/Simpan'))
 		WebUI.waitForPageLoad(GlobalVariable.timeoutLoadingInSeccond)
+	}
+
+	public void verifyMsg(String msgValidation, String TD, String category) {
+		WebUI.delay(1)
+		String msg = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Data Customer/msgValidation'))
+		KeywordUtil.logInfo("MSG =  " + msg)
+
+		if(msgValidation.equalsIgnoreCase(msg)) {
+			KeywordUtil.logInfo("Message: " + TD + " - " + msg)
+		}
+		
+		if(category.equalsIgnoreCase('negative')) {
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Customer/button_OK'))
+		}
+
 	}
 }

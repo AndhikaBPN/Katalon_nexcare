@@ -46,22 +46,37 @@ String namaCustomer = ''
 			HashMap getHashMapDataCustomer = listHashMapDataCustomer.get(i)
 			String testDataNumber = getHashMapDataCustomer.get('TD')
 			String customerName = getHashMapDataCustomer.get('customerName')
+			String category = getHashMapDataCustomer.get('category')
+			String msg = getHashMapDataCustomer.get('msg')
 			
-			if(namaCustomer.equals('')) {
+			if(category.equalsIgnoreCase('positive')) {
+				if(namaCustomer.equals('')) {
+					dataCustomer.cariPelanggan(customerName)
+				}else if(!namaCustomer.equalsIgnoreCase(customerName)) {
+					dataCustomer.saveDocument()
+					dataCustomer.verifyMsg(msg,testDataNumber,category)
+					WebUI.delay(3)
+					dataCustomer.cariPelanggan(customerName)
+				}
+				namaCustomer = customerName
+				dataCustomer.setDataCustomer(getHashMapDataCustomer)
+				
+			} else {
+				if(!namaCustomer.equalsIgnoreCase(customerName)) {
+					dataCustomer.saveDocument()
+					WebUI.delay(3)
+				}
+				namaCustomer = customerName
+				dataCustomer.refreshWeb()
 				dataCustomer.cariPelanggan(customerName)
-			}else if(!namaCustomer.equalsIgnoreCase(customerName)) {
+				dataCustomer.setDataCustomer(getHashMapDataCustomer)
 				dataCustomer.saveDocument()
-				WebUI.delay(3)
-				dataCustomer.cariPelanggan(customerName)
+				dataCustomer.verifyMsg(msg,testDataNumber,category)
 			}
-			
-			namaCustomer = customerName
-			dataCustomer.setDataCustomer(getHashMapDataCustomer)
 		} catch (Exception e) {
 			KeywordUtil.markFailed(e.printStackTrace())
 			continue;
 		}
 	}
 
-dataCustomer.saveDocument()
 generalAction.logoutAndCloseBrowser()
