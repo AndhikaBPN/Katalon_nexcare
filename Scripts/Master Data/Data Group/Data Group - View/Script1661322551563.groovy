@@ -53,4 +53,4 @@ for (int i = 0; i < listHashMapDataGroup.size(); i++) {
 	}
 }
 
-generalAction.logoutAndCloseBrowser()
+//generalAction.logoutAndCloseBrowser()

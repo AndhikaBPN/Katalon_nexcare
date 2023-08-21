@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data Group - view" time="55.988" tests="1" failures="0" errors="0">
+   <testsuite name="Data Group - view" tests="1" failures="0" errors="0" time="55.988" skipped="0" timestamp="2023-08-21 15:49:52" hostname="NEXSOFT - 10.10.18.38" id="Test Suites/Master Data/Data Group/Data Group - view">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\NEXSOFT\\Documents\\Nexsoft\\Katalon\\Katalon_nexcare\\Reports\\20230821_154949\\Master Data\\Data Group\\Data Group - view\\20230821_154949"/>
+         <property name="logFiles" value="C:\\Users\\NEXSOFT\\Documents\\Nexsoft\\Katalon\\Katalon_nexcare\\Reports\\20230821_154949\\Master Data\\Data Group\\Data Group - view\\20230821_154949\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="NEXSOFT - 10.10.18.38"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="10.10.18.38"/>
+         <property name="sessionId" value="9ac212fe680a98eba30a400f9ae7d099"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Master Data/Data Group/Data Group - View" time="53.397" classname="Test Cases/Master Data/Data Group/Data Group - View" status="PASSED">
+         <system-out><![CDATA[2023-08-21 15:49:55 - [TEST_CASE][PASSED] - Test Cases/Master Data/Data Group/Data Group - View: Test Cases/Master Data/Data Group/Data Group - View
+
+2023-08-21 15:49:55 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2023-08-21 15:49:55 - [TEST_STEP][PASSED] - if (!(isSkipTestListener)): null
+
+2023-08-21 15:49:55 - [TEST_STEP][PASSED] - if (!(isSkipReport)): null
+
+2023-08-21 15:49:55 - [TEST_STEP][PASSED] - startTimeTC = simpleDateFormat.format(new java.util.Date()): null
+
+2023-08-21 15:49:55 - [TEST_STEP][PASSED] - currentTestCaseId = testCaseContext.getTestCaseId(): null
+
+2023-08-21 15:49:55 - [TEST_STEP][PASSED] - handleWebDriver = new care.katalon.HandleWebDriver(): null
+
+2023-08-21 15:49:55 - [TEST_STEP][PASSED] - handleWebDriver.startAndOpenWebBrowser(baseUrl): Wait for page load successfully
+
+2023-08-21 15:49:55 - [MESSAGE][INFO] - URL ENV = https://staging-care.nexcloud.id/
+
+2023-08-21 15:49:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-21 15:49:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-21 15:49:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-21 15:49:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-21 15:49:58 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-21 15:50:01 - [MESSAGE][PASSED] - Navigate to 'https://staging-care.nexcloud.id/' successfully
+
+2023-08-21 15:50:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-21 15:50:01 - [TEST_STEP][PASSED] - generalAction = new care.katalon.GeneralAction(): null
+
+2023-08-21 15:50:01 - [TEST_STEP][PASSED] - handleTestData = new care.katalon.HandleTestData(): null
+
+2023-08-21 15:50:01 - [TEST_STEP][PASSED] - dataGroup = new masterdata.care.DataGroup(): null
+
+2023-08-21 15:50:01 - [TEST_STEP][PASSED] - generalAction.login(""): Wait for page load successfully
+
+2023-08-21 15:50:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login/username' is clickable
+
+2023-08-21 15:50:02 - [MESSAGE][INFO] - Click Element = Object Repository/Login/username
+
+2023-08-21 15:50:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/username' is clicked on
+
+2023-08-21 15:50:03 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login/username' is: ''
+
+2023-08-21 15:50:03 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/username'
+
+2023-08-21 15:50:04 - [MESSAGE][PASSED] - Object 'Object Repository/Login/password' is clickable
+
+2023-08-21 15:50:04 - [MESSAGE][INFO] - Click Element = Object Repository/Login/password
+
+2023-08-21 15:50:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/password' is clicked on
+
+2023-08-21 15:50:04 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login/password' is: ''
+
+2023-08-21 15:50:05 - [MESSAGE][PASSED] - Text 'Auth_server_2020' is set on object 'Object Repository/Login/password'
+
+2023-08-21 15:50:05 - [MESSAGE][PASSED] - Object 'Object Repository/Login/masuk' is clickable
+
+2023-08-21 15:50:05 - [MESSAGE][INFO] - Click Element = Object Repository/Login/masuk
+
+2023-08-21 15:50:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/masuk' is clicked on
+
+2023-08-21 15:50:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_Tidak' is present
+
+2023-08-21 15:50:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_Tidak' is clickable
+
+2023-08-21 15:50:07 - [MESSAGE][INFO] - Click Element = Object Repository/Login/button_Tidak
+
+2023-08-21 15:50:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Tidak' is clicked on
+
+2023-08-21 15:50:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-21 15:50:07 - [TEST_STEP][PASSED] - dataGroup.menuDataGroup(): Object: 'Object Repository/Home Page(General)/btnDataGroup' is clicked on
+
+2023-08-21 15:50:10 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar/Sidebar Master Data' is clickable
+
+2023-08-21 15:50:10 - [MESSAGE][INFO] - Click Element = Object Repository/Sidebar/Sidebar Master Data
+
+2023-08-21 15:50:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Sidebar/Sidebar Master Data' is clicked on
+
+2023-08-21 15:50:11 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page(General)/btnDataGroup' is clickable
+
+2023-08-21 15:50:11 - [MESSAGE][INFO] - Click Element = Object Repository/Home Page(General)/btnDataGroup
+
+2023-08-21 15:50:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page(General)/btnDataGroup' is clicked on
+
+2023-08-21 15:50:12 - [TEST_STEP][PASSED] - excelLocation = "Master Data\Data Group\dataGroup - view.xlsx": null
+
+2023-08-21 15:50:12 - [TEST_STEP][PASSED] - sheetNameDataGroup = "DataGroup-view": null
+
+2023-08-21 15:50:12 - [TEST_STEP][PASSED] - listHashMapDataGroup = handleTestData.readTestData(excelLocation, sheetNameDataGroup, true): listHashMap di Method readTestData class care.katalon.HandleTestData : [[TD:TDG220601, Action:Add, groupID:katalonlima, principalName:PVMI, deskripsi:Edit Data Group Oleh Katalon 01., category:POSITIVE, customerName:Pt Papa Samsu Sampit], [TD:TDG220602, Action:Add, groupID:katalonenam, principalName:All, deskripsi:Edit Data Group Oleh Katalon 02., category:POSITIVE, customerName:All], [TD:TDG220603, Action:Add, groupID:katalontujuh, principalName:ASW,Ina Food, deskripsi:Edit Data Group Oleh Katalon 03., category:POSITIVE, customerName:Pt Rukun Mitra Sejati Blitar,Pt Rukun Mitra Sejati Yogyakarta], [TD:TDG220604, Action:Add, groupID:katalondelapan, principalName:All, deskripsi:Edit Data Group Oleh Katalon 04., category:POSITIVE, customerName:Pt Rukun Mitra Sejati Yogyakarta]]
+
+2023-08-21 15:50:12 - [MESSAGE][INFO] - listHashMap di Method readTestData class care.katalon.HandleTestData : [[TD:TDG220601, Action:Add, groupID:katalonlima, principalName:PVMI, deskripsi:Edit Data Group Oleh Katalon 01., category:POSITIVE, customerName:Pt Papa Samsu Sampit], [TD:TDG220602, Action:Add, groupID:katalonenam, principalName:All, deskripsi:Edit Data Group Oleh Katalon 02., category:POSITIVE, customerName:All], [TD:TDG220603, Action:Add, groupID:katalontujuh, principalName:ASW,Ina Food, deskripsi:Edit Data Group Oleh Katalon 03., category:POSITIVE, customerName:Pt Rukun Mitra Sejati Blitar,Pt Rukun Mitra Sejati Yogyakarta], [TD:TDG220604, Action:Add, groupID:katalondelapan, principalName:All, deskripsi:Edit Data Group Oleh Katalon 04., category:POSITIVE, customerName:Pt Rukun Mitra Sejati Yogyakarta]]
+
+2023-08-21 15:50:12 - [TEST_STEP][PASSED] - for ([i = 0, i < listHashMapDataGroup.size(), (i++)]): Delayed 2 second(s)
+
+2023-08-21 15:50:12 - [TEST_STEP][PASSED] - try: Delayed 2 second(s)
+
+2023-08-21 15:50:12 - [TEST_STEP][PASSED] - getHashMapDataGroup = listHashMapDataGroup.get(i): null
+
+2023-08-21 15:50:12 - [TEST_STEP][PASSED] - groupID = getHashMapDataGroup.get("groupID"): null
+
+2023-08-21 15:50:12 - [TEST_STEP][PASSED] - dataGroup.viewDetail(groupID): Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/pathdetailDataGroup' is clicked on
+
+2023-08-21 15:50:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-21 15:50:13 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup' is clickable
+
+2023-08-21 15:50:13 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup
+
+2023-08-21 15:50:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup' is clicked on
+
+2023-08-21 15:50:13 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup' is: ''
+
+2023-08-21 15:50:14 - [MESSAGE][PASSED] - Text 'katalonlima' is set on object 'Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup'
+
+2023-08-21 15:50:15 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup'
+
+2023-08-21 15:50:15 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/pathdetailDataGroup' is clickable
+
+2023-08-21 15:50:15 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/pathdetailDataGroup
+
+2023-08-21 15:50:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/pathdetailDataGroup' is clicked on
+
+2023-08-21 15:50:15 - [TEST_STEP][PASSED] - dataGroup.verifyDataGroup(getHashMapDataGroup): Actual text 'PVMI' and expected text 'PVMI' are matched 
+
+2023-08-21 15:50:15 - [MESSAGE][INFO] - Grup ID : katalonlima
+
+2023-08-21 15:50:15 - [MESSAGE][INFO] - Deskripsi : Edit Data Group Oleh Katalon 01.
+
+2023-08-21 15:50:15 - [MESSAGE][INFO] - Customer Name : Pt Papa Samsu Sampit
+
+2023-08-21 15:50:15 - [MESSAGE][INFO] - Principal Name : PVMI
+
+2023-08-21 15:50:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-21 15:50:16 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifyDataGroupID' is: 'katalonlima'
+
+2023-08-21 15:50:16 - [MESSAGE][PASSED] - Actual text 'katalonlima' and expected text 'katalonlima' are matched 
+
+2023-08-21 15:50:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifyDeskripsi' is: 'Edit Data Group Oleh Katalon 01.'
+
+2023-08-21 15:50:16 - [MESSAGE][PASSED] - Actual text 'Edit Data Group Oleh Katalon 01.' and expected text 'Edit Data Group Oleh Katalon 01.' are matched 
+
+2023-08-21 15:50:17 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/DataScopeView' is clickable
+
+2023-08-21 15:50:17 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/DataScopeView' is clickable
+
+2023-08-21 15:50:17 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/DataScopeView
+
+2023-08-21 15:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/DataScopeView' is clicked on
+
+2023-08-21 15:50:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifyNamaPelanggan' is: 'Pt Papa Samsu Sampit'
+
+2023-08-21 15:50:18 - [MESSAGE][INFO] - NAMA DISTRIBUTOR = Pt Papa Samsu Sampit
+
+2023-08-21 15:50:18 - [MESSAGE][PASSED] - Actual text 'Pt Papa Samsu Sampit' and expected text 'Pt Papa Samsu Sampit' are matched 
+
+2023-08-21 15:50:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifyNamaPrincipal' is: 'PVMI'
+
+2023-08-21 15:50:19 - [MESSAGE][INFO] - NAMA PRINCIPAL = PVMI
+
+2023-08-21 15:50:19 - [MESSAGE][PASSED] - Actual text 'PVMI' and expected text 'PVMI' are matched 
+
+2023-08-21 15:50:19 - [TEST_STEP][PASSED] - dataGroup.closeViewDetail(): Delayed 2 second(s)
+
+2023-08-21 15:50:19 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/Tutup' is clickable
+
+2023-08-21 15:50:19 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/Tutup
+
+2023-08-21 15:50:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/Tutup' is clicked on
+
+2023-08-21 15:50:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-21 15:50:21 - [TEST_STEP][PASSED] - try: Delayed 2 second(s)
+
+2023-08-21 15:50:21 - [TEST_STEP][PASSED] - getHashMapDataGroup = listHashMapDataGroup.get(i): null
+
+2023-08-21 15:50:21 - [TEST_STEP][PASSED] - groupID = getHashMapDataGroup.get("groupID"): null
+
+2023-08-21 15:50:21 - [TEST_STEP][PASSED] - dataGroup.viewDetail(groupID): Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/pathdetailDataGroup' is clicked on
+
+2023-08-21 15:50:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-21 15:50:22 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup' is clickable
+
+2023-08-21 15:50:22 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup
+
+2023-08-21 15:50:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup' is clicked on
+
+2023-08-21 15:50:22 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup' is: ''
+
+2023-08-21 15:50:23 - [MESSAGE][PASSED] - Text 'katalonenam' is set on object 'Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup'
+
+2023-08-21 15:50:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup'
+
+2023-08-21 15:50:24 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/pathdetailDataGroup' is clickable
+
+2023-08-21 15:50:24 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/pathdetailDataGroup
+
+2023-08-21 15:50:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/pathdetailDataGroup' is clicked on
+
+2023-08-21 15:50:24 - [TEST_STEP][PASSED] - dataGroup.verifyDataGroup(getHashMapDataGroup): ELEMENT CHECKED = true
+
+2023-08-21 15:50:24 - [MESSAGE][INFO] - Grup ID : katalonenam
+
+2023-08-21 15:50:24 - [MESSAGE][INFO] - Deskripsi : Edit Data Group Oleh Katalon 02.
+
+2023-08-21 15:50:24 - [MESSAGE][INFO] - Customer Name : All
+
+2023-08-21 15:50:24 - [MESSAGE][INFO] - Principal Name : All
+
+2023-08-21 15:50:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-21 15:50:25 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifyDataGroupID' is: 'katalonenam'
+
+2023-08-21 15:50:25 - [MESSAGE][PASSED] - Actual text 'katalonenam' and expected text 'katalonenam' are matched 
+
+2023-08-21 15:50:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifyDeskripsi' is: 'Edit Data Group Oleh Katalon 02.'
+
+2023-08-21 15:50:25 - [MESSAGE][PASSED] - Actual text 'Edit Data Group Oleh Katalon 02.' and expected text 'Edit Data Group Oleh Katalon 02.' are matched 
+
+2023-08-21 15:50:26 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/DataScopeView' is clickable
+
+2023-08-21 15:50:26 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/DataScopeView' is clickable
+
+2023-08-21 15:50:26 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/DataScopeView
+
+2023-08-21 15:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/DataScopeView' is clicked on
+
+2023-08-21 15:50:27 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan' is checked
+
+2023-08-21 15:50:27 - [MESSAGE][INFO] - ELEMENT CHECKED = true
+
+2023-08-21 15:50:27 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal' is checked
+
+2023-08-21 15:50:27 - [MESSAGE][INFO] - ELEMENT CHECKED = true
+
+2023-08-21 15:50:27 - [TEST_STEP][PASSED] - dataGroup.closeViewDetail(): Delayed 2 second(s)
+
+2023-08-21 15:50:27 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/Tutup' is clickable
+
+2023-08-21 15:50:27 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/Tutup
+
+2023-08-21 15:50:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/Tutup' is clicked on
+
+2023-08-21 15:50:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-21 15:50:30 - [TEST_STEP][PASSED] - try: Delayed 2 second(s)
+
+2023-08-21 15:50:30 - [TEST_STEP][PASSED] - getHashMapDataGroup = listHashMapDataGroup.get(i): null
+
+2023-08-21 15:50:30 - [TEST_STEP][PASSED] - groupID = getHashMapDataGroup.get("groupID"): null
+
+2023-08-21 15:50:30 - [TEST_STEP][PASSED] - dataGroup.viewDetail(groupID): Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/pathdetailDataGroup' is clicked on
+
+2023-08-21 15:50:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-21 15:50:30 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup' is clickable
+
+2023-08-21 15:50:30 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup
+
+2023-08-21 15:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup' is clicked on
+
+2023-08-21 15:50:31 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup' is: ''
+
+2023-08-21 15:50:32 - [MESSAGE][PASSED] - Text 'katalontujuh' is set on object 'Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup'
+
+2023-08-21 15:50:32 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup'
+
+2023-08-21 15:50:33 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/pathdetailDataGroup' is clickable
+
+2023-08-21 15:50:33 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/pathdetailDataGroup
+
+2023-08-21 15:50:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/pathdetailDataGroup' is clicked on
+
+2023-08-21 15:50:33 - [TEST_STEP][PASSED] - dataGroup.verifyDataGroup(getHashMapDataGroup): Actual text 'Ina Food' and expected text 'Ina Food' are matched 
+
+2023-08-21 15:50:33 - [MESSAGE][INFO] - Grup ID : katalontujuh
+
+2023-08-21 15:50:33 - [MESSAGE][INFO] - Deskripsi : Edit Data Group Oleh Katalon 03.
+
+2023-08-21 15:50:33 - [MESSAGE][INFO] - Customer Name : Pt Rukun Mitra Sejati Blitar,Pt Rukun Mitra Sejati Yogyakarta
+
+2023-08-21 15:50:33 - [MESSAGE][INFO] - Principal Name : ASW,Ina Food
+
+2023-08-21 15:50:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-21 15:50:33 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifyDataGroupID' is: 'katalontujuh'
+
+2023-08-21 15:50:33 - [MESSAGE][PASSED] - Actual text 'katalontujuh' and expected text 'katalontujuh' are matched 
+
+2023-08-21 15:50:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifyDeskripsi' is: 'Edit Data Group Oleh Katalon 03.'
+
+2023-08-21 15:50:34 - [MESSAGE][PASSED] - Actual text 'Edit Data Group Oleh Katalon 03.' and expected text 'Edit Data Group Oleh Katalon 03.' are matched 
+
+2023-08-21 15:50:34 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/DataScopeView' is clickable
+
+2023-08-21 15:50:35 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/DataScopeView' is clickable
+
+2023-08-21 15:50:35 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/DataScopeView
+
+2023-08-21 15:50:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/DataScopeView' is clicked on
+
+2023-08-21 15:50:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifyNamaPelanggan' is: 'Pt Rukun Mitra Sejati Blitar'
+
+2023-08-21 15:50:36 - [MESSAGE][INFO] - NAMA DISTRIBUTOR = Pt Rukun Mitra Sejati Blitar
+
+2023-08-21 15:50:36 - [MESSAGE][PASSED] - Actual text 'Pt Rukun Mitra Sejati Blitar' and expected text 'Pt Rukun Mitra Sejati Blitar' are matched 
+
+2023-08-21 15:50:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifyNamaPelanggan' is: 'Pt Rukun Mitra Sejati Yogyakarta'
+
+2023-08-21 15:50:36 - [MESSAGE][INFO] - NAMA DISTRIBUTOR = Pt Rukun Mitra Sejati Yogyakarta
+
+2023-08-21 15:50:36 - [MESSAGE][PASSED] - Actual text 'Pt Rukun Mitra Sejati Yogyakarta' and expected text 'Pt Rukun Mitra Sejati Yogyakarta' are matched 
+
+2023-08-21 15:50:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifyNamaPrincipal' is: 'ASW'
+
+2023-08-21 15:50:36 - [MESSAGE][INFO] - NAMA PRINCIPAL = ASW
+
+2023-08-21 15:50:36 - [MESSAGE][PASSED] - Actual text 'ASW' and expected text 'ASW' are matched 
+
+2023-08-21 15:50:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifyNamaPrincipal' is: 'Ina Food'
+
+2023-08-21 15:50:37 - [MESSAGE][INFO] - NAMA PRINCIPAL = Ina Food
+
+2023-08-21 15:50:37 - [MESSAGE][PASSED] - Actual text 'Ina Food' and expected text 'Ina Food' are matched 
+
+2023-08-21 15:50:37 - [TEST_STEP][PASSED] - dataGroup.closeViewDetail(): Delayed 2 second(s)
+
+2023-08-21 15:50:37 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/Tutup' is clickable
+
+2023-08-21 15:50:37 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/Tutup
+
+2023-08-21 15:50:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/Tutup' is clicked on
+
+2023-08-21 15:50:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-21 15:50:39 - [TEST_STEP][PASSED] - try: Delayed 2 second(s)
+
+2023-08-21 15:50:39 - [TEST_STEP][PASSED] - getHashMapDataGroup = listHashMapDataGroup.get(i): null
+
+2023-08-21 15:50:39 - [TEST_STEP][PASSED] - groupID = getHashMapDataGroup.get("groupID"): null
+
+2023-08-21 15:50:39 - [TEST_STEP][PASSED] - dataGroup.viewDetail(groupID): Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/pathdetailDataGroup' is clicked on
+
+2023-08-21 15:50:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-21 15:50:40 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup' is clickable
+
+2023-08-21 15:50:40 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup
+
+2023-08-21 15:50:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup' is clicked on
+
+2023-08-21 15:50:41 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup' is: ''
+
+2023-08-21 15:50:41 - [MESSAGE][PASSED] - Text 'katalondelapan' is set on object 'Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup'
+
+2023-08-21 15:50:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SearchDataGroup'
+
+2023-08-21 15:50:42 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/pathdetailDataGroup' is clickable
+
+2023-08-21 15:50:42 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/pathdetailDataGroup
+
+2023-08-21 15:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/pathdetailDataGroup' is clicked on
+
+2023-08-21 15:50:42 - [TEST_STEP][PASSED] - dataGroup.verifyDataGroup(getHashMapDataGroup): ELEMENT CHECKED = true
+
+2023-08-21 15:50:42 - [MESSAGE][INFO] - Grup ID : katalondelapan
+
+2023-08-21 15:50:42 - [MESSAGE][INFO] - Deskripsi : Edit Data Group Oleh Katalon 04.
+
+2023-08-21 15:50:42 - [MESSAGE][INFO] - Customer Name : Pt Rukun Mitra Sejati Yogyakarta
+
+2023-08-21 15:50:42 - [MESSAGE][INFO] - Principal Name : All
+
+2023-08-21 15:50:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-21 15:50:43 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifyDataGroupID' is: 'katalondelapan'
+
+2023-08-21 15:50:43 - [MESSAGE][PASSED] - Actual text 'katalondelapan' and expected text 'katalondelapan' are matched 
+
+2023-08-21 15:50:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifyDeskripsi' is: 'Edit Data Group Oleh Katalon 04.'
+
+2023-08-21 15:50:43 - [MESSAGE][PASSED] - Actual text 'Edit Data Group Oleh Katalon 04.' and expected text 'Edit Data Group Oleh Katalon 04.' are matched 
+
+2023-08-21 15:50:44 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/DataScopeView' is clickable
+
+2023-08-21 15:50:44 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/DataScopeView' is clickable
+
+2023-08-21 15:50:44 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/DataScopeView
+
+2023-08-21 15:50:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/DataScopeView' is clicked on
+
+2023-08-21 15:50:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifyNamaPelanggan' is: 'Pt Rukun Mitra Sejati Yogyakarta'
+
+2023-08-21 15:50:45 - [MESSAGE][INFO] - NAMA DISTRIBUTOR = Pt Rukun Mitra Sejati Yogyakarta
+
+2023-08-21 15:50:45 - [MESSAGE][PASSED] - Actual text 'Pt Rukun Mitra Sejati Yogyakarta' and expected text 'Pt Rukun Mitra Sejati Yogyakarta' are matched 
+
+2023-08-21 15:50:46 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal' is checked
+
+2023-08-21 15:50:46 - [MESSAGE][INFO] - ELEMENT CHECKED = true
+
+2023-08-21 15:50:46 - [TEST_STEP][PASSED] - dataGroup.closeViewDetail(): Delayed 2 second(s)
+
+2023-08-21 15:50:46 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/Tutup' is clickable
+
+2023-08-21 15:50:46 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/Tutup
+
+2023-08-21 15:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/Tutup' is clicked on
+
+2023-08-21 15:50:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-21 15:50:48 - [TEST_STEP][ERROR] - Start listener action : afterTestCase: org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'null' with class 'null' to class 'int'. Try 'java.lang.Integer' instead
+	at WebTestListener.afterTestCase(WebTestListener.groovy:105)
+	at WebTestListener.invokeMethod(WebTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692607789218.run(TempTestSuite1692607789218.groovy:36)
+
+
+2023-08-21 15:50:48 - [TEST_STEP][ERROR] - if (!(isSkipTestListener)): org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'null' with class 'null' to class 'int'. Try 'java.lang.Integer' instead
+	at WebTestListener.afterTestCase(WebTestListener.groovy:105)
+	at WebTestListener.invokeMethod(WebTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692607789218.run(TempTestSuite1692607789218.groovy:36)
+
+
+2023-08-21 15:50:48 - [TEST_STEP][ERROR] - if (!(isSkipReport)): org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'null' with class 'null' to class 'int'. Try 'java.lang.Integer' instead
+	at WebTestListener.afterTestCase(WebTestListener.groovy:105)
+	at WebTestListener.invokeMethod(WebTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692607789218.run(TempTestSuite1692607789218.groovy:36)
+
+
+2023-08-21 15:50:48 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-08-21 15:50:48 - [TEST_STEP][PASSED] - endTimeTC = simpleDateFormat.format(new java.util.Date()): null
+
+2023-08-21 15:50:48 - [TEST_STEP][ERROR] - projectId = projectId: org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'null' with class 'null' to class 'int'. Try 'java.lang.Integer' instead
+	at WebTestListener.afterTestCase(WebTestListener.groovy:105)
+	at WebTestListener.invokeMethod(WebTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692607789218.run(TempTestSuite1692607789218.groovy:36)
+
+
+2023-08-21 15:50:48 - [MESSAGE][ERROR] - org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'null' with class 'null' to class 'int'. Try 'java.lang.Integer' instead
+	at WebTestListener.afterTestCase(WebTestListener.groovy:105)
+	at WebTestListener.invokeMethod(WebTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692607789218.run(TempTestSuite1692607789218.groovy:36)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-21 15:49:52 - [TEST_SUITE][PASSED] - Data Group - view: Test Cases/Master Data/Data Group/Data Group - View]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

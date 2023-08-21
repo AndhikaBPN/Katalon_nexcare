@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "85D0B58FC622693B0338F30633A27D16",
+  "keywordFileContentHash": "E7A1162888D1EE99A46367831F0F4792",
   "keywordClasses": [
     {
       "name": "masterdata.care.DataCustomer",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

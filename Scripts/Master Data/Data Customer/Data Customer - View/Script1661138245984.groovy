@@ -56,7 +56,7 @@ for (int i = 0; i < listHashMapEditDataCustomer.size(); i++) {
 		dataEdit.put(namaCustomer, dataWithSameCustomerName)
 		dataWithSameCustomerName = new ArrayList<>()
 		namaCustomer = customerName
-		i = i - 1
+		i -= 1
 	}
 }
 

@@ -35,13 +35,14 @@ public class Pengguna {
 	VerifyElement VerifyElement = new VerifyElement()
 
 	public void menuPengguna() {
-		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Master data'))
-		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Menu Level 2 Master Data/Pengguna'))
+		GeneralAction.clickElement(findTestObject('Object Repository/Sidebar/Sidebar Master Data'))
+		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/btnUser'))
 	}
 
 	public void addUser() {
 		WebUI.waitForElementClickable(findTestObject('Object Repository/Master Data/Pengguna/Tambah'), 3)
 		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/Tambah'))
+		refreshPage()
 	}
 
 	public void refreshPage() {
@@ -170,13 +171,13 @@ public class Pengguna {
 			KeywordUtil.logInfo(ActualnoTelp)
 			VerifyElement.verifyMatch(ActualnoTelp, noTelp, false)
 
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/NextProfilePengguna'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
 
 			String Actualusername = GeneralAction.getAttributeFromElement(findTestObject('Object Repository/Master Data/Pengguna/Akun/NamaPengguna'), 'value')
 			KeywordUtil.logInfo(Actualusername)
 			VerifyElement.verifyMatch(Actualusername, username, false)
 
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/Akun/NextProfileAkun'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
 
 			String Actualrole = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/VerifyPeran'))
 			KeywordUtil.logInfo(Actualrole)
@@ -252,8 +253,8 @@ public class Pengguna {
 			KeywordUtil.logInfo(Actualgender)
 			VerifyElement.verifyMatch(Actualgender, gender, false)
 
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/NextProfilePengguna'))
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/Akun/NextProfileAkun'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
 
 			String Actualrole = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/VerifyPeran'))
 			KeywordUtil.logInfo(Actualrole)
@@ -290,7 +291,7 @@ public class Pengguna {
 				GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/Distributor'),
 						findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/SelectDistributor'), alldist[i])
 			}
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/CloseSelection'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/closeSelection'))
 
 			if(!NIK.equalsIgnoreCase("")) {
 				GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'), NIK)
@@ -309,8 +310,8 @@ public class Pengguna {
 
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin'),
 					findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'), gender)
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/NextProfilePengguna'))
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/Akun/NextProfileAkun'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
 
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/Peran'),
 					findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'), role)
@@ -335,8 +336,8 @@ public class Pengguna {
 
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin'),
 					findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'), gender)
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/NextProfilePengguna'))
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/Akun/NextProfileAkun'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
 
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/Peran'),
 					findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'), role)
@@ -392,7 +393,7 @@ public class Pengguna {
 					GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/Specialisasi'),
 							findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/SelectSpecialisasi'), allcsSpecialisasi[i])
 				}
-				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/CloseSelection'))
+				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/closeSelection'))
 			}
 
 			if(!NIK.equalsIgnoreCase("")) {
@@ -412,8 +413,8 @@ public class Pengguna {
 
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin'),
 					findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'), gender)
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/NextProfilePengguna'))
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/Akun/NextProfileAkun'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
 
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/Peran'),
 					findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'), role)
@@ -459,7 +460,7 @@ public class Pengguna {
 				GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/Distributor'),
 						findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/SelectDistributor'), alldist[i])
 			}
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/CloseSelection'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/closeSelection'))
 
 			if(!NIK.equalsIgnoreCase("")) {
 				GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'), NIK)
@@ -478,7 +479,7 @@ public class Pengguna {
 
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin'),
 					findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'), gender)
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/NextProfilePengguna'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
 
 			GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Pengguna/Akun/NamaPengguna'), username)
 			GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Pengguna/Akun/KataSandi'), password)
@@ -486,13 +487,13 @@ public class Pengguna {
 			GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Pengguna/Akun/KonfrimasiPassword'), confrimPassword)
 			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/Akun/icoViewConPass'))
 			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/Akun/Periksa'))
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/Akun/NextProfileAkun'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername'))
 
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/Peran'),
 					findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'), role)
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup'),
 					findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup'), dataGroup)
-			//		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/Tambah'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnTambahUser'))
 		}else if(Kategori.equalsIgnoreCase("Principal")) {
 			if(!NIK.equalsIgnoreCase("")) {
 				GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'), NIK)
@@ -511,7 +512,7 @@ public class Pengguna {
 
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin'),
 					findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'), gender)
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/NextProfilePengguna'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
 
 			GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Pengguna/Akun/NamaPengguna'), username)
 			GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Pengguna/Akun/KataSandi'), password)
@@ -519,13 +520,13 @@ public class Pengguna {
 			GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Pengguna/Akun/KonfrimasiPassword'), confrimPassword)
 			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/Akun/icoViewConPass'))
 			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/Akun/Periksa'))
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/Akun/NextProfileAkun'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername'))
 
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/Peran'),
 					findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'), role)
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup'),
 					findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup'), dataGroup)
-			//		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/Tambah'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnTambahUser'))
 		}else {
 			if(!isCSO.equalsIgnoreCase("N")) {
 				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/CSOfficer'))
@@ -555,7 +556,7 @@ public class Pengguna {
 					GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/Specialisasi'),
 							findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/SelectSpecialisasi'), allcsSpecialisasi[i])
 				}
-				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/CloseSelection'))
+				GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/closeSelection'))
 			}
 
 			if(!NIK.equalsIgnoreCase("")) {
@@ -575,7 +576,7 @@ public class Pengguna {
 
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin'),
 					findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'), gender)
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/NextProfilePengguna'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
 
 			GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Pengguna/Akun/NamaPengguna'), username)
 			GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Pengguna/Akun/KataSandi'), password)
@@ -583,13 +584,13 @@ public class Pengguna {
 			GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Pengguna/Akun/KonfrimasiPassword'), confrimPassword)
 			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/Akun/icoViewConPass'))
 			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/Akun/Periksa'))
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/Akun/NextProfileAkun'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername'))
 
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/Peran'),
 					findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'), role)
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup'),
 					findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup'), dataGroup)
-			//		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/Tambah'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnTambahUser'))
 		}
 	}
 }

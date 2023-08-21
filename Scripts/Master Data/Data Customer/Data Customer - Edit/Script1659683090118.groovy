@@ -43,22 +43,32 @@ List<HashMap> listHashMapEditDataCustomer = handleTestData.readTestData(excelLoc
 String namaCustomer = ''
 HashMap<String, List> dataEdit = new HashMap<String, List>()
 List dataWithSameCustomerName = new ArrayList<>()
+String testData = ''
+String cat = ''
+String message = ''
 
 for (int i = 0; i < listHashMapEditDataCustomer.size(); i++) {
 	HashMap getHashMapEditDataCustomer = listHashMapEditDataCustomer.get(i)
+	String TD = getHashMapEditDataCustomer.get('TD')
 	String customerName = getHashMapEditDataCustomer.get('customerName')
+	String category = getHashMapEditDataCustomer.get('category')
+	String msg = getHashMapEditDataCustomer.get('msg')
+	KeywordUtil.logInfo('TD: ' + TD)
+	testData = TD
+	cat = category
+	message = msg
 	
 	if(namaCustomer.equals('') || namaCustomer.equals(customerName)) {
 		namaCustomer = customerName
 		dataWithSameCustomerName.add(getHashMapEditDataCustomer)
-		if(i == listHashMapEditDataCustomer.size() - 1) {
+		if(i == listHashMapEditDataCustomer.size() - 1) { 
 			dataEdit.put(namaCustomer, dataWithSameCustomerName)
 		}
 	} else {
 		dataEdit.put(namaCustomer, dataWithSameCustomerName)
 		dataWithSameCustomerName = new ArrayList<>()
 		namaCustomer = customerName
-		i = i - 1
+		i -= 1
 	}
 }
 
@@ -68,9 +78,11 @@ for(String i : dataEdit.keySet()) {
 		String customerName = i
 		List hashMapEditDetail = dataEdit.get(customerName)
 		
+		dataCustomer.refreshWeb()
 		dataCustomer.viewData(customerName)
 		dataCustomer.editDocumentDetail(hashMapEditDetail)
 		dataCustomer.saveDocument()
+		dataCustomer.verifyMsg(message, testData, cat)
 		dataCustomer.viewData(customerName)
 		dataCustomer.verifyViewDataCustomer(hashMapEditDetail)
 	}catch (Exception e) {

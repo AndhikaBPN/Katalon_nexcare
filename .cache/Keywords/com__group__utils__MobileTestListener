@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "88DCC62DFD3D967CEB7F341A2F93A4F1",
+  "keywordClasses": [
+    {
+      "name": "com.group.utils.MobileTestListener",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

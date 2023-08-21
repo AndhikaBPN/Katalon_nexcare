@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>AdditionalProfile</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Username API QMA</description>
+      <initValue>'andhika'</initValue>
+      <name>usernameQMA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Password API QMA</description>
+      <initValue>'andhika202211001'</initValue>
+      <name>passwordQMA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>APK Version</description>
+      <initValue>'5.0.0'</initValue>
+      <name>appVersion</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Skip test listener</description>
+      <initValue>false</initValue>
+      <name>isSkipTestListener</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Project ID</description>
+      <initValue>13</initValue>
+      <name>projectId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Current Test Case ID</description>
+      <initValue>'1'</initValue>
+      <name>currentTestCaseId</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

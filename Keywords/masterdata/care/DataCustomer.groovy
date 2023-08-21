@@ -107,13 +107,14 @@ public class DataCustomer {
 			String principalName = hashMapEditDataCustomer.get('principalName')
 			String nsCode = hashMapEditDataCustomer.get("nsCode")
 			String branchCode = hashMapEditDataCustomer.get("branchCode")
+			String branchCodeEdit = hashMapEditDataCustomer.get("branchCodeEdit")
 			String clientID = hashMapEditDataCustomer.get("clientID")
 			String distributorCode = hashMapEditDataCustomer.get("distributorCode")
 			String status = hashMapEditDataCustomer.get("status")
 
 			editCustomer(principalName, branchCode)
 			GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Data Customer/EditKodePelanggan', [('indexRow') : (i+1).toString()]), nsCode)
-			GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Data Customer/EditKodeCabang', [('indexRow') : (i+1).toString()]), branchCode)
+			GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Data Customer/EditKodeCabang', [('indexRow') : (i+1).toString()]), branchCodeEdit)
 			GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Data Customer/EditClientID' , [('indexRow') : (i+1).toString()]), clientID)
 			GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Data Customer/EditKodeDistributor', [('indexRow') : (i+1).toString()]), distributorCode)
 			GeneralAction.clickElementSelectByLabel(findTestObject('Object Repository/Master Data/Data Customer/EditStatusValue', [('indexRow') : (i+1).toString()]), status, false)
@@ -178,10 +179,9 @@ public class DataCustomer {
 		if(msgValidation.equalsIgnoreCase(msg)) {
 			KeywordUtil.logInfo("Message: " + TD + " - " + msg)
 		}
-		
+
 		if(category.equalsIgnoreCase('negative')) {
 			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Customer/button_OK'))
 		}
-
 	}
 }

@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data Group - view,Chrome 115.0.0.0,,,2023-08-21 16:35:19,2023-08-21 16:36:24,1m - 5.003s,PASSED
+,,,,,,,
+Test Cases/Master Data/Data Group/Data Group - View,Chrome 115.0.0.0,,,2023-08-21 16:35:23,2023-08-21 16:36:24,1m - 1.076s,PASSED
+Start listener action : beforeTestCase,Chrome 115.0.0.0,,,2023-08-21 16:35:23,2023-08-21 16:35:23,0.035s,PASSED
+handleWebDriver = new care.katalon.HandleWebDriver(),Chrome 115.0.0.0,,,2023-08-21 16:35:24,2023-08-21 16:35:24,0.015s,PASSED
+handleWebDriver.startAndOpenWebBrowser(baseUrl),Chrome 115.0.0.0,,,2023-08-21 16:35:24,2023-08-21 16:35:31,7.401s,PASSED
+generalAction = new care.katalon.GeneralAction(),Chrome 115.0.0.0,,,2023-08-21 16:35:31,2023-08-21 16:35:31,0.028s,PASSED
+handleTestData = new care.katalon.HandleTestData(),Chrome 115.0.0.0,,,2023-08-21 16:35:31,2023-08-21 16:35:31,0.018s,PASSED
+dataGroup = new masterdata.care.DataGroup(),Chrome 115.0.0.0,,,2023-08-21 16:35:31,2023-08-21 16:35:31,0.018s,PASSED
+"generalAction.login("""")",Chrome 115.0.0.0,,,2023-08-21 16:35:31,2023-08-21 16:35:38,6.477s,PASSED
+dataGroup.menuDataGroup(),Chrome 115.0.0.0,,,2023-08-21 16:35:38,2023-08-21 16:35:43,5.289s,PASSED
+"excelLocation = ""Master Data\Data Group\dataGroup - view.xlsx""",Chrome 115.0.0.0,,,2023-08-21 16:35:43,2023-08-21 16:35:43,0.000s,PASSED
+"sheetNameDataGroup = ""DataGroup-view""",Chrome 115.0.0.0,,,2023-08-21 16:35:43,2023-08-21 16:35:43,0.001s,PASSED
+"listHashMapDataGroup = handleTestData.readTestData(excelLocation, sheetNameDataGroup, true)",Chrome 115.0.0.0,,,2023-08-21 16:35:43,2023-08-21 16:35:44,1.165s,PASSED
+"for ([i = 0, i < listHashMapDataGroup.size(), (i++)])",Chrome 115.0.0.0,,,2023-08-21 16:35:44,2023-08-21 16:36:24,39.812s,PASSED
+Start listener action : afterTestCase,Chrome 115.0.0.0,,,2023-08-21 16:36:24,2023-08-21 16:36:24,0.219s,PASSED

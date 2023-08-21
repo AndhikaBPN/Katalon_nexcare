@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data Group - view,Chrome 115.0.0.0,,,2023-08-21 15:30:53,2023-08-21 15:31:57,1m - 3.389s,PASSED
+,,,,,,,
+Test Cases/Master Data/Data Group/Data Group - View,Chrome 115.0.0.0,,,2023-08-21 15:30:56,2023-08-21 15:31:57,1m - 0.664s,PASSED
+Start listener action : beforeTestCase,Chrome 115.0.0.0,,,2023-08-21 15:30:56,2023-08-21 15:30:56,0.026s,PASSED
+Start listener action : beforeTestCase,Chrome 115.0.0.0,,,2023-08-21 15:30:56,2023-08-21 15:30:56,0.005s,PASSED
+handleWebDriver = new care.katalon.HandleWebDriver(),Chrome 115.0.0.0,,,2023-08-21 15:30:56,2023-08-21 15:30:56,0.007s,PASSED
+handleWebDriver.startAndOpenWebBrowser(baseUrl),Chrome 115.0.0.0,,,2023-08-21 15:30:56,2023-08-21 15:31:00,3.079s,PASSED
+generalAction = new care.katalon.GeneralAction(),Chrome 115.0.0.0,,,2023-08-21 15:31:00,2023-08-21 15:31:00,0.023s,PASSED
+handleTestData = new care.katalon.HandleTestData(),Chrome 115.0.0.0,,,2023-08-21 15:31:00,2023-08-21 15:31:00,0.007s,PASSED
+dataGroup = new masterdata.care.DataGroup(),Chrome 115.0.0.0,,,2023-08-21 15:31:00,2023-08-21 15:31:00,0.006s,PASSED
+"generalAction.login("""")",Chrome 115.0.0.0,,,2023-08-21 15:31:00,2023-08-21 15:31:05,5.596s,PASSED
+dataGroup.menuDataGroup(),Chrome 115.0.0.0,,,2023-08-21 15:31:05,2023-08-21 15:31:10,4.868s,PASSED
+"excelLocation = ""Master Data\Data Group\dataGroup - view.xlsx""",Chrome 115.0.0.0,,,2023-08-21 15:31:10,2023-08-21 15:31:10,0.001s,PASSED
+"sheetNameDataGroup = ""DataGroup-view""",Chrome 115.0.0.0,,,2023-08-21 15:31:10,2023-08-21 15:31:10,0.001s,PASSED
+"listHashMapDataGroup = handleTestData.readTestData(excelLocation, sheetNameDataGroup, true)",Chrome 115.0.0.0,,,2023-08-21 15:31:10,2023-08-21 15:31:11,0.657s,PASSED
+"for ([i = 0, i < listHashMapDataGroup.size(), (i++)])",Chrome 115.0.0.0,,,2023-08-21 15:31:11,2023-08-21 15:31:48,37.164s,PASSED
+generalAction.logoutAndCloseBrowser(),Chrome 115.0.0.0,,,2023-08-21 15:31:48,2023-08-21 15:31:57,8.647s,PASSED
+Start listener action : afterTestCase,Chrome 115.0.0.0,,,2023-08-21 15:31:57,2023-08-21 15:31:57,0.069s,ERROR
+Start listener action : afterTestCase,Chrome 115.0.0.0,,,2023-08-21 15:31:57,2023-08-21 15:31:57,0.007s,ERROR

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data Group - view,,,,2023-08-21 15:20:05,2023-08-21 15:20:10,5.206s,FAILED
+,,,,,,,
+Test Cases/Master Data/Data Group/Data Group - View,,,,2023-08-21 15:20:08,2023-08-21 15:20:10,2.486s,FAILED
+Start listener action : beforeTestCase,,,,2023-08-21 15:20:08,2023-08-21 15:20:08,0.027s,PASSED
+Start listener action : beforeTestCase,,,,2023-08-21 15:20:08,2023-08-21 15:20:08,0.004s,PASSED
+handleWebDriver = new care.katalon.HandleWebDriver(),,,,2023-08-21 15:20:08,2023-08-21 15:20:08,0.011s,PASSED
+handleWebDriver.startAndOpenWebBrowser(baseUrl),,,,2023-08-21 15:20:08,2023-08-21 15:20:10,1.954s,FAILED
+Start listener action : afterTestCase,,,,2023-08-21 15:20:10,2023-08-21 15:20:10,0.058s,ERROR
+Start listener action : afterTestCase,,,,2023-08-21 15:20:10,2023-08-21 15:20:10,0.005s,ERROR
