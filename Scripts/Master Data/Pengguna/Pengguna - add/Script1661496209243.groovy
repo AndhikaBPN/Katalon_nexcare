@@ -47,9 +47,6 @@ for (int i = 0; i < listHashMapPengguna.size(); i++) {
 		
 		pengguna.addUser()
 		pengguna.setDataNewUser(getHashMapPengguna)
-//		WebUI.click(findTestObject('Object Repository/Master Data/Pengguna/BackToAccount'))
-//		WebUI.click(findTestObject('Object Repository/Master Data/Pengguna/BackToProfilePengguna'))
-//		WebUI.click(findTestObject('Object Repository/Master Data/Pengguna/BackToList'))
 		pengguna.refreshPage()
 		
 	} catch (Exception e) {

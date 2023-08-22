@@ -1,0 +1,1702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User - edit" time="274.102" tests="1" failures="1" errors="0">
+   <testsuite name="User - edit" tests="1" failures="1" errors="0" time="274.102" skipped="0" timestamp="2023-08-22 15:13:24" hostname="NEXSOFT - DESKTOP-C56VD1H" id="Test Suites/Master Data/User/User - edit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\NEXSOFT\\Documents\\Nexsoft\\Katalon\\Katalon_nexcare\\Reports\\20230822_151318\\Master Data\\User\\User - edit\\20230822_151318"/>
+         <property name="logFiles" value="C:\\Users\\NEXSOFT\\Documents\\Nexsoft\\Katalon\\Katalon_nexcare\\Reports\\20230822_151318\\Master Data\\User\\User - edit\\20230822_151318\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\NEXSOFT\\Documents\\Nexsoft\\Katalon\\Katalon_nexcare\\Reports\\20230822_151318\\Master Data\\User\\User - edit\\20230822_151318\\1692692071937.png"/>
+         <property name="hostName" value="NEXSOFT - DESKTOP-C56VD1H"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="10.10.18.38"/>
+         <property name="sessionId" value="ad88311f63fa820835cfab0a24f35389"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Master Data/Pengguna/Pengguna - edit" time="269.862" classname="Test Cases/Master Data/Pengguna/Pengguna - edit" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Master Data/Pengguna/Pengguna - edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$1.call(Unknown Source)
+	at Pengguna - edit.run(Pengguna - edit:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691998760.run(TempTestSuite1692691998760.groovy:36)
+"/>
+         <system-out><![CDATA[2023-08-22 15:13:28 - [TEST_CASE][FAILED] - Test Cases/Master Data/Pengguna/Pengguna - edit: Test Cases/Master Data/Pengguna/Pengguna - edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$1.call(Unknown Source)
+	at Pengguna - edit.run(Pengguna - edit:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691998760.run(TempTestSuite1692691998760.groovy:36)
+
+
+2023-08-22 15:13:28 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2023-08-22 15:13:28 - [TEST_STEP][PASSED] - if (!(isSkipTestListener)): null
+
+2023-08-22 15:13:28 - [TEST_STEP][PASSED] - if (!(isSkipReport)): null
+
+2023-08-22 15:13:28 - [TEST_STEP][PASSED] - startTimeTC = simpleDateFormat.format(new java.util.Date()): null
+
+2023-08-22 15:13:28 - [TEST_STEP][PASSED] - currentTestCaseId = testCaseContext.getTestCaseId(): null
+
+2023-08-22 15:13:29 - [TEST_STEP][PASSED] - handleWebDriver = new care.katalon.HandleWebDriver(): null
+
+2023-08-22 15:13:29 - [TEST_STEP][PASSED] - handleWebDriver.startAndOpenWebBrowser(baseUrl): Wait for page load successfully
+
+2023-08-22 15:13:29 - [MESSAGE][INFO] - URL ENV = https://staging-care.nexcloud.id/
+
+2023-08-22 15:13:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-22 15:13:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-22 15:13:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-22 15:13:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-22 15:13:32 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-22 15:13:36 - [MESSAGE][PASSED] - Navigate to 'https://staging-care.nexcloud.id/' successfully
+
+2023-08-22 15:13:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-22 15:13:36 - [TEST_STEP][PASSED] - generalAction = new care.katalon.GeneralAction(): null
+
+2023-08-22 15:13:36 - [TEST_STEP][PASSED] - handleTestData = new care.katalon.HandleTestData(): null
+
+2023-08-22 15:13:36 - [TEST_STEP][PASSED] - pengguna = new masterdata.care.Pengguna(): null
+
+2023-08-22 15:13:36 - [TEST_STEP][PASSED] - generalAction.login(""): Wait for page load successfully
+
+2023-08-22 15:13:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/username' is clickable
+
+2023-08-22 15:13:36 - [MESSAGE][INFO] - Click Element = Object Repository/Login/username
+
+2023-08-22 15:13:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/username' is clicked on
+
+2023-08-22 15:13:37 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login/username' is: ''
+
+2023-08-22 15:13:38 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/username'
+
+2023-08-22 15:13:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login/password' is clickable
+
+2023-08-22 15:13:39 - [MESSAGE][INFO] - Click Element = Object Repository/Login/password
+
+2023-08-22 15:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/password' is clicked on
+
+2023-08-22 15:13:39 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login/password' is: ''
+
+2023-08-22 15:13:40 - [MESSAGE][PASSED] - Text 'Auth_server_2020' is set on object 'Object Repository/Login/password'
+
+2023-08-22 15:13:40 - [MESSAGE][PASSED] - Object 'Object Repository/Login/masuk' is clickable
+
+2023-08-22 15:13:40 - [MESSAGE][INFO] - Click Element = Object Repository/Login/masuk
+
+2023-08-22 15:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/masuk' is clicked on
+
+2023-08-22 15:13:41 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_Tidak' is present
+
+2023-08-22 15:13:42 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_Tidak' is clickable
+
+2023-08-22 15:13:42 - [MESSAGE][INFO] - Click Element = Object Repository/Login/button_Tidak
+
+2023-08-22 15:13:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Tidak' is clicked on
+
+2023-08-22 15:13:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-22 15:13:42 - [TEST_STEP][PASSED] - pengguna.menuPengguna(): Object: 'Object Repository/Home Page(General)/btnUser' is clicked on
+
+2023-08-22 15:13:46 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar/Sidebar Master Data' is clickable
+
+2023-08-22 15:13:46 - [MESSAGE][INFO] - Click Element = Object Repository/Sidebar/Sidebar Master Data
+
+2023-08-22 15:13:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Sidebar/Sidebar Master Data' is clicked on
+
+2023-08-22 15:13:47 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page(General)/btnUser' is clickable
+
+2023-08-22 15:13:47 - [MESSAGE][INFO] - Click Element = Object Repository/Home Page(General)/btnUser
+
+2023-08-22 15:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page(General)/btnUser' is clicked on
+
+2023-08-22 15:13:48 - [TEST_STEP][PASSED] - excelLocation = "Master Data\Pengguna\Pengguna - edit.xlsx": null
+
+2023-08-22 15:13:48 - [TEST_STEP][PASSED] - sheetNamePengguna = "Pengguna-edit": null
+
+2023-08-22 15:13:48 - [TEST_STEP][PASSED] - listHashMapEditPengguna = handleTestData.readTestData(excelLocation, sheetNamePengguna, true): listHashMap di Method readTestData class care.katalon.HandleTestData : [[Kategori:Nexsoft, leader:Khairina Wardina, lastName:Cso, Action:Edit, role:cso, gender:Perempuan, isLeader:N, isCSO:Y, listDist:, title:Ny, TD:TDG220601, csLevel:Level 1, NIK:3671072606990990, firstName:Katalon, dataGroup:nexsoft, csSpecialisasi:ND6,Nexmile, username:katalon01, status:Aktif], [Kategori:Nexsoft, leader:Khairina Wardina, lastName:Cslead, Action:Edit, role:cs_lead, gender:Laki-Laki, isLeader:Y, isCSO:N, listDist:, title:Tn, TD:TDG220602, csLevel:Level 2, NIK:3671072606990991, firstName:Katalon, dataGroup:nexsoft, csSpecialisasi:ND6,NexChief,NexPOS, username:cslead, status:Aktif], [Kategori:Nexsoft, leader:Khairina Wardina, lastName:Coordinator, Action:Edit, role:cs_coordinator, gender:Laki-Laki, isLeader:Y, isCSO:N, listDist:, title:Tn, TD:TDG220603, csLevel:, NIK:3671072606990992, firstName:Katalon, dataGroup:nexsoft, csSpecialisasi:, username:cscoor, status:Aktif], [Kategori:Distributor, leader:, lastName:Distributor, Action:Edit, role:customer, gender:Perempuan, isLeader:, isCSO:, listDist:Pt Rukun Mitra Sejati Blitar,Pt Rukun Mitra Sejati Yogyakarta, title:Ny, TD:TDG220604, csLevel:, NIK:3671072606990993, firstName:Katalon, dataGroup:groupdistributor, csSpecialisasi:, username:dist123, status:Aktif], [Kategori:Principal, leader:, lastName:Principal, Action:Edit, role:principal, gender:Laki-Laki, isLeader:, isCSO:, listDist:, title:Tn, TD:TDG220605, csLevel:, NIK:3671072606990995, firstName:Katalon, dataGroup:groupprincipal, csSpecialisasi:, username:principals123, status:Tidak Aktif], [Kategori:Nexsoft, leader:Khairina Wardina, lastName:Editoperator, Action:Edit, role:operator, gender:Laki-Laki, isLeader:Y, isCSO:N, listDist:, title:Tn, TD:TDG220606, csLevel:, NIK:3671072606990996, firstName:Katalon, dataGroup:nexsoft, csSpecialisasi:, username:cslevel1, status:Tidak Aktif]]
+
+2023-08-22 15:13:49 - [MESSAGE][INFO] - listHashMap di Method readTestData class care.katalon.HandleTestData : [[Kategori:Nexsoft, leader:Khairina Wardina, lastName:Cso, Action:Edit, role:cso, gender:Perempuan, isLeader:N, isCSO:Y, listDist:, title:Ny, TD:TDG220601, csLevel:Level 1, NIK:3671072606990990, firstName:Katalon, dataGroup:nexsoft, csSpecialisasi:ND6,Nexmile, username:katalon01, status:Aktif], [Kategori:Nexsoft, leader:Khairina Wardina, lastName:Cslead, Action:Edit, role:cs_lead, gender:Laki-Laki, isLeader:Y, isCSO:N, listDist:, title:Tn, TD:TDG220602, csLevel:Level 2, NIK:3671072606990991, firstName:Katalon, dataGroup:nexsoft, csSpecialisasi:ND6,NexChief,NexPOS, username:cslead, status:Aktif], [Kategori:Nexsoft, leader:Khairina Wardina, lastName:Coordinator, Action:Edit, role:cs_coordinator, gender:Laki-Laki, isLeader:Y, isCSO:N, listDist:, title:Tn, TD:TDG220603, csLevel:, NIK:3671072606990992, firstName:Katalon, dataGroup:nexsoft, csSpecialisasi:, username:cscoor, status:Aktif], [Kategori:Distributor, leader:, lastName:Distributor, Action:Edit, role:customer, gender:Perempuan, isLeader:, isCSO:, listDist:Pt Rukun Mitra Sejati Blitar,Pt Rukun Mitra Sejati Yogyakarta, title:Ny, TD:TDG220604, csLevel:, NIK:3671072606990993, firstName:Katalon, dataGroup:groupdistributor, csSpecialisasi:, username:dist123, status:Aktif], [Kategori:Principal, leader:, lastName:Principal, Action:Edit, role:principal, gender:Laki-Laki, isLeader:, isCSO:, listDist:, title:Tn, TD:TDG220605, csLevel:, NIK:3671072606990995, firstName:Katalon, dataGroup:groupprincipal, csSpecialisasi:, username:principals123, status:Tidak Aktif], [Kategori:Nexsoft, leader:Khairina Wardina, lastName:Editoperator, Action:Edit, role:operator, gender:Laki-Laki, isLeader:Y, isCSO:N, listDist:, title:Tn, TD:TDG220606, csLevel:, NIK:3671072606990996, firstName:Katalon, dataGroup:nexsoft, csSpecialisasi:, username:cslevel1, status:Tidak Aktif]]
+
+2023-08-22 15:13:49 - [TEST_STEP][FAILED] - for ([i = 0, i < listHashMapEditPengguna.size(), (i++)]): null
+
+2023-08-22 15:13:49 - [TEST_STEP][FAILED] - try: Unable to click on object 'Object Repository/Master Data/Pengguna/btnYes' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Data/Pengguna/btnYes'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at care.katalon.GeneralAction.clickElement(GeneralAction.groovy:46)
+	at care.katalon.GeneralAction$clickElement$1.call(Unknown Source)
+	at masterdata.care.Pengguna.setEditUser(Pengguna.groovy:432)
+	at masterdata.care.Pengguna$setEditUser$2.call(Unknown Source)
+	at Pengguna - edit.run(Pengguna - edit:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691998760.run(TempTestSuite1692691998760.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.173)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-C56VD1H', ip: '10.10.18.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\NEXSOFT\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65036}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ad88311f63fa820835cfab0a24f35389
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at care.katalon.GeneralAction.clickElement(GeneralAction.groovy:46)
+	at care.katalon.GeneralAction$clickElement$1.call(Unknown Source)
+	at masterdata.care.Pengguna.setEditUser(Pengguna.groovy:432)
+	at masterdata.care.Pengguna$setEditUser$2.call(Unknown Source)
+	at Script1661764864444.run(Script1661764864444.groovy:50)
+	... 13 more
+)
+
+2023-08-22 15:13:49 - [TEST_STEP][PASSED] - getHashMapEditPengguna = listHashMapEditPengguna.get(i): null
+
+2023-08-22 15:13:49 - [TEST_STEP][PASSED] - groupID = getHashMapEditPengguna.get("groupID"): null
+
+2023-08-22 15:13:49 - [TEST_STEP][PASSED] - logInfo(getHashMapEditPengguna.toString()): [Kategori:Nexsoft, leader:Khairina Wardina, lastName:Cso, Action:Edit, role:cso, gender:Perempuan, isLeader:N, isCSO:Y, listDist:, title:Ny, TD:TDG220601, csLevel:Level 1, NIK:3671072606990990, firstName:Katalon, dataGroup:nexsoft, csSpecialisasi:ND6,Nexmile, username:katalon01, status:Aktif]
+
+2023-08-22 15:13:49 - [MESSAGE][INFO] - [Kategori:Nexsoft, leader:Khairina Wardina, lastName:Cso, Action:Edit, role:cso, gender:Perempuan, isLeader:N, isCSO:Y, listDist:, title:Ny, TD:TDG220601, csLevel:Level 1, NIK:3671072606990990, firstName:Katalon, dataGroup:nexsoft, csSpecialisasi:ND6,Nexmile, username:katalon01, status:Aktif]
+
+2023-08-22 15:13:49 - [TEST_STEP][PASSED] - testDataNumber = getHashMapEditPengguna.get("TD"): null
+
+2023-08-22 15:13:49 - [TEST_STEP][PASSED] - pengguna.findUser(getHashMapEditPengguna): Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-22 15:13:49 - [MESSAGE][INFO] - Username: katalon01
+
+2023-08-22 15:13:49 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/searchUser' is clickable
+
+2023-08-22 15:13:49 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/searchUser
+
+2023-08-22 15:13:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/searchUser' is clicked on
+
+2023-08-22 15:13:50 - [MESSAGE][PASSED] - Text 'katalon01' is set on object 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-22 15:13:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-22 15:13:51 - [TEST_STEP][PASSED] - pengguna.editUser(): Refresh successfully
+
+2023-08-22 15:13:51 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/Edit' is clickable
+
+2023-08-22 15:13:51 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/Edit
+
+2023-08-22 15:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/Edit' is clicked on
+
+2023-08-22 15:13:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-22 15:13:56 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-22 15:13:56 - [TEST_STEP][FAILED] - pengguna.setEditUser(getHashMapEditPengguna): Unable to click on object 'Object Repository/Master Data/Pengguna/btnYes' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Data/Pengguna/btnYes'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at care.katalon.GeneralAction.clickElement(GeneralAction.groovy:46)
+	at care.katalon.GeneralAction$clickElement$1.call(Unknown Source)
+	at masterdata.care.Pengguna.setEditUser(Pengguna.groovy:432)
+	at masterdata.care.Pengguna$setEditUser$2.call(Unknown Source)
+	at Pengguna - edit.run(Pengguna - edit:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691998760.run(TempTestSuite1692691998760.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.173)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-C56VD1H', ip: '10.10.18.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\NEXSOFT\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65036}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ad88311f63fa820835cfab0a24f35389
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at care.katalon.GeneralAction.clickElement(GeneralAction.groovy:46)
+	at care.katalon.GeneralAction$clickElement$1.call(Unknown Source)
+	at masterdata.care.Pengguna.setEditUser(Pengguna.groovy:432)
+	at masterdata.care.Pengguna$setEditUser$2.call(Unknown Source)
+	at Script1661764864444.run(Script1661764864444.groovy:50)
+	... 13 more
+)
+
+2023-08-22 15:13:56 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/idPengguna' is present
+
+2023-08-22 15:13:58 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/Atasan' is clickable
+
+2023-08-22 15:13:58 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/Atasan
+
+2023-08-22 15:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/Atasan' is clicked on
+
+2023-08-22 15:13:59 - [MESSAGE][PASSED] - Keys 'Khairina Wardina' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectAtasan'
+
+2023-08-22 15:13:59 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectAtasan' is present
+
+2023-08-22 15:14:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectAtasan'
+
+2023-08-22 15:14:00 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/LevelCS' is clickable
+
+2023-08-22 15:14:00 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/LevelCS
+
+2023-08-22 15:14:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/LevelCS' is clicked on
+
+2023-08-22 15:14:02 - [MESSAGE][PASSED] - Keys 'Level 1' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectCsLevel'
+
+2023-08-22 15:14:02 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectCsLevel' is present
+
+2023-08-22 15:14:03 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectCsLevel'
+
+2023-08-22 15:14:03 - [MESSAGE][INFO] - [ND6, Nexmile]
+
+2023-08-22 15:14:03 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/Specialisasi' is clickable
+
+2023-08-22 15:14:03 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/Specialisasi
+
+2023-08-22 15:14:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/Specialisasi' is clicked on
+
+2023-08-22 15:14:04 - [MESSAGE][PASSED] - Keys 'ND6' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectSpecialisasi'
+
+2023-08-22 15:14:05 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectSpecialisasi' is present
+
+2023-08-22 15:14:05 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectSpecialisasi'
+
+2023-08-22 15:14:05 - [MESSAGE][INFO] - [ND6, Nexmile]
+
+2023-08-22 15:14:06 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/Specialisasi' is clickable
+
+2023-08-22 15:14:06 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/Specialisasi
+
+2023-08-22 15:14:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/Specialisasi' is clicked on
+
+2023-08-22 15:14:07 - [MESSAGE][PASSED] - Keys 'Nexmile' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectSpecialisasi'
+
+2023-08-22 15:14:07 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectSpecialisasi' is present
+
+2023-08-22 15:14:07 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectSpecialisasi'
+
+2023-08-22 15:14:08 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/closeSelection' is clickable
+
+2023-08-22 15:14:08 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/closeSelection
+
+2023-08-22 15:14:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/closeSelection' is clicked on
+
+2023-08-22 15:14:09 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK' is clickable
+
+2023-08-22 15:14:09 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/NIK
+
+2023-08-22 15:14:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK' is clicked on
+
+2023-08-22 15:14:10 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK' is: '3671072606990990'
+
+2023-08-22 15:14:10 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'
+
+2023-08-22 15:14:10 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'
+
+2023-08-22 15:14:11 - [MESSAGE][PASSED] - Text '3671072606990990' is set on object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'
+
+2023-08-22 15:14:12 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/Title' is clickable
+
+2023-08-22 15:14:12 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/Title
+
+2023-08-22 15:14:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/Title' is clicked on
+
+2023-08-22 15:14:13 - [MESSAGE][PASSED] - Keys 'Ny' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectTitle'
+
+2023-08-22 15:14:13 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectTitle' is present
+
+2023-08-22 15:14:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectTitle'
+
+2023-08-22 15:14:14 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan' is clickable
+
+2023-08-22 15:14:14 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan
+
+2023-08-22 15:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan' is clicked on
+
+2023-08-22 15:14:15 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan' is: 'Katalon'
+
+2023-08-22 15:14:15 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan'
+
+2023-08-22 15:14:16 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan'
+
+2023-08-22 15:14:17 - [MESSAGE][PASSED] - Text 'Katalon' is set on object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan'
+
+2023-08-22 15:14:17 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang' is clickable
+
+2023-08-22 15:14:17 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang
+
+2023-08-22 15:14:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang' is clicked on
+
+2023-08-22 15:14:18 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang' is: 'Cso'
+
+2023-08-22 15:14:19 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang'
+
+2023-08-22 15:14:19 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang'
+
+2023-08-22 15:14:20 - [MESSAGE][PASSED] - Text 'Cso' is set on object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang'
+
+2023-08-22 15:14:20 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin' is clickable
+
+2023-08-22 15:14:20 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin
+
+2023-08-22 15:14:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin' is clicked on
+
+2023-08-22 15:14:21 - [MESSAGE][PASSED] - Keys 'Perempuan' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'
+
+2023-08-22 15:14:22 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin' is present
+
+2023-08-22 15:14:22 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'
+
+2023-08-22 15:14:23 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/TglStatus' is clickable
+
+2023-08-22 15:14:23 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/TglStatus
+
+2023-08-22 15:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/TglStatus' is clicked on
+
+2023-08-22 15:14:24 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnSelanjutnya' is clickable
+
+2023-08-22 15:14:24 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnSelanjutnya
+
+2023-08-22 15:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnSelanjutnya' is clicked on
+
+2023-08-22 15:14:24 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername' is clickable
+
+2023-08-22 15:14:24 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername
+
+2023-08-22 15:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername' is clicked on
+
+2023-08-22 15:14:25 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/Peran' is clickable
+
+2023-08-22 15:14:25 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/PeranPengguna/Peran
+
+2023-08-22 15:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/PeranPengguna/Peran' is clicked on
+
+2023-08-22 15:14:26 - [MESSAGE][PASSED] - Keys 'cso' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'
+
+2023-08-22 15:14:27 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole' is present
+
+2023-08-22 15:14:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'
+
+2023-08-22 15:14:28 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup' is clickable
+
+2023-08-22 15:14:28 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup
+
+2023-08-22 15:14:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup' is clicked on
+
+2023-08-22 15:14:29 - [MESSAGE][PASSED] - Keys 'nexsoft' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup'
+
+2023-08-22 15:14:29 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup' is present
+
+2023-08-22 15:14:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup'
+
+2023-08-22 15:14:30 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnUbah' is clickable
+
+2023-08-22 15:14:30 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnUbah
+
+2023-08-22 15:14:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnUbah' is clicked on
+
+2023-08-22 15:14:31 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnYes' is clickable
+
+2023-08-22 15:14:31 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnYes
+
+2023-08-22 15:14:32 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Master Data/Pengguna/btnYes' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Master Data/Pengguna/btnYes'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at care.katalon.GeneralAction.clickElement(GeneralAction.groovy:46)
+	at care.katalon.GeneralAction$clickElement$1.call(Unknown Source)
+	at masterdata.care.Pengguna.setEditUser(Pengguna.groovy:432)
+	at masterdata.care.Pengguna$setEditUser$2.call(Unknown Source)
+	at Pengguna - edit.run(Pengguna - edit:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691998760.run(TempTestSuite1692691998760.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.173)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-C56VD1H', ip: '10.10.18.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.173, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\NEXSOFT\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65036}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ad88311f63fa820835cfab0a24f35389
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at care.katalon.GeneralAction.clickElement(GeneralAction.groovy:46)
+	at care.katalon.GeneralAction$clickElement$1.call(Unknown Source)
+	at masterdata.care.Pengguna.setEditUser(Pengguna.groovy:432)
+	at masterdata.care.Pengguna$setEditUser$2.call(Unknown Source)
+	at Script1661764864444.run(Script1661764864444.groovy:50)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\NEXSOFT\\Documents\\Nexsoft\\Katalon\\Katalon_nexcare\\Reports\\20230822_151318\\Master Data\\User\\User - edit\\20230822_151318\\1692692071937.png]]
+
+2023-08-22 15:14:32 - [TEST_STEP][FAILED] - catch (Exception e): null
+
+2023-08-22 15:14:32 - [TEST_STEP][FAILED] - markFailed(e.printStackTrace()): 
+
+2023-08-22 15:14:32 - [MESSAGE][FAILED] - 
+
+2023-08-22 15:14:32 - [TEST_STEP][PASSED] - <not implemented yet for class: org.codehaus.groovy.ast.stmt.ContinueStatement>: null
+
+2023-08-22 15:14:32 - [TEST_STEP][PASSED] - try: Refresh successfully
+
+2023-08-22 15:14:32 - [TEST_STEP][PASSED] - getHashMapEditPengguna = listHashMapEditPengguna.get(i): null
+
+2023-08-22 15:14:32 - [TEST_STEP][PASSED] - groupID = getHashMapEditPengguna.get("groupID"): null
+
+2023-08-22 15:14:32 - [TEST_STEP][PASSED] - logInfo(getHashMapEditPengguna.toString()): [Kategori:Nexsoft, leader:Khairina Wardina, lastName:Cslead, Action:Edit, role:cs_lead, gender:Laki-Laki, isLeader:Y, isCSO:N, listDist:, title:Tn, TD:TDG220602, csLevel:Level 2, NIK:3671072606990991, firstName:Katalon, dataGroup:nexsoft, csSpecialisasi:ND6,NexChief,NexPOS, username:cslead, status:Aktif]
+
+2023-08-22 15:14:32 - [MESSAGE][INFO] - [Kategori:Nexsoft, leader:Khairina Wardina, lastName:Cslead, Action:Edit, role:cs_lead, gender:Laki-Laki, isLeader:Y, isCSO:N, listDist:, title:Tn, TD:TDG220602, csLevel:Level 2, NIK:3671072606990991, firstName:Katalon, dataGroup:nexsoft, csSpecialisasi:ND6,NexChief,NexPOS, username:cslead, status:Aktif]
+
+2023-08-22 15:14:32 - [TEST_STEP][PASSED] - testDataNumber = getHashMapEditPengguna.get("TD"): null
+
+2023-08-22 15:14:32 - [TEST_STEP][PASSED] - pengguna.findUser(getHashMapEditPengguna): Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-22 15:14:32 - [MESSAGE][INFO] - Username: cslead
+
+2023-08-22 15:14:33 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/searchUser' is clickable
+
+2023-08-22 15:14:33 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/searchUser
+
+2023-08-22 15:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/searchUser' is clicked on
+
+2023-08-22 15:14:34 - [MESSAGE][PASSED] - Text 'cslead' is set on object 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-22 15:14:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-22 15:14:34 - [TEST_STEP][PASSED] - pengguna.editUser(): Refresh successfully
+
+2023-08-22 15:14:35 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/Edit' is clickable
+
+2023-08-22 15:14:35 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/Edit
+
+2023-08-22 15:14:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/Edit' is clicked on
+
+2023-08-22 15:14:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-22 15:14:39 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-22 15:14:39 - [TEST_STEP][PASSED] - pengguna.setEditUser(getHashMapEditPengguna): Object: 'Object Repository/Master Data/Pengguna/btnUbah' is clicked on
+
+2023-08-22 15:14:39 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/idPengguna' is present
+
+2023-08-22 15:14:41 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/Atasan' is clickable
+
+2023-08-22 15:14:41 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/Atasan
+
+2023-08-22 15:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/Atasan' is clicked on
+
+2023-08-22 15:14:42 - [MESSAGE][PASSED] - Keys 'Khairina Wardina' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectAtasan'
+
+2023-08-22 15:14:42 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectAtasan' is present
+
+2023-08-22 15:14:43 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectAtasan'
+
+2023-08-22 15:14:43 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/LevelCS' is clickable
+
+2023-08-22 15:14:43 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/LevelCS
+
+2023-08-22 15:14:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/LevelCS' is clicked on
+
+2023-08-22 15:14:44 - [MESSAGE][PASSED] - Keys 'Level 2' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectCsLevel'
+
+2023-08-22 15:14:45 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectCsLevel' is present
+
+2023-08-22 15:14:45 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectCsLevel'
+
+2023-08-22 15:14:45 - [MESSAGE][INFO] - [ND6, NexChief, NexPOS]
+
+2023-08-22 15:14:46 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/Specialisasi' is clickable
+
+2023-08-22 15:14:46 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/Specialisasi
+
+2023-08-22 15:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/Specialisasi' is clicked on
+
+2023-08-22 15:14:47 - [MESSAGE][PASSED] - Keys 'ND6' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectSpecialisasi'
+
+2023-08-22 15:14:47 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectSpecialisasi' is present
+
+2023-08-22 15:14:48 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectSpecialisasi'
+
+2023-08-22 15:14:48 - [MESSAGE][INFO] - [ND6, NexChief, NexPOS]
+
+2023-08-22 15:14:48 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/Specialisasi' is clickable
+
+2023-08-22 15:14:48 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/Specialisasi
+
+2023-08-22 15:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/Specialisasi' is clicked on
+
+2023-08-22 15:14:49 - [MESSAGE][PASSED] - Keys 'NexChief' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectSpecialisasi'
+
+2023-08-22 15:14:50 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectSpecialisasi' is present
+
+2023-08-22 15:14:50 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectSpecialisasi'
+
+2023-08-22 15:14:50 - [MESSAGE][INFO] - [ND6, NexChief, NexPOS]
+
+2023-08-22 15:14:51 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/Specialisasi' is clickable
+
+2023-08-22 15:14:51 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/Specialisasi
+
+2023-08-22 15:14:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/Specialisasi' is clicked on
+
+2023-08-22 15:14:51 - [MESSAGE][PASSED] - Keys 'NexPOS' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectSpecialisasi'
+
+2023-08-22 15:14:52 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectSpecialisasi' is present
+
+2023-08-22 15:14:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectSpecialisasi'
+
+2023-08-22 15:14:53 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/closeSelection' is clickable
+
+2023-08-22 15:14:53 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/closeSelection
+
+2023-08-22 15:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/closeSelection' is clicked on
+
+2023-08-22 15:14:54 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK' is clickable
+
+2023-08-22 15:14:54 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/NIK
+
+2023-08-22 15:14:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK' is clicked on
+
+2023-08-22 15:14:54 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK' is: '3671072606990991'
+
+2023-08-22 15:14:55 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'
+
+2023-08-22 15:14:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'
+
+2023-08-22 15:14:56 - [MESSAGE][PASSED] - Text '3671072606990991' is set on object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'
+
+2023-08-22 15:14:57 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/Title' is clickable
+
+2023-08-22 15:14:57 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/Title
+
+2023-08-22 15:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/Title' is clicked on
+
+2023-08-22 15:14:58 - [MESSAGE][PASSED] - Keys 'Tn' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectTitle'
+
+2023-08-22 15:14:58 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectTitle' is present
+
+2023-08-22 15:14:59 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectTitle'
+
+2023-08-22 15:14:59 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan' is clickable
+
+2023-08-22 15:14:59 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan
+
+2023-08-22 15:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan' is clicked on
+
+2023-08-22 15:15:00 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan' is: 'Katalon'
+
+2023-08-22 15:15:01 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan'
+
+2023-08-22 15:15:01 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan'
+
+2023-08-22 15:15:02 - [MESSAGE][PASSED] - Text 'Katalon' is set on object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan'
+
+2023-08-22 15:15:03 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang' is clickable
+
+2023-08-22 15:15:03 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang
+
+2023-08-22 15:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang' is clicked on
+
+2023-08-22 15:15:03 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang' is: 'Cslead'
+
+2023-08-22 15:15:04 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang'
+
+2023-08-22 15:15:04 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang'
+
+2023-08-22 15:15:05 - [MESSAGE][PASSED] - Text 'Cslead' is set on object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang'
+
+2023-08-22 15:15:05 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin' is clickable
+
+2023-08-22 15:15:05 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin
+
+2023-08-22 15:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin' is clicked on
+
+2023-08-22 15:15:06 - [MESSAGE][PASSED] - Keys 'Laki-Laki' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'
+
+2023-08-22 15:15:07 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin' is present
+
+2023-08-22 15:15:07 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'
+
+2023-08-22 15:15:08 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/TglStatus' is clickable
+
+2023-08-22 15:15:08 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/TglStatus
+
+2023-08-22 15:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/TglStatus' is clicked on
+
+2023-08-22 15:15:09 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnSelanjutnya' is clickable
+
+2023-08-22 15:15:09 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnSelanjutnya
+
+2023-08-22 15:15:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnSelanjutnya' is clicked on
+
+2023-08-22 15:15:09 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername' is clickable
+
+2023-08-22 15:15:09 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername
+
+2023-08-22 15:15:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername' is clicked on
+
+2023-08-22 15:15:10 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/Peran' is clickable
+
+2023-08-22 15:15:10 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/PeranPengguna/Peran
+
+2023-08-22 15:15:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/PeranPengguna/Peran' is clicked on
+
+2023-08-22 15:15:12 - [MESSAGE][PASSED] - Keys 'cs_lead' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'
+
+2023-08-22 15:15:12 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole' is present
+
+2023-08-22 15:15:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'
+
+2023-08-22 15:15:13 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup' is clickable
+
+2023-08-22 15:15:13 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup
+
+2023-08-22 15:15:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup' is clicked on
+
+2023-08-22 15:15:14 - [MESSAGE][PASSED] - Keys 'nexsoft' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup'
+
+2023-08-22 15:15:15 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup' is present
+
+2023-08-22 15:15:15 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup'
+
+2023-08-22 15:15:15 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnUbah' is clickable
+
+2023-08-22 15:15:15 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnUbah
+
+2023-08-22 15:15:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnUbah' is clicked on
+
+2023-08-22 15:15:16 - [TEST_STEP][PASSED] - pengguna.refreshPage(): Refresh successfully
+
+2023-08-22 15:15:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-22 15:15:19 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-22 15:15:19 - [TEST_STEP][PASSED] - try: Refresh successfully
+
+2023-08-22 15:15:19 - [TEST_STEP][PASSED] - getHashMapEditPengguna = listHashMapEditPengguna.get(i): null
+
+2023-08-22 15:15:19 - [TEST_STEP][PASSED] - groupID = getHashMapEditPengguna.get("groupID"): null
+
+2023-08-22 15:15:19 - [TEST_STEP][PASSED] - logInfo(getHashMapEditPengguna.toString()): [Kategori:Nexsoft, leader:Khairina Wardina, lastName:Coordinator, Action:Edit, role:cs_coordinator, gender:Laki-Laki, isLeader:Y, isCSO:N, listDist:, title:Tn, TD:TDG220603, csLevel:, NIK:3671072606990992, firstName:Katalon, dataGroup:nexsoft, csSpecialisasi:, username:cscoor, status:Aktif]
+
+2023-08-22 15:15:19 - [MESSAGE][INFO] - [Kategori:Nexsoft, leader:Khairina Wardina, lastName:Coordinator, Action:Edit, role:cs_coordinator, gender:Laki-Laki, isLeader:Y, isCSO:N, listDist:, title:Tn, TD:TDG220603, csLevel:, NIK:3671072606990992, firstName:Katalon, dataGroup:nexsoft, csSpecialisasi:, username:cscoor, status:Aktif]
+
+2023-08-22 15:15:19 - [TEST_STEP][PASSED] - testDataNumber = getHashMapEditPengguna.get("TD"): null
+
+2023-08-22 15:15:19 - [TEST_STEP][PASSED] - pengguna.findUser(getHashMapEditPengguna): Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-22 15:15:19 - [MESSAGE][INFO] - Username: cscoor
+
+2023-08-22 15:15:20 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/searchUser' is clickable
+
+2023-08-22 15:15:20 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/searchUser
+
+2023-08-22 15:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/searchUser' is clicked on
+
+2023-08-22 15:15:21 - [MESSAGE][PASSED] - Text 'cscoor' is set on object 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-22 15:15:21 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-22 15:15:21 - [TEST_STEP][PASSED] - pengguna.editUser(): Refresh successfully
+
+2023-08-22 15:15:22 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/Edit' is clickable
+
+2023-08-22 15:15:22 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/Edit
+
+2023-08-22 15:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/Edit' is clicked on
+
+2023-08-22 15:15:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-22 15:15:28 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-22 15:15:28 - [TEST_STEP][PASSED] - pengguna.setEditUser(getHashMapEditPengguna): Object: 'Object Repository/Master Data/Pengguna/btnUbah' is clicked on
+
+2023-08-22 15:15:28 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/idPengguna' is present
+
+2023-08-22 15:15:30 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/Atasan' is clickable
+
+2023-08-22 15:15:30 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/Atasan
+
+2023-08-22 15:15:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/Atasan' is clicked on
+
+2023-08-22 15:15:31 - [MESSAGE][PASSED] - Keys 'Khairina Wardina' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectAtasan'
+
+2023-08-22 15:15:32 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectAtasan' is present
+
+2023-08-22 15:15:32 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectAtasan'
+
+2023-08-22 15:15:33 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK' is clickable
+
+2023-08-22 15:15:33 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/NIK
+
+2023-08-22 15:15:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK' is clicked on
+
+2023-08-22 15:15:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK' is: '3671072606990992'
+
+2023-08-22 15:15:34 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'
+
+2023-08-22 15:15:34 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'
+
+2023-08-22 15:15:35 - [MESSAGE][PASSED] - Text '3671072606990992' is set on object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'
+
+2023-08-22 15:15:36 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/Title' is clickable
+
+2023-08-22 15:15:36 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/Title
+
+2023-08-22 15:15:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/Title' is clicked on
+
+2023-08-22 15:15:37 - [MESSAGE][PASSED] - Keys 'Tn' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectTitle'
+
+2023-08-22 15:15:37 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectTitle' is present
+
+2023-08-22 15:15:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectTitle'
+
+2023-08-22 15:15:38 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan' is clickable
+
+2023-08-22 15:15:38 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan
+
+2023-08-22 15:15:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan' is clicked on
+
+2023-08-22 15:15:39 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan' is: 'Katalon'
+
+2023-08-22 15:15:40 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan'
+
+2023-08-22 15:15:40 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan'
+
+2023-08-22 15:15:41 - [MESSAGE][PASSED] - Text 'Katalon' is set on object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan'
+
+2023-08-22 15:15:42 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang' is clickable
+
+2023-08-22 15:15:42 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang
+
+2023-08-22 15:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang' is clicked on
+
+2023-08-22 15:15:42 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang' is: 'Coordinator'
+
+2023-08-22 15:15:43 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang'
+
+2023-08-22 15:15:43 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang'
+
+2023-08-22 15:15:44 - [MESSAGE][PASSED] - Text 'Coordinator' is set on object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang'
+
+2023-08-22 15:15:45 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin' is clickable
+
+2023-08-22 15:15:45 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin
+
+2023-08-22 15:15:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin' is clicked on
+
+2023-08-22 15:15:46 - [MESSAGE][PASSED] - Keys 'Laki-Laki' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'
+
+2023-08-22 15:15:46 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin' is present
+
+2023-08-22 15:15:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'
+
+2023-08-22 15:15:47 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/TglStatus' is clickable
+
+2023-08-22 15:15:47 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/TglStatus
+
+2023-08-22 15:15:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/TglStatus' is clicked on
+
+2023-08-22 15:15:48 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnSelanjutnya' is clickable
+
+2023-08-22 15:15:48 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnSelanjutnya
+
+2023-08-22 15:15:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnSelanjutnya' is clicked on
+
+2023-08-22 15:15:49 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername' is clickable
+
+2023-08-22 15:15:49 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername
+
+2023-08-22 15:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername' is clicked on
+
+2023-08-22 15:15:49 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/Peran' is clickable
+
+2023-08-22 15:15:49 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/PeranPengguna/Peran
+
+2023-08-22 15:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/PeranPengguna/Peran' is clicked on
+
+2023-08-22 15:15:50 - [MESSAGE][PASSED] - Keys 'cs_coordinator' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'
+
+2023-08-22 15:15:51 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole' is present
+
+2023-08-22 15:15:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'
+
+2023-08-22 15:15:52 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup' is clickable
+
+2023-08-22 15:15:52 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup
+
+2023-08-22 15:15:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup' is clicked on
+
+2023-08-22 15:15:53 - [MESSAGE][PASSED] - Keys 'nexsoft' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup'
+
+2023-08-22 15:15:54 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup' is present
+
+2023-08-22 15:15:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup'
+
+2023-08-22 15:15:54 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnUbah' is clickable
+
+2023-08-22 15:15:54 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnUbah
+
+2023-08-22 15:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnUbah' is clicked on
+
+2023-08-22 15:15:55 - [TEST_STEP][PASSED] - pengguna.refreshPage(): Refresh successfully
+
+2023-08-22 15:15:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-22 15:15:58 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-22 15:15:58 - [TEST_STEP][PASSED] - try: Refresh successfully
+
+2023-08-22 15:15:58 - [TEST_STEP][PASSED] - getHashMapEditPengguna = listHashMapEditPengguna.get(i): null
+
+2023-08-22 15:15:58 - [TEST_STEP][PASSED] - groupID = getHashMapEditPengguna.get("groupID"): null
+
+2023-08-22 15:15:58 - [TEST_STEP][PASSED] - logInfo(getHashMapEditPengguna.toString()): [Kategori:Distributor, leader:, lastName:Distributor, Action:Edit, role:customer, gender:Perempuan, isLeader:, isCSO:, listDist:Pt Rukun Mitra Sejati Blitar,Pt Rukun Mitra Sejati Yogyakarta, title:Ny, TD:TDG220604, csLevel:, NIK:3671072606990993, firstName:Katalon, dataGroup:groupdistributor, csSpecialisasi:, username:dist123, status:Aktif]
+
+2023-08-22 15:15:58 - [MESSAGE][INFO] - [Kategori:Distributor, leader:, lastName:Distributor, Action:Edit, role:customer, gender:Perempuan, isLeader:, isCSO:, listDist:Pt Rukun Mitra Sejati Blitar,Pt Rukun Mitra Sejati Yogyakarta, title:Ny, TD:TDG220604, csLevel:, NIK:3671072606990993, firstName:Katalon, dataGroup:groupdistributor, csSpecialisasi:, username:dist123, status:Aktif]
+
+2023-08-22 15:15:58 - [TEST_STEP][PASSED] - testDataNumber = getHashMapEditPengguna.get("TD"): null
+
+2023-08-22 15:15:58 - [TEST_STEP][PASSED] - pengguna.findUser(getHashMapEditPengguna): Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-22 15:15:58 - [MESSAGE][INFO] - Username: dist123
+
+2023-08-22 15:15:59 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/searchUser' is clickable
+
+2023-08-22 15:15:59 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/searchUser
+
+2023-08-22 15:15:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/searchUser' is clicked on
+
+2023-08-22 15:16:00 - [MESSAGE][PASSED] - Text 'dist123' is set on object 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-22 15:16:01 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-22 15:16:01 - [TEST_STEP][PASSED] - pengguna.editUser(): Refresh successfully
+
+2023-08-22 15:16:01 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/Edit' is clickable
+
+2023-08-22 15:16:01 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/Edit
+
+2023-08-22 15:16:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/Edit' is clicked on
+
+2023-08-22 15:16:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-22 15:16:05 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-22 15:16:05 - [TEST_STEP][PASSED] - pengguna.setEditUser(getHashMapEditPengguna): Object: 'Object Repository/Master Data/Pengguna/btnUbah' is clicked on
+
+2023-08-22 15:16:06 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/idPengguna' is present
+
+2023-08-22 15:16:06 - [MESSAGE][INFO] - [Pt Rukun Mitra Sejati Blitar, Pt Rukun Mitra Sejati Yogyakarta]
+
+2023-08-22 15:16:07 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/Distributor' is clickable
+
+2023-08-22 15:16:07 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/Distributor
+
+2023-08-22 15:16:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/Distributor' is clicked on
+
+2023-08-22 15:16:08 - [MESSAGE][PASSED] - Keys 'Pt Rukun Mitra Sejati Blitar' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectDistributor'
+
+2023-08-22 15:16:08 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectDistributor' is present
+
+2023-08-22 15:16:09 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectDistributor'
+
+2023-08-22 15:16:09 - [MESSAGE][INFO] - [Pt Rukun Mitra Sejati Blitar, Pt Rukun Mitra Sejati Yogyakarta]
+
+2023-08-22 15:16:09 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/Distributor' is clickable
+
+2023-08-22 15:16:09 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/Distributor
+
+2023-08-22 15:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/Distributor' is clicked on
+
+2023-08-22 15:16:10 - [MESSAGE][PASSED] - Keys 'Pt Rukun Mitra Sejati Yogyakarta' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectDistributor'
+
+2023-08-22 15:16:11 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectDistributor' is present
+
+2023-08-22 15:16:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectDistributor'
+
+2023-08-22 15:16:12 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/closeSelection' is clickable
+
+2023-08-22 15:16:12 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/closeSelection
+
+2023-08-22 15:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/closeSelection' is clicked on
+
+2023-08-22 15:16:12 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK' is clickable
+
+2023-08-22 15:16:12 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/NIK
+
+2023-08-22 15:16:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK' is clicked on
+
+2023-08-22 15:16:13 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK' is: '3671072606990993'
+
+2023-08-22 15:16:13 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'
+
+2023-08-22 15:16:14 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'
+
+2023-08-22 15:16:15 - [MESSAGE][PASSED] - Text '3671072606990993' is set on object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'
+
+2023-08-22 15:16:15 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/Title' is clickable
+
+2023-08-22 15:16:15 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/Title
+
+2023-08-22 15:16:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/Title' is clicked on
+
+2023-08-22 15:16:17 - [MESSAGE][PASSED] - Keys 'Ny' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectTitle'
+
+2023-08-22 15:16:17 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectTitle' is present
+
+2023-08-22 15:16:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectTitle'
+
+2023-08-22 15:16:18 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan' is clickable
+
+2023-08-22 15:16:18 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan
+
+2023-08-22 15:16:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan' is clicked on
+
+2023-08-22 15:16:19 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan' is: 'Katalon'
+
+2023-08-22 15:16:19 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan'
+
+2023-08-22 15:16:19 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan'
+
+2023-08-22 15:16:21 - [MESSAGE][PASSED] - Text 'Katalon' is set on object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan'
+
+2023-08-22 15:16:21 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang' is clickable
+
+2023-08-22 15:16:21 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang
+
+2023-08-22 15:16:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang' is clicked on
+
+2023-08-22 15:16:22 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang' is: 'Distributor'
+
+2023-08-22 15:16:22 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang'
+
+2023-08-22 15:16:23 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang'
+
+2023-08-22 15:16:23 - [MESSAGE][PASSED] - Text 'Distributor' is set on object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang'
+
+2023-08-22 15:16:24 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin' is clickable
+
+2023-08-22 15:16:24 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin
+
+2023-08-22 15:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin' is clicked on
+
+2023-08-22 15:16:25 - [MESSAGE][PASSED] - Keys 'Perempuan' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'
+
+2023-08-22 15:16:25 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin' is present
+
+2023-08-22 15:16:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'
+
+2023-08-22 15:16:26 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/TglStatus' is clickable
+
+2023-08-22 15:16:26 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/TglStatus
+
+2023-08-22 15:16:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/TglStatus' is clicked on
+
+2023-08-22 15:16:27 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnSelanjutnya' is clickable
+
+2023-08-22 15:16:27 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnSelanjutnya
+
+2023-08-22 15:16:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnSelanjutnya' is clicked on
+
+2023-08-22 15:16:28 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername' is clickable
+
+2023-08-22 15:16:28 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername
+
+2023-08-22 15:16:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername' is clicked on
+
+2023-08-22 15:16:29 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/Peran' is clickable
+
+2023-08-22 15:16:29 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/PeranPengguna/Peran
+
+2023-08-22 15:16:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/PeranPengguna/Peran' is clicked on
+
+2023-08-22 15:16:30 - [MESSAGE][PASSED] - Keys 'customer' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'
+
+2023-08-22 15:16:30 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole' is present
+
+2023-08-22 15:16:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'
+
+2023-08-22 15:16:31 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup' is clickable
+
+2023-08-22 15:16:31 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup
+
+2023-08-22 15:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup' is clicked on
+
+2023-08-22 15:16:32 - [MESSAGE][PASSED] - Keys 'groupdistributor' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup'
+
+2023-08-22 15:16:33 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup' is present
+
+2023-08-22 15:16:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup'
+
+2023-08-22 15:16:34 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnUbah' is clickable
+
+2023-08-22 15:16:34 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnUbah
+
+2023-08-22 15:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnUbah' is clicked on
+
+2023-08-22 15:16:34 - [TEST_STEP][PASSED] - pengguna.refreshPage(): Refresh successfully
+
+2023-08-22 15:16:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-22 15:16:37 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-22 15:16:37 - [TEST_STEP][PASSED] - try: Refresh successfully
+
+2023-08-22 15:16:37 - [TEST_STEP][PASSED] - getHashMapEditPengguna = listHashMapEditPengguna.get(i): null
+
+2023-08-22 15:16:37 - [TEST_STEP][PASSED] - groupID = getHashMapEditPengguna.get("groupID"): null
+
+2023-08-22 15:16:37 - [TEST_STEP][PASSED] - logInfo(getHashMapEditPengguna.toString()): [Kategori:Principal, leader:, lastName:Principal, Action:Edit, role:principal, gender:Laki-Laki, isLeader:, isCSO:, listDist:, title:Tn, TD:TDG220605, csLevel:, NIK:3671072606990995, firstName:Katalon, dataGroup:groupprincipal, csSpecialisasi:, username:principals123, status:Tidak Aktif]
+
+2023-08-22 15:16:37 - [MESSAGE][INFO] - [Kategori:Principal, leader:, lastName:Principal, Action:Edit, role:principal, gender:Laki-Laki, isLeader:, isCSO:, listDist:, title:Tn, TD:TDG220605, csLevel:, NIK:3671072606990995, firstName:Katalon, dataGroup:groupprincipal, csSpecialisasi:, username:principals123, status:Tidak Aktif]
+
+2023-08-22 15:16:37 - [TEST_STEP][PASSED] - testDataNumber = getHashMapEditPengguna.get("TD"): null
+
+2023-08-22 15:16:37 - [TEST_STEP][PASSED] - pengguna.findUser(getHashMapEditPengguna): Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-22 15:16:37 - [MESSAGE][INFO] - Username: principals123
+
+2023-08-22 15:16:38 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/searchUser' is clickable
+
+2023-08-22 15:16:38 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/searchUser
+
+2023-08-22 15:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/searchUser' is clicked on
+
+2023-08-22 15:16:39 - [MESSAGE][PASSED] - Text 'principals123' is set on object 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-22 15:16:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-22 15:16:40 - [TEST_STEP][PASSED] - pengguna.editUser(): Refresh successfully
+
+2023-08-22 15:16:40 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/Edit' is clickable
+
+2023-08-22 15:16:40 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/Edit
+
+2023-08-22 15:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/Edit' is clicked on
+
+2023-08-22 15:16:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-22 15:16:44 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-22 15:16:44 - [TEST_STEP][PASSED] - pengguna.setEditUser(getHashMapEditPengguna): Object: 'Object Repository/Master Data/Pengguna/btnUbah' is clicked on
+
+2023-08-22 15:16:45 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/idPengguna' is present
+
+2023-08-22 15:16:46 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK' is clickable
+
+2023-08-22 15:16:46 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/NIK
+
+2023-08-22 15:16:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK' is clicked on
+
+2023-08-22 15:16:46 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK' is: '3671072606990995'
+
+2023-08-22 15:16:47 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'
+
+2023-08-22 15:16:47 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'
+
+2023-08-22 15:16:48 - [MESSAGE][PASSED] - Text '3671072606990995' is set on object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'
+
+2023-08-22 15:16:49 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/Title' is clickable
+
+2023-08-22 15:16:49 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/Title
+
+2023-08-22 15:16:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/Title' is clicked on
+
+2023-08-22 15:16:50 - [MESSAGE][PASSED] - Keys 'Tn' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectTitle'
+
+2023-08-22 15:16:50 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectTitle' is present
+
+2023-08-22 15:16:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectTitle'
+
+2023-08-22 15:16:51 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan' is clickable
+
+2023-08-22 15:16:51 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan
+
+2023-08-22 15:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan' is clicked on
+
+2023-08-22 15:16:52 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan' is: 'Katalon'
+
+2023-08-22 15:16:53 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan'
+
+2023-08-22 15:16:53 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan'
+
+2023-08-22 15:16:54 - [MESSAGE][PASSED] - Text 'Katalon' is set on object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan'
+
+2023-08-22 15:16:55 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang' is clickable
+
+2023-08-22 15:16:55 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang
+
+2023-08-22 15:16:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang' is clicked on
+
+2023-08-22 15:16:55 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang' is: 'Principal'
+
+2023-08-22 15:16:55 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang'
+
+2023-08-22 15:16:56 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang'
+
+2023-08-22 15:16:57 - [MESSAGE][PASSED] - Text 'Principal' is set on object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang'
+
+2023-08-22 15:16:57 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin' is clickable
+
+2023-08-22 15:16:57 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin
+
+2023-08-22 15:16:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin' is clicked on
+
+2023-08-22 15:16:58 - [MESSAGE][PASSED] - Keys 'Laki-Laki' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'
+
+2023-08-22 15:16:59 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin' is present
+
+2023-08-22 15:16:59 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'
+
+2023-08-22 15:17:00 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/TglStatus' is clickable
+
+2023-08-22 15:17:00 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/TglStatus
+
+2023-08-22 15:17:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/TglStatus' is clicked on
+
+2023-08-22 15:17:01 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnSelanjutnya' is clickable
+
+2023-08-22 15:17:01 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnSelanjutnya
+
+2023-08-22 15:17:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnSelanjutnya' is clicked on
+
+2023-08-22 15:17:02 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername' is clickable
+
+2023-08-22 15:17:02 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername
+
+2023-08-22 15:17:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername' is clicked on
+
+2023-08-22 15:17:03 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/Peran' is clickable
+
+2023-08-22 15:17:03 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/PeranPengguna/Peran
+
+2023-08-22 15:17:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/PeranPengguna/Peran' is clicked on
+
+2023-08-22 15:17:04 - [MESSAGE][PASSED] - Keys 'principal' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'
+
+2023-08-22 15:17:04 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole' is present
+
+2023-08-22 15:17:05 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'
+
+2023-08-22 15:17:05 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup' is clickable
+
+2023-08-22 15:17:05 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup
+
+2023-08-22 15:17:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup' is clicked on
+
+2023-08-22 15:17:06 - [MESSAGE][PASSED] - Keys 'groupprincipal' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup'
+
+2023-08-22 15:17:07 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup' is present
+
+2023-08-22 15:17:07 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup'
+
+2023-08-22 15:17:08 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnUbah' is clickable
+
+2023-08-22 15:17:08 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnUbah
+
+2023-08-22 15:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnUbah' is clicked on
+
+2023-08-22 15:17:08 - [TEST_STEP][PASSED] - pengguna.refreshPage(): Refresh successfully
+
+2023-08-22 15:17:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-22 15:17:11 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-22 15:17:11 - [TEST_STEP][PASSED] - try: Refresh successfully
+
+2023-08-22 15:17:11 - [TEST_STEP][PASSED] - getHashMapEditPengguna = listHashMapEditPengguna.get(i): null
+
+2023-08-22 15:17:11 - [TEST_STEP][PASSED] - groupID = getHashMapEditPengguna.get("groupID"): null
+
+2023-08-22 15:17:11 - [TEST_STEP][PASSED] - logInfo(getHashMapEditPengguna.toString()): [Kategori:Nexsoft, leader:Khairina Wardina, lastName:Editoperator, Action:Edit, role:operator, gender:Laki-Laki, isLeader:Y, isCSO:N, listDist:, title:Tn, TD:TDG220606, csLevel:, NIK:3671072606990996, firstName:Katalon, dataGroup:nexsoft, csSpecialisasi:, username:cslevel1, status:Tidak Aktif]
+
+2023-08-22 15:17:11 - [MESSAGE][INFO] - [Kategori:Nexsoft, leader:Khairina Wardina, lastName:Editoperator, Action:Edit, role:operator, gender:Laki-Laki, isLeader:Y, isCSO:N, listDist:, title:Tn, TD:TDG220606, csLevel:, NIK:3671072606990996, firstName:Katalon, dataGroup:nexsoft, csSpecialisasi:, username:cslevel1, status:Tidak Aktif]
+
+2023-08-22 15:17:11 - [TEST_STEP][PASSED] - testDataNumber = getHashMapEditPengguna.get("TD"): null
+
+2023-08-22 15:17:11 - [TEST_STEP][PASSED] - pengguna.findUser(getHashMapEditPengguna): Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-22 15:17:11 - [MESSAGE][INFO] - Username: cslevel1
+
+2023-08-22 15:17:12 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/searchUser' is clickable
+
+2023-08-22 15:17:12 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/searchUser
+
+2023-08-22 15:17:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/searchUser' is clicked on
+
+2023-08-22 15:17:13 - [MESSAGE][PASSED] - Text 'cslevel1' is set on object 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-22 15:17:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-22 15:17:13 - [TEST_STEP][PASSED] - pengguna.editUser(): Refresh successfully
+
+2023-08-22 15:17:14 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/Edit' is clickable
+
+2023-08-22 15:17:14 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/Edit
+
+2023-08-22 15:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/Edit' is clicked on
+
+2023-08-22 15:17:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-22 15:17:18 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-22 15:17:18 - [TEST_STEP][PASSED] - pengguna.setEditUser(getHashMapEditPengguna): Object: 'Object Repository/Master Data/Pengguna/btnUbah' is clicked on
+
+2023-08-22 15:17:18 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/idPengguna' is present
+
+2023-08-22 15:17:20 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/Atasan' is clickable
+
+2023-08-22 15:17:20 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/Atasan
+
+2023-08-22 15:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/Atasan' is clicked on
+
+2023-08-22 15:17:21 - [MESSAGE][PASSED] - Keys 'Khairina Wardina' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectAtasan'
+
+2023-08-22 15:17:22 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectAtasan' is present
+
+2023-08-22 15:17:22 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectAtasan'
+
+2023-08-22 15:17:23 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK' is clickable
+
+2023-08-22 15:17:23 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/NIK
+
+2023-08-22 15:17:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK' is clicked on
+
+2023-08-22 15:17:24 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK' is: '3671072606990996'
+
+2023-08-22 15:17:24 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'
+
+2023-08-22 15:17:25 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'
+
+2023-08-22 15:17:26 - [MESSAGE][PASSED] - Text '3671072606990996' is set on object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'
+
+2023-08-22 15:17:26 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/Title' is clickable
+
+2023-08-22 15:17:26 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/Title
+
+2023-08-22 15:17:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/Title' is clicked on
+
+2023-08-22 15:17:27 - [MESSAGE][PASSED] - Keys 'Tn' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectTitle'
+
+2023-08-22 15:17:28 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectTitle' is present
+
+2023-08-22 15:17:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectTitle'
+
+2023-08-22 15:17:29 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan' is clickable
+
+2023-08-22 15:17:29 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan
+
+2023-08-22 15:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan' is clicked on
+
+2023-08-22 15:17:30 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan' is: 'Katalon'
+
+2023-08-22 15:17:30 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan'
+
+2023-08-22 15:17:30 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan'
+
+2023-08-22 15:17:31 - [MESSAGE][PASSED] - Text 'Katalon' is set on object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan'
+
+2023-08-22 15:17:32 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang' is clickable
+
+2023-08-22 15:17:32 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang
+
+2023-08-22 15:17:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang' is clicked on
+
+2023-08-22 15:17:33 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang' is: 'Editoperator'
+
+2023-08-22 15:17:33 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang'
+
+2023-08-22 15:17:33 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang'
+
+2023-08-22 15:17:34 - [MESSAGE][PASSED] - Text 'Editoperator' is set on object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang'
+
+2023-08-22 15:17:35 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin' is clickable
+
+2023-08-22 15:17:35 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin
+
+2023-08-22 15:17:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin' is clicked on
+
+2023-08-22 15:17:36 - [MESSAGE][PASSED] - Keys 'Laki-Laki' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'
+
+2023-08-22 15:17:36 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin' is present
+
+2023-08-22 15:17:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'
+
+2023-08-22 15:17:37 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/TglStatus' is clickable
+
+2023-08-22 15:17:37 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/TglStatus
+
+2023-08-22 15:17:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/TglStatus' is clicked on
+
+2023-08-22 15:17:38 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnSelanjutnya' is clickable
+
+2023-08-22 15:17:38 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnSelanjutnya
+
+2023-08-22 15:17:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnSelanjutnya' is clicked on
+
+2023-08-22 15:17:39 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername' is clickable
+
+2023-08-22 15:17:39 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername
+
+2023-08-22 15:17:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername' is clicked on
+
+2023-08-22 15:17:40 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/Peran' is clickable
+
+2023-08-22 15:17:40 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/PeranPengguna/Peran
+
+2023-08-22 15:17:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/PeranPengguna/Peran' is clicked on
+
+2023-08-22 15:17:41 - [MESSAGE][PASSED] - Keys 'operator' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'
+
+2023-08-22 15:17:41 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole' is present
+
+2023-08-22 15:17:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'
+
+2023-08-22 15:17:42 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup' is clickable
+
+2023-08-22 15:17:42 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup
+
+2023-08-22 15:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup' is clicked on
+
+2023-08-22 15:17:43 - [MESSAGE][PASSED] - Keys 'nexsoft' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup'
+
+2023-08-22 15:17:44 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup' is present
+
+2023-08-22 15:17:44 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup'
+
+2023-08-22 15:17:45 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnUbah' is clickable
+
+2023-08-22 15:17:45 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnUbah
+
+2023-08-22 15:17:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnUbah' is clicked on
+
+2023-08-22 15:17:45 - [TEST_STEP][PASSED] - pengguna.refreshPage(): Refresh successfully
+
+2023-08-22 15:17:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-22 15:17:49 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-22 15:17:49 - [TEST_STEP][PASSED] - generalAction.logoutAndCloseBrowser(): Browser is closed
+
+2023-08-22 15:17:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-22 15:17:52 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page(General)/Page_NexCARE/btnLogOut' is clickable
+
+2023-08-22 15:17:52 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page(General)/Page_NexCARE/btnLogOut' is clickable
+
+2023-08-22 15:17:52 - [MESSAGE][INFO] - Click Element = Object Repository/Home Page(General)/Page_NexCARE/btnLogOut
+
+2023-08-22 15:17:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page(General)/Page_NexCARE/btnLogOut' is clicked on
+
+2023-08-22 15:17:53 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page(General)/Konfrimasi Keluar' is clickable
+
+2023-08-22 15:17:53 - [MESSAGE][INFO] - Click Element = Object Repository/Home Page(General)/Konfrimasi Keluar
+
+2023-08-22 15:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page(General)/Konfrimasi Keluar' is clicked on
+
+2023-08-22 15:17:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-22 15:17:58 - [MESSAGE][PASSED] - Browser is closed
+
+2023-08-22 15:17:58 - [TEST_STEP][ERROR] - Start listener action : afterTestCase: org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'CChromeDriver: chrome on WINDOWS (null)' with class 'com.kms.katalon.selenium.driver.CChromeDriver' to class 'org.openqa.selenium.support.events.EventFiringWebDriver'
+	at WebTestListener.afterTestCase(WebTestListener.groovy:117)
+	at WebTestListener.invokeMethod(WebTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691998760.run(TempTestSuite1692691998760.groovy:36)
+
+
+2023-08-22 15:17:58 - [TEST_STEP][ERROR] - if (!(isSkipTestListener)): org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'CChromeDriver: chrome on WINDOWS (null)' with class 'com.kms.katalon.selenium.driver.CChromeDriver' to class 'org.openqa.selenium.support.events.EventFiringWebDriver'
+	at WebTestListener.afterTestCase(WebTestListener.groovy:117)
+	at WebTestListener.invokeMethod(WebTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691998760.run(TempTestSuite1692691998760.groovy:36)
+
+
+2023-08-22 15:17:58 - [TEST_STEP][ERROR] - if (!(isSkipReport)): org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'CChromeDriver: chrome on WINDOWS (null)' with class 'com.kms.katalon.selenium.driver.CChromeDriver' to class 'org.openqa.selenium.support.events.EventFiringWebDriver'
+	at WebTestListener.afterTestCase(WebTestListener.groovy:117)
+	at WebTestListener.invokeMethod(WebTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691998760.run(TempTestSuite1692691998760.groovy:36)
+
+
+2023-08-22 15:17:58 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-08-22 15:17:58 - [TEST_STEP][PASSED] - endTimeTC = simpleDateFormat.format(new java.util.Date()): null
+
+2023-08-22 15:17:58 - [TEST_STEP][PASSED] - projectId = projectID: null
+
+2023-08-22 15:17:58 - [TEST_STEP][PASSED] - testCase = currentTestCaseId: null
+
+2023-08-22 15:17:58 - [TEST_STEP][PASSED] - tc = findTestCase(testCase): null
+
+2023-08-22 15:17:58 - [TEST_STEP][PASSED] - subject = name: null
+
+2023-08-22 15:17:58 - [TEST_STEP][PASSED] - tag = tc.getTag(): null
+
+2023-08-22 15:17:58 - [TEST_STEP][PASSED] - desc = tc.getDescription(): null
+
+2023-08-22 15:17:58 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+2023-08-22 15:17:58 - [TEST_STEP][ERROR] - caps = getWrappedDriver().getCapabilities(): org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'CChromeDriver: chrome on WINDOWS (null)' with class 'com.kms.katalon.selenium.driver.CChromeDriver' to class 'org.openqa.selenium.support.events.EventFiringWebDriver'
+	at WebTestListener.afterTestCase(WebTestListener.groovy:117)
+	at WebTestListener.invokeMethod(WebTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691998760.run(TempTestSuite1692691998760.groovy:36)
+
+
+2023-08-22 15:17:58 - [MESSAGE][ERROR] - org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'CChromeDriver: chrome on WINDOWS (null)' with class 'com.kms.katalon.selenium.driver.CChromeDriver' to class 'org.openqa.selenium.support.events.EventFiringWebDriver'
+	at WebTestListener.afterTestCase(WebTestListener.groovy:117)
+	at WebTestListener.invokeMethod(WebTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691998760.run(TempTestSuite1692691998760.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-08-22 15:13:28 - [TEST_CASE][FAILED] - Test Cases/Master Data/Pengguna/Pengguna - edit: Test Cases/Master Data/Pengguna/Pengguna - edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$1.call(Unknown Source)
+	at Pengguna - edit.run(Pengguna - edit:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691998760.run(TempTestSuite1692691998760.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-22 15:13:24 - [TEST_SUITE][FAILED] - User - edit: Test Cases/Master Data/Pengguna/Pengguna - edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$1.call(Unknown Source)
+	at Pengguna - edit.run(Pengguna - edit:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691998760.run(TempTestSuite1692691998760.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-08-22 15:13:24 - [TEST_SUITE][FAILED] - User - edit: Test Cases/Master Data/Pengguna/Pengguna - edit FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$1.call(Unknown Source)
+	at Pengguna - edit.run(Pengguna - edit:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692691998760.run(TempTestSuite1692691998760.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

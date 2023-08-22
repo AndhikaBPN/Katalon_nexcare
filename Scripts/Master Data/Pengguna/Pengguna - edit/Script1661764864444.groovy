@@ -48,9 +48,6 @@ for (int i = 0; i < listHashMapEditPengguna.size(); i++) {
 		pengguna.findUser(getHashMapEditPengguna)
 		pengguna.editUser()
 		pengguna.setEditUser(getHashMapEditPengguna)
-		WebUI.click(findTestObject('Object Repository/Master Data/Pengguna/BackToAccount'))
-		WebUI.click(findTestObject('Object Repository/Master Data/Pengguna/BackToProfilePengguna'))
-		WebUI.click(findTestObject('Object Repository/Master Data/Pengguna/BackToList'))
 		pengguna.refreshPage()
 		
 	} catch (Exception e) {
@@ -58,3 +55,5 @@ for (int i = 0; i < listHashMapEditPengguna.size(); i++) {
 		continue;
 	}
 }
+
+generalAction.logoutAndCloseBrowser()

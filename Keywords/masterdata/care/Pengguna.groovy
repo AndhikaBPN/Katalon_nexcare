@@ -52,6 +52,7 @@ public class Pengguna {
 
 	public void findUser(HashMap hashMapFindUser) {
 		String username = hashMapFindUser.get("username")
+		KeywordUtil.logInfo('Username: ' + username)
 		GeneralAction.clickElementAndSearch(findTestObject('Object Repository/Master Data/Pengguna/searchUser'), username)
 	}
 
@@ -61,6 +62,7 @@ public class Pengguna {
 
 	public void editUser() {
 		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/Edit'))
+		refreshPage()
 	}
 
 	public void deleteUser() {
@@ -281,8 +283,9 @@ public class Pengguna {
 		String listDist = hashMapEditUser.get("listDist")
 		String role = hashMapEditUser.get("role")
 		String dataGroup = hashMapEditUser.get("dataGroup")
+		String status = hashMapEditUser.get("status")
 
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Master Data/Pengguna/idPengguna'), 0, FailureHandling.STOP_ON_FAILURE)
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Master Data/Pengguna/idPengguna'), 10, FailureHandling.STOP_ON_FAILURE)
 
 		if(Kategori.equalsIgnoreCase("Distributor")) {
 			List alldist = listDist.split(',')
@@ -310,14 +313,15 @@ public class Pengguna {
 
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin'),
 					findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'), gender)
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/TglStatus', [('status') : status]))
 			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername'))
 
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/Peran'),
 					findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'), role)
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup'),
 					findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup'), dataGroup)
-			//		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/Tambah'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnUbah'))
 		}else if(Kategori.equalsIgnoreCase("Principal")) {
 			if(!NIK.equalsIgnoreCase("")) {
 				GeneralAction.clickElementAndType(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'), NIK)
@@ -336,14 +340,15 @@ public class Pengguna {
 
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin'),
 					findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'), gender)
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/TglStatus', [('status') : status]))
 			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername'))
 
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/Peran'),
 					findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'), role)
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup'),
 					findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup'), dataGroup)
-			//		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/Tambah'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnUbah'))
 		}else {
 			if(isCSO.equalsIgnoreCase("Y")) {
 				WebElement webElement = WebUIAbstractKeyword.findWebElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/CSOfficer'), 3)
@@ -413,14 +418,27 @@ public class Pengguna {
 
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin'),
 					findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/SelectJenisKelamin'), gender)
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/TglStatus', [('status') : status]))
 			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername'))
 
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/Peran'),
 					findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/SelectRole'), role)
 			GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/DataGroup'),
 					findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/SelectDataGroup'), dataGroup)
-			//		GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/Tambah'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnUbah'))
+			
+			try {
+				if(WebUI.verifyElementNotVisible(findTestObject('Object Repository/Master Data/Pengguna/btnYes'), FailureHandling.OPTIONAL)) {
+					KeywordUtil.logInfo('message: button yes tidak muncul')
+				} else {
+					GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnYes'))
+					KeywordUtil.logInfo('message: button yes muncul')
+				}
+			} catch (Exception e) {
+				KeywordUtil.logInfo('message: button yes muncul')
+			}
+			
 		}
 	}
 

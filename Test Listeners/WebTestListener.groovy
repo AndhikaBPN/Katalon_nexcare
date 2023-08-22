@@ -113,8 +113,8 @@ class WebTestListener {
 				String desc = tc.getDescription()
 				String status = testCaseContext.getTestCaseStatus()
 				
-//				Capabilities caps = ((RemoteWebDriver) driver).getCapabilities()
-				Capabilities caps = ((RemoteWebDriver) (((EventFiringWebDriver) driver).getWrappedDriver())).getCapabilities()
+				Capabilities caps = ((RemoteWebDriver) driver).getCapabilities()
+//				Capabilities caps = ((RemoteWebDriver) (((EventFiringWebDriver) driver).getWrappedDriver())).getCapabilities()
 				String platform = caps.getBrowserName().capitalize()
 				String platformVersion = caps.getVersion()
 
