@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User,Chrome 116.0.0.0,,,2023-08-23 13:52:54,2023-08-23 13:57:10,4m - 16.840s,PASSED
+,,,,,,,
+Test Cases/Master Data/Pengguna/Pengguna - edit,Chrome 116.0.0.0,,,2023-08-23 13:52:56,2023-08-23 13:57:10,4m - 14.274s,PASSED
+Start listener action : beforeTestCase,Chrome 116.0.0.0,,,2023-08-23 13:52:56,2023-08-23 13:52:56,0.022s,PASSED
+handleWebDriver = new care.katalon.HandleWebDriver(),Chrome 116.0.0.0,,,2023-08-23 13:52:56,2023-08-23 13:52:56,0.005s,PASSED
+handleWebDriver.startAndOpenWebBrowser(baseUrl),Chrome 116.0.0.0,,,2023-08-23 13:52:56,2023-08-23 13:53:00,3.196s,PASSED
+generalAction = new care.katalon.GeneralAction(),Chrome 116.0.0.0,,,2023-08-23 13:53:00,2023-08-23 13:53:00,0.019s,PASSED
+handleTestData = new care.katalon.HandleTestData(),Chrome 116.0.0.0,,,2023-08-23 13:53:00,2023-08-23 13:53:00,0.010s,PASSED
+pengguna = new masterdata.care.Pengguna(),Chrome 116.0.0.0,,,2023-08-23 13:53:00,2023-08-23 13:53:00,0.014s,PASSED
+"generalAction.login("""")",Chrome 116.0.0.0,,,2023-08-23 13:53:00,2023-08-23 13:53:06,5.949s,PASSED
+pengguna.menuPengguna(),Chrome 116.0.0.0,,,2023-08-23 13:53:06,2023-08-23 13:53:11,4.908s,PASSED
+"excelLocation = ""Master Data\Pengguna\Pengguna - edit.xlsx""",Chrome 116.0.0.0,,,2023-08-23 13:53:11,2023-08-23 13:53:11,0.001s,PASSED
+"sheetNamePengguna = ""Pengguna-edit""",Chrome 116.0.0.0,,,2023-08-23 13:53:11,2023-08-23 13:53:11,0.001s,PASSED
+"listHashMapEditPengguna = handleTestData.readTestData(excelLocation, sheetNamePengguna, true)",Chrome 116.0.0.0,,,2023-08-23 13:53:11,2023-08-23 13:53:11,0.609s,PASSED
+"for ([i = 0, i < listHashMapEditPengguna.size(), (i++)])",Chrome 116.0.0.0,,,2023-08-23 13:53:11,2023-08-23 13:57:01,3m - 50.309s,PASSED
+generalAction.logoutAndCloseBrowser(),Chrome 116.0.0.0,,,2023-08-23 13:57:01,2023-08-23 13:57:10,8.738s,PASSED
+Start listener action : afterTestCase,Chrome 116.0.0.0,,,2023-08-23 13:57:10,2023-08-23 13:57:10,0.149s,PASSED

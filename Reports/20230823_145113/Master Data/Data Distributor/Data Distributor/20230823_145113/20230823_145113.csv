@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data Distributor,Chrome 116.0.0.0,,,2023-08-23 14:51:16,2023-08-23 14:59:51,8m - 34.986s,PASSED
+,,,,,,,
+Test Cases/Master Data/Data Customer/Data Customer - Add,Chrome 116.0.0.0,,,2023-08-23 14:51:19,2023-08-23 14:56:40,5m - 21.263s,PASSED
+Start listener action : beforeTestCase,Chrome 116.0.0.0,,,2023-08-23 14:51:19,2023-08-23 14:51:19,0.017s,PASSED
+handleWebDriver = new care.katalon.HandleWebDriver(),Chrome 116.0.0.0,,,2023-08-23 14:51:19,2023-08-23 14:51:19,0.003s,PASSED
+handleWebDriver.startAndOpenWebBrowser(baseUrl),Chrome 116.0.0.0,,,2023-08-23 14:51:19,2023-08-23 14:51:25,5.989s,PASSED
+generalAction = new care.katalon.GeneralAction(),Chrome 116.0.0.0,,,2023-08-23 14:51:25,2023-08-23 14:51:25,0.018s,PASSED
+handleTestData = new care.katalon.HandleTestData(),Chrome 116.0.0.0,,,2023-08-23 14:51:25,2023-08-23 14:51:26,0.005s,PASSED
+dataCustomer = new masterdata.care.DataCustomer(),Chrome 116.0.0.0,,,2023-08-23 14:51:26,2023-08-23 14:51:26,0.006s,PASSED
+"generalAction.login("""")",Chrome 116.0.0.0,,,2023-08-23 14:51:26,2023-08-23 14:51:32,6.127s,PASSED
+dataCustomer.menuDataCustomer(),Chrome 116.0.0.0,,,2023-08-23 14:51:32,2023-08-23 14:51:38,6.403s,PASSED
+"excelLocation = ""Master Data\Data Customer\dataCustomer - add.xlsx""",Chrome 116.0.0.0,,,2023-08-23 14:51:38,2023-08-23 14:51:38,0.002s,PASSED
+"sheetNameDataCustomer = ""DataCustomer""",Chrome 116.0.0.0,,,2023-08-23 14:51:38,2023-08-23 14:51:38,0.001s,PASSED
+"listHashMapDataCustomer = handleTestData.readTestData(excelLocation, sheetNameDataCustomer, true)",Chrome 116.0.0.0,,,2023-08-23 14:51:38,2023-08-23 14:51:39,0.836s,PASSED
+"namaCustomer = """"",Chrome 116.0.0.0,,,2023-08-23 14:51:39,2023-08-23 14:51:39,0.001s,PASSED
+"for ([i = 0, i < listHashMapDataCustomer.size(), (i++)])",Chrome 116.0.0.0,,,2023-08-23 14:51:39,2023-08-23 14:56:31,4m - 52.550s,PASSED
+generalAction.logoutAndCloseBrowser(),Chrome 116.0.0.0,,,2023-08-23 14:56:31,2023-08-23 14:56:40,8.742s,PASSED
+Start listener action : afterTestCase,Chrome 116.0.0.0,,,2023-08-23 14:56:40,2023-08-23 14:56:40,0.165s,PASSED
+,,,,,,,
+Test Cases/Master Data/Data Customer/Data Customer - Edit,Chrome 116.0.0.0,,,2023-08-23 14:56:40,2023-08-23 14:59:03,2m - 22.796s,PASSED
+Start listener action : beforeTestCase,Chrome 116.0.0.0,,,2023-08-23 14:56:40,2023-08-23 14:56:40,0.000s,PASSED
+handleWebDriver = new care.katalon.HandleWebDriver(),Chrome 116.0.0.0,,,2023-08-23 14:56:41,2023-08-23 14:56:41,0.001s,PASSED
+handleWebDriver.startAndOpenWebBrowser(baseUrl),Chrome 116.0.0.0,,,2023-08-23 14:56:41,2023-08-23 14:56:43,2.256s,PASSED
+generalAction = new care.katalon.GeneralAction(),Chrome 116.0.0.0,,,2023-08-23 14:56:43,2023-08-23 14:56:43,0.000s,PASSED
+handleTestData = new care.katalon.HandleTestData(),Chrome 116.0.0.0,,,2023-08-23 14:56:43,2023-08-23 14:56:43,0.000s,PASSED
+dataCustomer = new masterdata.care.DataCustomer(),Chrome 116.0.0.0,,,2023-08-23 14:56:43,2023-08-23 14:56:43,0.000s,PASSED
+"generalAction.login("""")",Chrome 116.0.0.0,,,2023-08-23 14:56:43,2023-08-23 14:56:49,5.865s,PASSED
+dataCustomer.menuDataCustomer(),Chrome 116.0.0.0,,,2023-08-23 14:56:49,2023-08-23 14:56:55,6.076s,PASSED
+"excelLocation = ""Master Data\Data Customer\dataCustomer - edit.xlsx""",Chrome 116.0.0.0,,,2023-08-23 14:56:55,2023-08-23 14:56:55,0.000s,PASSED
+"sheetNameEditDataCustomer = ""DataCustomer-Edit""",Chrome 116.0.0.0,,,2023-08-23 14:56:55,2023-08-23 14:56:55,0.000s,PASSED
+"listHashMapEditDataCustomer = handleTestData.readTestData(excelLocation, sheetNameEditDataCustomer, true)",Chrome 116.0.0.0,,,2023-08-23 14:56:55,2023-08-23 14:56:55,0.070s,PASSED
+"namaCustomer = """"",Chrome 116.0.0.0,,,2023-08-23 14:56:55,2023-08-23 14:56:55,0.000s,PASSED
+dataEdit = new java.util.HashMap(),Chrome 116.0.0.0,,,2023-08-23 14:56:55,2023-08-23 14:56:55,0.000s,PASSED
+dataWithSameCustomerName = new java.util.ArrayList(),Chrome 116.0.0.0,,,2023-08-23 14:56:55,2023-08-23 14:56:55,0.002s,PASSED
+"testData = """"",Chrome 116.0.0.0,,,2023-08-23 14:56:55,2023-08-23 14:56:55,0.000s,PASSED
+"cat = """"",Chrome 116.0.0.0,,,2023-08-23 14:56:55,2023-08-23 14:56:55,0.000s,PASSED
+"message = """"",Chrome 116.0.0.0,,,2023-08-23 14:56:55,2023-08-23 14:56:55,0.000s,PASSED
+"for ([i = 0, i < listHashMapEditDataCustomer.size(), (i++)])",Chrome 116.0.0.0,,,2023-08-23 14:56:55,2023-08-23 14:56:55,0.024s,PASSED
+for (String i : dataEdit.keySet()),Chrome 116.0.0.0,,,2023-08-23 14:56:55,2023-08-23 14:58:54,1m - 59.384s,PASSED
+generalAction.logoutAndCloseBrowser(),Chrome 116.0.0.0,,,2023-08-23 14:58:54,2023-08-23 14:59:03,8.710s,PASSED
+Start listener action : afterTestCase,Chrome 116.0.0.0,,,2023-08-23 14:59:03,2023-08-23 14:59:03,0.091s,PASSED
+,,,,,,,
+Test Cases/Master Data/Data Customer/Data Customer - View,Chrome 116.0.0.0,,,2023-08-23 14:59:03,2023-08-23 14:59:51,48.142s,PASSED
+Start listener action : beforeTestCase,Chrome 116.0.0.0,,,2023-08-23 14:59:03,2023-08-23 14:59:03,0.000s,PASSED
+handleWebDriver = new care.katalon.HandleWebDriver(),Chrome 116.0.0.0,,,2023-08-23 14:59:03,2023-08-23 14:59:03,0.000s,PASSED
+handleWebDriver.startAndOpenWebBrowser(baseUrl),Chrome 116.0.0.0,,,2023-08-23 14:59:03,2023-08-23 14:59:06,2.381s,PASSED
+generalAction = new care.katalon.GeneralAction(),Chrome 116.0.0.0,,,2023-08-23 14:59:06,2023-08-23 14:59:06,0.000s,PASSED
+handleTestData = new care.katalon.HandleTestData(),Chrome 116.0.0.0,,,2023-08-23 14:59:06,2023-08-23 14:59:06,0.001s,PASSED
+dataCustomer = new masterdata.care.DataCustomer(),Chrome 116.0.0.0,,,2023-08-23 14:59:06,2023-08-23 14:59:06,0.000s,PASSED
+"generalAction.login("""")",Chrome 116.0.0.0,,,2023-08-23 14:59:06,2023-08-23 14:59:12,5.919s,PASSED
+dataCustomer.menuDataCustomer(),Chrome 116.0.0.0,,,2023-08-23 14:59:12,2023-08-23 14:59:18,6.152s,PASSED
+"excelLocation = ""Master Data\Data Customer\dataCustomer - edit.xlsx""",Chrome 116.0.0.0,,,2023-08-23 14:59:18,2023-08-23 14:59:18,0.000s,PASSED
+"sheetNameEditDataCustomer = ""DataCustomer-Edit""",Chrome 116.0.0.0,,,2023-08-23 14:59:18,2023-08-23 14:59:18,0.000s,PASSED
+"listHashMapEditDataCustomer = handleTestData.readTestData(excelLocation, sheetNameEditDataCustomer, true)",Chrome 116.0.0.0,,,2023-08-23 14:59:18,2023-08-23 14:59:18,0.040s,PASSED
+"namaCustomer = """"",Chrome 116.0.0.0,,,2023-08-23 14:59:18,2023-08-23 14:59:18,0.000s,PASSED
+dataEdit = new java.util.HashMap(),Chrome 116.0.0.0,,,2023-08-23 14:59:18,2023-08-23 14:59:18,0.000s,PASSED
+dataWithSameCustomerName = new java.util.ArrayList(),Chrome 116.0.0.0,,,2023-08-23 14:59:18,2023-08-23 14:59:18,0.000s,PASSED
+"for ([i = 0, i < listHashMapEditDataCustomer.size(), (i++)])",Chrome 116.0.0.0,,,2023-08-23 14:59:18,2023-08-23 14:59:18,0.011s,PASSED
+for (String i : dataEdit.keySet()),Chrome 116.0.0.0,,,2023-08-23 14:59:18,2023-08-23 14:59:42,24.384s,PASSED
+generalAction.logoutAndCloseBrowser(),Chrome 116.0.0.0,,,2023-08-23 14:59:42,2023-08-23 14:59:51,8.861s,PASSED
+Start listener action : afterTestCase,Chrome 116.0.0.0,,,2023-08-23 14:59:51,2023-08-23 14:59:51,0.087s,PASSED

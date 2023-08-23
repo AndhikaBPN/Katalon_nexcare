@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data Group,Chrome 116.0.0.0,,,2023-08-23 14:36:53,2023-08-23 14:43:14,6m - 20.446s,PASSED
+,,,,,,,
+Test Cases/Master Data/Data Group/Data Group - Add,Chrome 116.0.0.0,,,2023-08-23 14:36:56,2023-08-23 14:39:53,2m - 56.615s,PASSED
+Start listener action : beforeTestCase,Chrome 116.0.0.0,,,2023-08-23 14:36:56,2023-08-23 14:36:56,0.021s,PASSED
+handleWebDriver = new care.katalon.HandleWebDriver(),Chrome 116.0.0.0,,,2023-08-23 14:36:56,2023-08-23 14:36:56,0.007s,PASSED
+handleWebDriver.startAndOpenWebBrowser(baseUrl),Chrome 116.0.0.0,,,2023-08-23 14:36:56,2023-08-23 14:37:01,5.030s,PASSED
+generalAction = new care.katalon.GeneralAction(),Chrome 116.0.0.0,,,2023-08-23 14:37:01,2023-08-23 14:37:01,0.011s,PASSED
+handleTestData = new care.katalon.HandleTestData(),Chrome 116.0.0.0,,,2023-08-23 14:37:01,2023-08-23 14:37:01,0.012s,PASSED
+dataGroup = new masterdata.care.DataGroup(),Chrome 116.0.0.0,,,2023-08-23 14:37:01,2023-08-23 14:37:01,0.010s,PASSED
+try,Chrome 116.0.0.0,,,2023-08-23 14:37:01,2023-08-23 14:39:53,2m - 51.092s,PASSED
+Start listener action : afterTestCase,Chrome 116.0.0.0,,,2023-08-23 14:39:53,2023-08-23 14:39:53,0.030s,ERROR
+,,,,,,,
+Test Cases/Master Data/Data Group/Data Group - Edit,Chrome 116.0.0.0,,,2023-08-23 14:39:53,2023-08-23 14:42:23,2m - 30.012s,PASSED
+Start listener action : beforeTestCase,Chrome 116.0.0.0,,,2023-08-23 14:39:53,2023-08-23 14:39:53,0.001s,PASSED
+handleWebDriver = new care.katalon.HandleWebDriver(),Chrome 116.0.0.0,,,2023-08-23 14:39:53,2023-08-23 14:39:53,0.000s,PASSED
+handleWebDriver.startAndOpenWebBrowser(baseUrl),Chrome 116.0.0.0,,,2023-08-23 14:39:53,2023-08-23 14:39:55,2.327s,PASSED
+generalAction = new care.katalon.GeneralAction(),Chrome 116.0.0.0,,,2023-08-23 14:39:55,2023-08-23 14:39:55,0.000s,PASSED
+handleTestData = new care.katalon.HandleTestData(),Chrome 116.0.0.0,,,2023-08-23 14:39:55,2023-08-23 14:39:55,0.001s,PASSED
+dataGroup = new masterdata.care.DataGroup(),Chrome 116.0.0.0,,,2023-08-23 14:39:55,2023-08-23 14:39:55,0.000s,PASSED
+try,Chrome 116.0.0.0,,,2023-08-23 14:39:55,2023-08-23 14:42:23,2m - 27.370s,PASSED
+Start listener action : afterTestCase,Chrome 116.0.0.0,,,2023-08-23 14:42:23,2023-08-23 14:42:23,0.006s,ERROR
+,,,,,,,
+Test Cases/Master Data/Data Group/Data Group - View,Chrome 116.0.0.0,,,2023-08-23 14:42:23,2023-08-23 14:43:14,50.980s,PASSED
+Start listener action : beforeTestCase,Chrome 116.0.0.0,,,2023-08-23 14:42:23,2023-08-23 14:42:23,0.002s,PASSED
+handleWebDriver = new care.katalon.HandleWebDriver(),Chrome 116.0.0.0,,,2023-08-23 14:42:23,2023-08-23 14:42:23,0.000s,PASSED
+handleWebDriver.startAndOpenWebBrowser(baseUrl),Chrome 116.0.0.0,,,2023-08-23 14:42:23,2023-08-23 14:42:28,4.563s,PASSED
+generalAction = new care.katalon.GeneralAction(),Chrome 116.0.0.0,,,2023-08-23 14:42:28,2023-08-23 14:42:28,0.002s,PASSED
+handleTestData = new care.katalon.HandleTestData(),Chrome 116.0.0.0,,,2023-08-23 14:42:28,2023-08-23 14:42:28,0.000s,PASSED
+dataGroup = new masterdata.care.DataGroup(),Chrome 116.0.0.0,,,2023-08-23 14:42:28,2023-08-23 14:42:28,0.001s,PASSED
+"generalAction.login("""")",Chrome 116.0.0.0,,,2023-08-23 14:42:28,2023-08-23 14:42:33,5.534s,PASSED
+dataGroup.menuDataGroup(),Chrome 116.0.0.0,,,2023-08-23 14:42:33,2023-08-23 14:42:38,4.898s,PASSED
+"excelLocation = ""Master Data\Data Group\dataGroup - view.xlsx""",Chrome 116.0.0.0,,,2023-08-23 14:42:38,2023-08-23 14:42:38,0.002s,PASSED
+"sheetNameDataGroup = ""DataGroup-view""",Chrome 116.0.0.0,,,2023-08-23 14:42:38,2023-08-23 14:42:38,0.000s,PASSED
+"listHashMapDataGroup = handleTestData.readTestData(excelLocation, sheetNameDataGroup, true)",Chrome 116.0.0.0,,,2023-08-23 14:42:38,2023-08-23 14:42:38,0.051s,PASSED
+"for ([i = 0, i < listHashMapDataGroup.size(), (i++)])",Chrome 116.0.0.0,,,2023-08-23 14:42:38,2023-08-23 14:43:13,35.460s,PASSED
+Start listener action : afterTestCase,Chrome 116.0.0.0,,,2023-08-23 14:43:13,2023-08-23 14:43:14,0.125s,PASSED

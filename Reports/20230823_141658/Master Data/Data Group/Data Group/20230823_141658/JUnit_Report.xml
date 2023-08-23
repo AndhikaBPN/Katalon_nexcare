@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data Group" time="262.348" tests="1" failures="0" errors="0">
+   <testsuite name="Data Group" tests="1" failures="0" errors="0" time="262.348" skipped="0" timestamp="2023-08-23 14:17:05" hostname="NEXSOFT - DESKTOP-C56VD1H" id="Test Suites/Master Data/Data Group/Data Group">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\NEXSOFT\\Documents\\Nexsoft\\Katalon\\Katalon_nexcare\\Reports\\20230823_141658\\Master Data\\Data Group\\Data Group\\20230823_141658"/>
+         <property name="logFiles" value="C:\\Users\\NEXSOFT\\Documents\\Nexsoft\\Katalon\\Katalon_nexcare\\Reports\\20230823_141658\\Master Data\\Data Group\\Data Group\\20230823_141658\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\NEXSOFT\\Documents\\Nexsoft\\Katalon\\Katalon_nexcare\\Reports\\20230823_141658\\Master Data\\Data Group\\Data Group\\20230823_141658\\1692775092227.png, C:\\Users\\NEXSOFT\\Documents\\Nexsoft\\Katalon\\Katalon_nexcare\\Reports\\20230823_141658\\Master Data\\Data Group\\Data Group\\20230823_141658\\1692775143269.png, C:\\Users\\NEXSOFT\\Documents\\Nexsoft\\Katalon\\Katalon_nexcare\\Reports\\20230823_141658\\Master Data\\Data Group\\Data Group\\20230823_141658\\1692775186874.png, C:\\Users\\NEXSOFT\\Documents\\Nexsoft\\Katalon\\Katalon_nexcare\\Reports\\20230823_141658\\Master Data\\Data Group\\Data Group\\20230823_141658\\1692775229876.png, C:\\Users\\NEXSOFT\\Documents\\Nexsoft\\Katalon\\Katalon_nexcare\\Reports\\20230823_141658\\Master Data\\Data Group\\Data Group\\20230823_141658\\1692775270639.png"/>
+         <property name="hostName" value="NEXSOFT - DESKTOP-C56VD1H"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 116.0.0.0"/>
+         <property name="hostAddress" value="10.10.18.38"/>
+         <property name="sessionId" value="15e648fed6b62eaff56f83427ca5c826"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Master Data/Data Group/Data Group - Add" time="259.394" classname="Test Cases/Master Data/Data Group/Data Group - Add" status="INCOMPLETE">
+         <system-out><![CDATA[2023-08-23 14:17:08 - [TEST_CASE][INCOMPLETE] - Test Cases/Master Data/Data Group/Data Group - Add: null
+
+2023-08-23 14:17:08 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2023-08-23 14:17:08 - [TEST_STEP][PASSED] - if (!(isSkipTestListener)): null
+
+2023-08-23 14:17:08 - [TEST_STEP][PASSED] - if (!(isSkipReport)): null
+
+2023-08-23 14:17:08 - [TEST_STEP][PASSED] - startTimeTC = simpleDateFormat.format(new java.util.Date()): null
+
+2023-08-23 14:17:08 - [TEST_STEP][PASSED] - currentTestCaseId = testCaseContext.getTestCaseId(): null
+
+2023-08-23 14:17:08 - [TEST_STEP][PASSED] - handleWebDriver = new care.katalon.HandleWebDriver(): null
+
+2023-08-23 14:17:08 - [TEST_STEP][PASSED] - handleWebDriver.startAndOpenWebBrowser(baseUrl): Wait for page load successfully
+
+2023-08-23 14:17:08 - [MESSAGE][INFO] - URL ENV = https://staging-care.nexcloud.id/
+
+2023-08-23 14:17:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-23 14:17:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-23 14:17:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-23 14:17:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-23 14:17:10 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-23 14:17:15 - [MESSAGE][PASSED] - Navigate to 'https://staging-care.nexcloud.id/' successfully
+
+2023-08-23 14:17:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-23 14:17:15 - [TEST_STEP][PASSED] - generalAction = new care.katalon.GeneralAction(): null
+
+2023-08-23 14:17:15 - [TEST_STEP][PASSED] - handleTestData = new care.katalon.HandleTestData(): null
+
+2023-08-23 14:17:15 - [TEST_STEP][PASSED] - dataGroup = new masterdata.care.DataGroup(): null
+
+2023-08-23 14:17:15 - [TEST_STEP][INCOMPLETE] - try: null
+
+2023-08-23 14:17:15 - [TEST_STEP][PASSED] - generalAction.login(""): Wait for page load successfully
+
+2023-08-23 14:17:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login/username' is clickable
+
+2023-08-23 14:17:16 - [MESSAGE][INFO] - Click Element = Object Repository/Login/username
+
+2023-08-23 14:17:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/username' is clicked on
+
+2023-08-23 14:17:17 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login/username' is: ''
+
+2023-08-23 14:17:17 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/username'
+
+2023-08-23 14:17:18 - [MESSAGE][PASSED] - Object 'Object Repository/Login/password' is clickable
+
+2023-08-23 14:17:18 - [MESSAGE][INFO] - Click Element = Object Repository/Login/password
+
+2023-08-23 14:17:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/password' is clicked on
+
+2023-08-23 14:17:18 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login/password' is: ''
+
+2023-08-23 14:17:19 - [MESSAGE][PASSED] - Text 'Auth_server_2020' is set on object 'Object Repository/Login/password'
+
+2023-08-23 14:17:19 - [MESSAGE][PASSED] - Object 'Object Repository/Login/masuk' is clickable
+
+2023-08-23 14:17:19 - [MESSAGE][INFO] - Click Element = Object Repository/Login/masuk
+
+2023-08-23 14:17:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/masuk' is clicked on
+
+2023-08-23 14:17:21 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_Tidak' is present
+
+2023-08-23 14:17:21 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_Tidak' is clickable
+
+2023-08-23 14:17:21 - [MESSAGE][INFO] - Click Element = Object Repository/Login/button_Tidak
+
+2023-08-23 14:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Tidak' is clicked on
+
+2023-08-23 14:17:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-23 14:17:21 - [TEST_STEP][PASSED] - dataGroup.menuDataGroup(): Object: 'Object Repository/Home Page(General)/btnDataGroup' is clicked on
+
+2023-08-23 14:17:25 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar/Sidebar Master Data' is clickable
+
+2023-08-23 14:17:25 - [MESSAGE][INFO] - Click Element = Object Repository/Sidebar/Sidebar Master Data
+
+2023-08-23 14:17:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Sidebar/Sidebar Master Data' is clicked on
+
+2023-08-23 14:17:25 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page(General)/btnDataGroup' is clickable
+
+2023-08-23 14:17:25 - [MESSAGE][INFO] - Click Element = Object Repository/Home Page(General)/btnDataGroup
+
+2023-08-23 14:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page(General)/btnDataGroup' is clicked on
+
+2023-08-23 14:17:26 - [TEST_STEP][PASSED] - excelLocation = "Master Data\Data Group\dataGroup - add.xlsx": null
+
+2023-08-23 14:17:26 - [TEST_STEP][PASSED] - sheetNameDataGroup = "DataGroup-add": null
+
+2023-08-23 14:17:26 - [TEST_STEP][PASSED] - listHashMapDataGroup = handleTestData.readTestData(excelLocation, sheetNameDataGroup, true): listHashMap di Method readTestData class care.katalon.HandleTestData : [[TD:TDG220601, Action:Add, groupID:katalonlima, principalName:Nestle, deskripsi:Penambahan Data Group Oleh Katalon 05., category:POSITIVE, customerName:PT CAHAYA AGUNG CEMERLANG GROBOGAN], [TD:TDG220602, Action:Add, groupID:katalonenam, principalName:ASW,Nestle, deskripsi:Penambahan Data Group Oleh Katalon 06., category:POSITIVE, customerName:Pt Rukun Mitra Sejati Blitar,Pt Rukun Mitra Sejati Yogyakarta], [TD:TDG220603, Action:Add, groupID:katalontujuh, principalName:ASW, deskripsi:Penambahan Data Group Oleh Katalon 07., category:POSITIVE, customerName:All], [TD:TDG220604, Action:Add, groupID:katalondelapan, principalName:All, deskripsi:Penambahan Data Group Oleh Katalon 08., category:POSITIVE, customerName:Pt Rukun Mitra Sejati Yogyakarta], [TD:TDG220605, Action:Add, groupID:cs, principalName:All, deskripsi:Penambahan Data Group yang sudah ada, category:NEGATIVE, customerName:All], [TD:TDG220606, Action:Add, groupID:katalonsembilan, principalName:, deskripsi:Penambahan Data Group tanpa mengisi data scope, category:NEGATIVE, customerName:], [TD:, Action:Add, groupID:katalonsepuluh, principalName:All, deskripsi:, category:NEGATIVE, customerName:All]]
+
+2023-08-23 14:17:27 - [MESSAGE][INFO] - listHashMap di Method readTestData class care.katalon.HandleTestData : [[TD:TDG220601, Action:Add, groupID:katalonlima, principalName:Nestle, deskripsi:Penambahan Data Group Oleh Katalon 05., category:POSITIVE, customerName:PT CAHAYA AGUNG CEMERLANG GROBOGAN], [TD:TDG220602, Action:Add, groupID:katalonenam, principalName:ASW,Nestle, deskripsi:Penambahan Data Group Oleh Katalon 06., category:POSITIVE, customerName:Pt Rukun Mitra Sejati Blitar,Pt Rukun Mitra Sejati Yogyakarta], [TD:TDG220603, Action:Add, groupID:katalontujuh, principalName:ASW, deskripsi:Penambahan Data Group Oleh Katalon 07., category:POSITIVE, customerName:All], [TD:TDG220604, Action:Add, groupID:katalondelapan, principalName:All, deskripsi:Penambahan Data Group Oleh Katalon 08., category:POSITIVE, customerName:Pt Rukun Mitra Sejati Yogyakarta], [TD:TDG220605, Action:Add, groupID:cs, principalName:All, deskripsi:Penambahan Data Group yang sudah ada, category:NEGATIVE, customerName:All], [TD:TDG220606, Action:Add, groupID:katalonsembilan, principalName:, deskripsi:Penambahan Data Group tanpa mengisi data scope, category:NEGATIVE, customerName:], [TD:, Action:Add, groupID:katalonsepuluh, principalName:All, deskripsi:, category:NEGATIVE, customerName:All]]
+
+2023-08-23 14:17:27 - [TEST_STEP][INCOMPLETE] - for ([i = 0, i < listHashMapDataGroup.size(), (i++)]): null
+
+2023-08-23 14:17:27 - [TEST_STEP][FAILED] - try: Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Data Group - Add.run(Data Group - Add:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692775018101.run(TempTestSuite1692775018101.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' located by '//div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Script1661157456140.run(Script1661157456140.groovy:51)
+	... 13 more
+)
+
+2023-08-23 14:17:27 - [TEST_STEP][PASSED] - getHashMapDataGroup = listHashMapDataGroup.get(i): null
+
+2023-08-23 14:17:27 - [TEST_STEP][PASSED] - groupID = getHashMapDataGroup.get("groupID"): null
+
+2023-08-23 14:17:27 - [TEST_STEP][PASSED] - category = getHashMapDataGroup.get("category"): null
+
+2023-08-23 14:17:27 - [TEST_STEP][PASSED] - logInfo(getHashMapDataGroup.toString()): [TD:TDG220601, Action:Add, groupID:katalonlima, principalName:Nestle, deskripsi:Penambahan Data Group Oleh Katalon 05., category:POSITIVE, customerName:PT CAHAYA AGUNG CEMERLANG GROBOGAN]
+
+2023-08-23 14:17:27 - [MESSAGE][INFO] - [TD:TDG220601, Action:Add, groupID:katalonlima, principalName:Nestle, deskripsi:Penambahan Data Group Oleh Katalon 05., category:POSITIVE, customerName:PT CAHAYA AGUNG CEMERLANG GROBOGAN]
+
+2023-08-23 14:17:27 - [TEST_STEP][PASSED] - testDataNumber = getHashMapDataGroup.get("TD"): null
+
+2023-08-23 14:17:27 - [TEST_STEP][PASSED] - logInfo("TD: " + testDataNumber): TD: TDG220601
+
+2023-08-23 14:17:27 - [MESSAGE][INFO] - TD: TDG220601
+
+2023-08-23 14:17:27 - [TEST_STEP][PASSED] - dataGroup.addDataGroup(): Refresh successfully
+
+2023-08-23 14:17:27 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/Tambah' is clickable
+
+2023-08-23 14:17:27 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/Tambah' is clickable
+
+2023-08-23 14:17:27 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/Tambah
+
+2023-08-23 14:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/Tambah' is clicked on
+
+2023-08-23 14:17:28 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-23 14:17:28 - [TEST_STEP][PASSED] - dataGroup.setDataGroup(getHashMapDataGroup): Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown' is clicked on
+
+2023-08-23 14:17:29 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is clickable
+
+2023-08-23 14:17:29 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is clickable
+
+2023-08-23 14:17:29 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/GrupID
+
+2023-08-23 14:17:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is clicked on
+
+2023-08-23 14:17:30 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is: ''
+
+2023-08-23 14:17:31 - [MESSAGE][PASSED] - Text 'katalonlima' is set on object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID'
+
+2023-08-23 14:17:31 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi' is clickable
+
+2023-08-23 14:17:31 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi
+
+2023-08-23 14:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi' is clicked on
+
+2023-08-23 14:17:31 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi' is: ''
+
+2023-08-23 14:17:32 - [MESSAGE][PASSED] - Text 'Penambahan Data Group Oleh Katalon 05.' is set on object 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi'
+
+2023-08-23 14:17:32 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan' is clickable
+
+2023-08-23 14:17:33 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan' is clickable
+
+2023-08-23 14:17:33 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan
+
+2023-08-23 14:17:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan' is clicked on
+
+2023-08-23 14:17:33 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan' is clickable
+
+2023-08-23 14:17:33 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan
+
+2023-08-23 14:17:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan' is clicked on
+
+2023-08-23 14:17:35 - [MESSAGE][PASSED] - Keys 'PT CAHAYA AGUNG CEMERLANG GROBOGAN' sent to object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan'
+
+2023-08-23 14:17:35 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan' is present
+
+2023-08-23 14:17:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan'
+
+2023-08-23 14:17:36 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown' is clickable
+
+2023-08-23 14:17:36 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown
+
+2023-08-23 14:17:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown' is clicked on
+
+2023-08-23 14:17:37 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal' is clickable
+
+2023-08-23 14:17:37 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal
+
+2023-08-23 14:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal' is clicked on
+
+2023-08-23 14:17:38 - [MESSAGE][PASSED] - Keys 'Nestle' sent to object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal'
+
+2023-08-23 14:17:39 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal' is present
+
+2023-08-23 14:17:39 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal'
+
+2023-08-23 14:17:39 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown' is clickable
+
+2023-08-23 14:17:39 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown
+
+2023-08-23 14:17:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown' is clicked on
+
+2023-08-23 14:17:40 - [TEST_STEP][FAILED] - dataGroup.saveDataGroup(testDataNumber): Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Data Group - Add.run(Data Group - Add:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692775018101.run(TempTestSuite1692775018101.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' located by '//div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Script1661157456140.run(Script1661157456140.groovy:51)
+	... 13 more
+)
+
+2023-08-23 14:17:40 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/Simpan' is clickable
+
+2023-08-23 14:17:40 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/Simpan
+
+2023-08-23 14:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/Simpan' is clicked on
+
+2023-08-23 14:18:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-23 14:18:12 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Data Group - Add.run(Data Group - Add:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692775018101.run(TempTestSuite1692775018101.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' located by '//div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Script1661157456140.run(Script1661157456140.groovy:51)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\NEXSOFT\\Documents\\Nexsoft\\Katalon\\Katalon_nexcare\\Reports\\20230823_141658\\Master Data\\Data Group\\Data Group\\20230823_141658\\1692775092227.png]]
+
+2023-08-23 14:18:12 - [TEST_STEP][FAILED] - catch (Exception e): null
+
+2023-08-23 14:18:12 - [TEST_STEP][FAILED] - markFailed(e.printStackTrace()): 
+
+2023-08-23 14:18:12 - [MESSAGE][FAILED] - 
+
+2023-08-23 14:18:12 - [TEST_STEP][PASSED] - <not implemented yet for class: org.codehaus.groovy.ast.stmt.ContinueStatement>: null
+
+2023-08-23 14:18:12 - [TEST_STEP][FAILED] - try: Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Data Group - Add.run(Data Group - Add:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692775018101.run(TempTestSuite1692775018101.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' located by '//div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Script1661157456140.run(Script1661157456140.groovy:51)
+	... 13 more
+)
+
+2023-08-23 14:18:12 - [TEST_STEP][PASSED] - getHashMapDataGroup = listHashMapDataGroup.get(i): null
+
+2023-08-23 14:18:12 - [TEST_STEP][PASSED] - groupID = getHashMapDataGroup.get("groupID"): null
+
+2023-08-23 14:18:12 - [TEST_STEP][PASSED] - category = getHashMapDataGroup.get("category"): null
+
+2023-08-23 14:18:12 - [TEST_STEP][PASSED] - logInfo(getHashMapDataGroup.toString()): [TD:TDG220602, Action:Add, groupID:katalonenam, principalName:ASW,Nestle, deskripsi:Penambahan Data Group Oleh Katalon 06., category:POSITIVE, customerName:Pt Rukun Mitra Sejati Blitar,Pt Rukun Mitra Sejati Yogyakarta]
+
+2023-08-23 14:18:12 - [MESSAGE][INFO] - [TD:TDG220602, Action:Add, groupID:katalonenam, principalName:ASW,Nestle, deskripsi:Penambahan Data Group Oleh Katalon 06., category:POSITIVE, customerName:Pt Rukun Mitra Sejati Blitar,Pt Rukun Mitra Sejati Yogyakarta]
+
+2023-08-23 14:18:12 - [TEST_STEP][PASSED] - testDataNumber = getHashMapDataGroup.get("TD"): null
+
+2023-08-23 14:18:12 - [TEST_STEP][PASSED] - logInfo("TD: " + testDataNumber): TD: TDG220602
+
+2023-08-23 14:18:12 - [MESSAGE][INFO] - TD: TDG220602
+
+2023-08-23 14:18:12 - [TEST_STEP][PASSED] - dataGroup.addDataGroup(): Refresh successfully
+
+2023-08-23 14:18:12 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/Tambah' is clickable
+
+2023-08-23 14:18:13 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/Tambah' is clickable
+
+2023-08-23 14:18:13 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/Tambah
+
+2023-08-23 14:18:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/Tambah' is clicked on
+
+2023-08-23 14:18:13 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-23 14:18:13 - [TEST_STEP][PASSED] - dataGroup.setDataGroup(getHashMapDataGroup): Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown' is clicked on
+
+2023-08-23 14:18:14 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is clickable
+
+2023-08-23 14:18:14 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is clickable
+
+2023-08-23 14:18:14 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/GrupID
+
+2023-08-23 14:18:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is clicked on
+
+2023-08-23 14:18:15 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is: ''
+
+2023-08-23 14:18:16 - [MESSAGE][PASSED] - Text 'katalonenam' is set on object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID'
+
+2023-08-23 14:18:16 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi' is clickable
+
+2023-08-23 14:18:16 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi
+
+2023-08-23 14:18:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi' is clicked on
+
+2023-08-23 14:18:17 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi' is: ''
+
+2023-08-23 14:18:18 - [MESSAGE][PASSED] - Text 'Penambahan Data Group Oleh Katalon 06.' is set on object 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi'
+
+2023-08-23 14:18:18 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan' is clickable
+
+2023-08-23 14:18:18 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan' is clickable
+
+2023-08-23 14:18:18 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan
+
+2023-08-23 14:18:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan' is clicked on
+
+2023-08-23 14:18:19 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan' is clickable
+
+2023-08-23 14:18:19 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan
+
+2023-08-23 14:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan' is clicked on
+
+2023-08-23 14:18:20 - [MESSAGE][PASSED] - Keys 'Pt Rukun Mitra Sejati Blitar' sent to object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan'
+
+2023-08-23 14:18:21 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan' is present
+
+2023-08-23 14:18:21 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan'
+
+2023-08-23 14:18:22 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan' is clickable
+
+2023-08-23 14:18:22 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan
+
+2023-08-23 14:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan' is clicked on
+
+2023-08-23 14:18:23 - [MESSAGE][PASSED] - Keys 'Pt Rukun Mitra Sejati Yogyakarta' sent to object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan'
+
+2023-08-23 14:18:23 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan' is present
+
+2023-08-23 14:18:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan'
+
+2023-08-23 14:18:24 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown' is clickable
+
+2023-08-23 14:18:24 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown
+
+2023-08-23 14:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown' is clicked on
+
+2023-08-23 14:18:25 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal' is clickable
+
+2023-08-23 14:18:25 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal
+
+2023-08-23 14:18:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal' is clicked on
+
+2023-08-23 14:18:26 - [MESSAGE][PASSED] - Keys 'ASW' sent to object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal'
+
+2023-08-23 14:18:27 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal' is present
+
+2023-08-23 14:18:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal'
+
+2023-08-23 14:18:28 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal' is clickable
+
+2023-08-23 14:18:28 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal
+
+2023-08-23 14:18:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal' is clicked on
+
+2023-08-23 14:18:29 - [MESSAGE][PASSED] - Keys 'Nestle' sent to object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal'
+
+2023-08-23 14:18:29 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal' is present
+
+2023-08-23 14:18:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal'
+
+2023-08-23 14:18:30 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown' is clickable
+
+2023-08-23 14:18:30 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown
+
+2023-08-23 14:18:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown' is clicked on
+
+2023-08-23 14:18:31 - [TEST_STEP][FAILED] - dataGroup.saveDataGroup(testDataNumber): Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Data Group - Add.run(Data Group - Add:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692775018101.run(TempTestSuite1692775018101.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' located by '//div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Script1661157456140.run(Script1661157456140.groovy:51)
+	... 13 more
+)
+
+2023-08-23 14:18:31 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/Simpan' is clickable
+
+2023-08-23 14:18:31 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/Simpan
+
+2023-08-23 14:18:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/Simpan' is clicked on
+
+2023-08-23 14:19:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-23 14:19:03 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Data Group - Add.run(Data Group - Add:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692775018101.run(TempTestSuite1692775018101.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' located by '//div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Script1661157456140.run(Script1661157456140.groovy:51)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\NEXSOFT\\Documents\\Nexsoft\\Katalon\\Katalon_nexcare\\Reports\\20230823_141658\\Master Data\\Data Group\\Data Group\\20230823_141658\\1692775143269.png]]
+
+2023-08-23 14:19:03 - [TEST_STEP][FAILED] - catch (Exception e): null
+
+2023-08-23 14:19:03 - [TEST_STEP][FAILED] - markFailed(e.printStackTrace()): 
+
+2023-08-23 14:19:03 - [MESSAGE][FAILED] - 
+
+2023-08-23 14:19:03 - [TEST_STEP][PASSED] - <not implemented yet for class: org.codehaus.groovy.ast.stmt.ContinueStatement>: null
+
+2023-08-23 14:19:03 - [TEST_STEP][FAILED] - try: Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Data Group - Add.run(Data Group - Add:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692775018101.run(TempTestSuite1692775018101.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' located by '//div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Script1661157456140.run(Script1661157456140.groovy:51)
+	... 13 more
+)
+
+2023-08-23 14:19:03 - [TEST_STEP][PASSED] - getHashMapDataGroup = listHashMapDataGroup.get(i): null
+
+2023-08-23 14:19:03 - [TEST_STEP][PASSED] - groupID = getHashMapDataGroup.get("groupID"): null
+
+2023-08-23 14:19:03 - [TEST_STEP][PASSED] - category = getHashMapDataGroup.get("category"): null
+
+2023-08-23 14:19:03 - [TEST_STEP][PASSED] - logInfo(getHashMapDataGroup.toString()): [TD:TDG220603, Action:Add, groupID:katalontujuh, principalName:ASW, deskripsi:Penambahan Data Group Oleh Katalon 07., category:POSITIVE, customerName:All]
+
+2023-08-23 14:19:03 - [MESSAGE][INFO] - [TD:TDG220603, Action:Add, groupID:katalontujuh, principalName:ASW, deskripsi:Penambahan Data Group Oleh Katalon 07., category:POSITIVE, customerName:All]
+
+2023-08-23 14:19:03 - [TEST_STEP][PASSED] - testDataNumber = getHashMapDataGroup.get("TD"): null
+
+2023-08-23 14:19:03 - [TEST_STEP][PASSED] - logInfo("TD: " + testDataNumber): TD: TDG220603
+
+2023-08-23 14:19:03 - [MESSAGE][INFO] - TD: TDG220603
+
+2023-08-23 14:19:03 - [TEST_STEP][PASSED] - dataGroup.addDataGroup(): Refresh successfully
+
+2023-08-23 14:19:03 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/Tambah' is clickable
+
+2023-08-23 14:19:04 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/Tambah' is clickable
+
+2023-08-23 14:19:04 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/Tambah
+
+2023-08-23 14:19:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/Tambah' is clicked on
+
+2023-08-23 14:19:04 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-23 14:19:04 - [TEST_STEP][PASSED] - dataGroup.setDataGroup(getHashMapDataGroup): Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown' is clicked on
+
+2023-08-23 14:19:05 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is clickable
+
+2023-08-23 14:19:05 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is clickable
+
+2023-08-23 14:19:05 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/GrupID
+
+2023-08-23 14:19:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is clicked on
+
+2023-08-23 14:19:06 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is: ''
+
+2023-08-23 14:19:07 - [MESSAGE][PASSED] - Text 'katalontujuh' is set on object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID'
+
+2023-08-23 14:19:07 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi' is clickable
+
+2023-08-23 14:19:07 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi
+
+2023-08-23 14:19:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi' is clicked on
+
+2023-08-23 14:19:08 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi' is: ''
+
+2023-08-23 14:19:09 - [MESSAGE][PASSED] - Text 'Penambahan Data Group Oleh Katalon 07.' is set on object 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi'
+
+2023-08-23 14:19:09 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan' is clickable
+
+2023-08-23 14:19:09 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan' is clickable
+
+2023-08-23 14:19:09 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan
+
+2023-08-23 14:19:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan' is clicked on
+
+2023-08-23 14:19:10 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan' is not checked
+
+2023-08-23 14:19:10 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan' is clickable
+
+2023-08-23 14:19:10 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan
+
+2023-08-23 14:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan' is clicked on
+
+2023-08-23 14:19:11 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal' is clickable
+
+2023-08-23 14:19:11 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal
+
+2023-08-23 14:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/NamaPrincipal' is clicked on
+
+2023-08-23 14:19:12 - [MESSAGE][PASSED] - Keys 'ASW' sent to object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal'
+
+2023-08-23 14:19:13 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal' is present
+
+2023-08-23 14:19:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPrincipal'
+
+2023-08-23 14:19:14 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown' is clickable
+
+2023-08-23 14:19:14 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown
+
+2023-08-23 14:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown' is clicked on
+
+2023-08-23 14:19:14 - [TEST_STEP][FAILED] - dataGroup.saveDataGroup(testDataNumber): Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Data Group - Add.run(Data Group - Add:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692775018101.run(TempTestSuite1692775018101.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' located by '//div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Script1661157456140.run(Script1661157456140.groovy:51)
+	... 13 more
+)
+
+2023-08-23 14:19:15 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/Simpan' is clickable
+
+2023-08-23 14:19:15 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/Simpan
+
+2023-08-23 14:19:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/Simpan' is clicked on
+
+2023-08-23 14:19:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-23 14:19:47 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Data Group - Add.run(Data Group - Add:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692775018101.run(TempTestSuite1692775018101.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' located by '//div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Script1661157456140.run(Script1661157456140.groovy:51)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\NEXSOFT\\Documents\\Nexsoft\\Katalon\\Katalon_nexcare\\Reports\\20230823_141658\\Master Data\\Data Group\\Data Group\\20230823_141658\\1692775186874.png]]
+
+2023-08-23 14:19:47 - [TEST_STEP][FAILED] - catch (Exception e): null
+
+2023-08-23 14:19:47 - [TEST_STEP][FAILED] - markFailed(e.printStackTrace()): 
+
+2023-08-23 14:19:47 - [MESSAGE][FAILED] - 
+
+2023-08-23 14:19:47 - [TEST_STEP][PASSED] - <not implemented yet for class: org.codehaus.groovy.ast.stmt.ContinueStatement>: null
+
+2023-08-23 14:19:47 - [TEST_STEP][FAILED] - try: Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Data Group - Add.run(Data Group - Add:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692775018101.run(TempTestSuite1692775018101.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' located by '//div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Script1661157456140.run(Script1661157456140.groovy:51)
+	... 13 more
+)
+
+2023-08-23 14:19:47 - [TEST_STEP][PASSED] - getHashMapDataGroup = listHashMapDataGroup.get(i): null
+
+2023-08-23 14:19:47 - [TEST_STEP][PASSED] - groupID = getHashMapDataGroup.get("groupID"): null
+
+2023-08-23 14:19:47 - [TEST_STEP][PASSED] - category = getHashMapDataGroup.get("category"): null
+
+2023-08-23 14:19:47 - [TEST_STEP][PASSED] - logInfo(getHashMapDataGroup.toString()): [TD:TDG220604, Action:Add, groupID:katalondelapan, principalName:All, deskripsi:Penambahan Data Group Oleh Katalon 08., category:POSITIVE, customerName:Pt Rukun Mitra Sejati Yogyakarta]
+
+2023-08-23 14:19:47 - [MESSAGE][INFO] - [TD:TDG220604, Action:Add, groupID:katalondelapan, principalName:All, deskripsi:Penambahan Data Group Oleh Katalon 08., category:POSITIVE, customerName:Pt Rukun Mitra Sejati Yogyakarta]
+
+2023-08-23 14:19:47 - [TEST_STEP][PASSED] - testDataNumber = getHashMapDataGroup.get("TD"): null
+
+2023-08-23 14:19:47 - [TEST_STEP][PASSED] - logInfo("TD: " + testDataNumber): TD: TDG220604
+
+2023-08-23 14:19:47 - [MESSAGE][INFO] - TD: TDG220604
+
+2023-08-23 14:19:47 - [TEST_STEP][PASSED] - dataGroup.addDataGroup(): Refresh successfully
+
+2023-08-23 14:19:47 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/Tambah' is clickable
+
+2023-08-23 14:19:47 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/Tambah' is clickable
+
+2023-08-23 14:19:47 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/Tambah
+
+2023-08-23 14:19:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/Tambah' is clicked on
+
+2023-08-23 14:19:48 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-23 14:19:48 - [TEST_STEP][PASSED] - dataGroup.setDataGroup(getHashMapDataGroup): Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal' is clicked on
+
+2023-08-23 14:19:48 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is clickable
+
+2023-08-23 14:19:49 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is clickable
+
+2023-08-23 14:19:49 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/GrupID
+
+2023-08-23 14:19:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is clicked on
+
+2023-08-23 14:19:50 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is: ''
+
+2023-08-23 14:19:50 - [MESSAGE][PASSED] - Text 'katalondelapan' is set on object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID'
+
+2023-08-23 14:19:50 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi' is clickable
+
+2023-08-23 14:19:50 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi
+
+2023-08-23 14:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi' is clicked on
+
+2023-08-23 14:19:51 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi' is: ''
+
+2023-08-23 14:19:52 - [MESSAGE][PASSED] - Text 'Penambahan Data Group Oleh Katalon 08.' is set on object 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi'
+
+2023-08-23 14:19:52 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan' is clickable
+
+2023-08-23 14:19:52 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan' is clickable
+
+2023-08-23 14:19:52 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan
+
+2023-08-23 14:19:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan' is clicked on
+
+2023-08-23 14:19:53 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan' is clickable
+
+2023-08-23 14:19:53 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan
+
+2023-08-23 14:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/NamaPelanggan' is clicked on
+
+2023-08-23 14:19:54 - [MESSAGE][PASSED] - Keys 'Pt Rukun Mitra Sejati Yogyakarta' sent to object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan'
+
+2023-08-23 14:19:55 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan' is present
+
+2023-08-23 14:19:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Data Group/TambahEditDetail/SelectPelanggan'
+
+2023-08-23 14:19:56 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown' is clickable
+
+2023-08-23 14:19:56 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown
+
+2023-08-23 14:19:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/CloseDropDown' is clicked on
+
+2023-08-23 14:19:57 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal' is not checked
+
+2023-08-23 14:19:57 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal' is clickable
+
+2023-08-23 14:19:57 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal
+
+2023-08-23 14:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal' is clicked on
+
+2023-08-23 14:19:57 - [TEST_STEP][FAILED] - dataGroup.saveDataGroup(testDataNumber): Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Data Group - Add.run(Data Group - Add:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692775018101.run(TempTestSuite1692775018101.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' located by '//div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Script1661157456140.run(Script1661157456140.groovy:51)
+	... 13 more
+)
+
+2023-08-23 14:19:58 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/Simpan' is clickable
+
+2023-08-23 14:19:58 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/Simpan
+
+2023-08-23 14:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/Simpan' is clicked on
+
+2023-08-23 14:20:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-23 14:20:29 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Data Group - Add.run(Data Group - Add:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692775018101.run(TempTestSuite1692775018101.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' located by '//div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Script1661157456140.run(Script1661157456140.groovy:51)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\NEXSOFT\\Documents\\Nexsoft\\Katalon\\Katalon_nexcare\\Reports\\20230823_141658\\Master Data\\Data Group\\Data Group\\20230823_141658\\1692775229876.png]]
+
+2023-08-23 14:20:29 - [TEST_STEP][FAILED] - catch (Exception e): null
+
+2023-08-23 14:20:29 - [TEST_STEP][FAILED] - markFailed(e.printStackTrace()): 
+
+2023-08-23 14:20:29 - [MESSAGE][FAILED] - 
+
+2023-08-23 14:20:29 - [TEST_STEP][PASSED] - <not implemented yet for class: org.codehaus.groovy.ast.stmt.ContinueStatement>: null
+
+2023-08-23 14:20:29 - [TEST_STEP][FAILED] - try: Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Data Group - Add.run(Data Group - Add:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692775018101.run(TempTestSuite1692775018101.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' located by '//div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Script1661157456140.run(Script1661157456140.groovy:51)
+	... 13 more
+)
+
+2023-08-23 14:20:29 - [TEST_STEP][PASSED] - getHashMapDataGroup = listHashMapDataGroup.get(i): null
+
+2023-08-23 14:20:29 - [TEST_STEP][PASSED] - groupID = getHashMapDataGroup.get("groupID"): null
+
+2023-08-23 14:20:29 - [TEST_STEP][PASSED] - category = getHashMapDataGroup.get("category"): null
+
+2023-08-23 14:20:30 - [TEST_STEP][PASSED] - logInfo(getHashMapDataGroup.toString()): [TD:TDG220605, Action:Add, groupID:cs, principalName:All, deskripsi:Penambahan Data Group yang sudah ada, category:NEGATIVE, customerName:All]
+
+2023-08-23 14:20:30 - [MESSAGE][INFO] - [TD:TDG220605, Action:Add, groupID:cs, principalName:All, deskripsi:Penambahan Data Group yang sudah ada, category:NEGATIVE, customerName:All]
+
+2023-08-23 14:20:30 - [TEST_STEP][PASSED] - testDataNumber = getHashMapDataGroup.get("TD"): null
+
+2023-08-23 14:20:30 - [TEST_STEP][PASSED] - logInfo("TD: " + testDataNumber): TD: TDG220605
+
+2023-08-23 14:20:30 - [MESSAGE][INFO] - TD: TDG220605
+
+2023-08-23 14:20:30 - [TEST_STEP][PASSED] - dataGroup.addDataGroup(): Refresh successfully
+
+2023-08-23 14:20:30 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/Tambah' is clickable
+
+2023-08-23 14:20:30 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/Tambah' is clickable
+
+2023-08-23 14:20:30 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/Tambah
+
+2023-08-23 14:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/Tambah' is clicked on
+
+2023-08-23 14:20:31 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-23 14:20:31 - [TEST_STEP][PASSED] - dataGroup.setDataGroup(getHashMapDataGroup): Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal' is clicked on
+
+2023-08-23 14:20:31 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is clickable
+
+2023-08-23 14:20:32 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is clickable
+
+2023-08-23 14:20:32 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/GrupID
+
+2023-08-23 14:20:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is clicked on
+
+2023-08-23 14:20:32 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is: ''
+
+2023-08-23 14:20:33 - [MESSAGE][PASSED] - Text 'cs' is set on object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID'
+
+2023-08-23 14:20:33 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi' is clickable
+
+2023-08-23 14:20:33 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi
+
+2023-08-23 14:20:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi' is clicked on
+
+2023-08-23 14:20:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi' is: ''
+
+2023-08-23 14:20:35 - [MESSAGE][PASSED] - Text 'Penambahan Data Group yang sudah ada' is set on object 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi'
+
+2023-08-23 14:20:35 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan' is clickable
+
+2023-08-23 14:20:36 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan' is clickable
+
+2023-08-23 14:20:36 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan
+
+2023-08-23 14:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan' is clicked on
+
+2023-08-23 14:20:36 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan' is not checked
+
+2023-08-23 14:20:37 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan' is clickable
+
+2023-08-23 14:20:37 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan
+
+2023-08-23 14:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPelanggan' is clicked on
+
+2023-08-23 14:20:38 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal' is not checked
+
+2023-08-23 14:20:38 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal' is clickable
+
+2023-08-23 14:20:38 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal
+
+2023-08-23 14:20:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/TerapkanDiSemuaNamaPrincipal' is clicked on
+
+2023-08-23 14:20:38 - [TEST_STEP][FAILED] - dataGroup.saveDataGroup(testDataNumber): Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Data Group - Add.run(Data Group - Add:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692775018101.run(TempTestSuite1692775018101.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' located by '//div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Script1661157456140.run(Script1661157456140.groovy:51)
+	... 13 more
+)
+
+2023-08-23 14:20:39 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/Simpan' is clickable
+
+2023-08-23 14:20:39 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/Simpan
+
+2023-08-23 14:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/Simpan' is clicked on
+
+2023-08-23 14:21:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-23 14:21:10 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Data Group - Add.run(Data Group - Add:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692775018101.run(TempTestSuite1692775018101.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master Data/Data Group/TambahEditDetail/VerifySaveNotif' located by '//div[@id='root']/div/div[2]/div[3]/div/div[3]/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$12.call(Unknown Source)
+	at masterdata.care.DataGroup.verifySaveDataGroup(DataGroup.groovy:284)
+	at masterdata.care.DataGroup.saveDataGroup(DataGroup.groovy:144)
+	at masterdata.care.DataGroup$saveDataGroup$2.call(Unknown Source)
+	at Script1661157456140.run(Script1661157456140.groovy:51)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\NEXSOFT\\Documents\\Nexsoft\\Katalon\\Katalon_nexcare\\Reports\\20230823_141658\\Master Data\\Data Group\\Data Group\\20230823_141658\\1692775270639.png]]
+
+2023-08-23 14:21:10 - [TEST_STEP][FAILED] - catch (Exception e): null
+
+2023-08-23 14:21:10 - [TEST_STEP][FAILED] - markFailed(e.printStackTrace()): 
+
+2023-08-23 14:21:10 - [MESSAGE][FAILED] - 
+
+2023-08-23 14:21:10 - [TEST_STEP][PASSED] - <not implemented yet for class: org.codehaus.groovy.ast.stmt.ContinueStatement>: null
+
+2023-08-23 14:21:10 - [TEST_STEP][INCOMPLETE] - try: null
+
+2023-08-23 14:21:10 - [TEST_STEP][PASSED] - getHashMapDataGroup = listHashMapDataGroup.get(i): null
+
+2023-08-23 14:21:10 - [TEST_STEP][PASSED] - groupID = getHashMapDataGroup.get("groupID"): null
+
+2023-08-23 14:21:10 - [TEST_STEP][PASSED] - category = getHashMapDataGroup.get("category"): null
+
+2023-08-23 14:21:10 - [TEST_STEP][PASSED] - logInfo(getHashMapDataGroup.toString()): [TD:TDG220606, Action:Add, groupID:katalonsembilan, principalName:, deskripsi:Penambahan Data Group tanpa mengisi data scope, category:NEGATIVE, customerName:]
+
+2023-08-23 14:21:10 - [MESSAGE][INFO] - [TD:TDG220606, Action:Add, groupID:katalonsembilan, principalName:, deskripsi:Penambahan Data Group tanpa mengisi data scope, category:NEGATIVE, customerName:]
+
+2023-08-23 14:21:10 - [TEST_STEP][PASSED] - testDataNumber = getHashMapDataGroup.get("TD"): null
+
+2023-08-23 14:21:10 - [TEST_STEP][PASSED] - logInfo("TD: " + testDataNumber): TD: TDG220606
+
+2023-08-23 14:21:10 - [MESSAGE][INFO] - TD: TDG220606
+
+2023-08-23 14:21:10 - [TEST_STEP][PASSED] - dataGroup.addDataGroup(): Refresh successfully
+
+2023-08-23 14:21:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = 'btnadddatagroup']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-23 14:21:15 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Master Data/Data Group/Tambah' located by '//*[@id = 'btnadddatagroup']' not found
+
+2023-08-23 14:21:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = 'btnadddatagroup']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-23 14:21:21 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Master Data/Data Group/Tambah' located by '//*[@id = 'btnadddatagroup']' not found
+
+2023-08-23 14:21:21 - [MESSAGE][INFO] - Failed to Click Element in Object Repository : Object Repository/Master Data/Data Group/Tambah
+
+2023-08-23 14:21:21 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-23 14:21:21 - [TEST_STEP][PASSED] - dataGroup.setDataGroup(getHashMapDataGroup): Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan' is clicked on
+
+2023-08-23 14:21:21 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is clickable
+
+2023-08-23 14:21:22 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is clickable
+
+2023-08-23 14:21:22 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/GrupID
+
+2023-08-23 14:21:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is clicked on
+
+2023-08-23 14:21:23 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID' is: ''
+
+2023-08-23 14:21:23 - [MESSAGE][PASSED] - Text 'katalonsembilan' is set on object 'Object Repository/Master Data/Data Group/TambahEditDetail/GrupID'
+
+2023-08-23 14:21:24 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi' is clickable
+
+2023-08-23 14:21:24 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi
+
+2023-08-23 14:21:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi' is clicked on
+
+2023-08-23 14:21:24 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi' is: ''
+
+2023-08-23 14:21:25 - [MESSAGE][PASSED] - Text 'Penambahan Data Group tanpa mengisi data scope' is set on object 'Object Repository/Master Data/Data Group/TambahEditDetail/Deskripsi'
+
+2023-08-23 14:21:25 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan' is clickable
+
+2023-08-23 14:21:26 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan' is clickable
+
+2023-08-23 14:21:26 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan
+
+2023-08-23 14:21:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/DataCangkupan' is clicked on
+
+2023-08-23 14:21:26 - [TEST_STEP][INCOMPLETE] - dataGroup.saveDataGroup(testDataNumber): Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/Simpan' is clicked on
+
+2023-08-23 14:21:27 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Data Group/TambahEditDetail/Simpan' is clickable
+
+2023-08-23 14:21:27 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Data Group/TambahEditDetail/Simpan
+
+2023-08-23 14:21:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Data Group/TambahEditDetail/Simpan' is clicked on]]></system-out>
+         <system-err><![CDATA[2023-08-23 14:17:08 - [TEST_CASE][INCOMPLETE] - Test Cases/Master Data/Data Group/Data Group - Add: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-23 14:17:05 - [TEST_SUITE][INCOMPLETE] - Data Group: null]]></system-out>
+      <system-err><![CDATA[2023-08-23 14:17:05 - [TEST_SUITE][INCOMPLETE] - Data Group: null]]></system-err>
+   </testsuite>
+</testsuites>
