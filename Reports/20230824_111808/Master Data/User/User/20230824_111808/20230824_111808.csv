@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User,Chrome 116.0.0.0,,,2023-08-24 11:18:12,2023-08-24 11:18:57,45.425s,PASSED
+,,,,,,,
+Test Cases/Master Data/Pengguna/Pengguna - view,Chrome 116.0.0.0,,,2023-08-24 11:18:14,2023-08-24 11:18:57,43.452s,PASSED
+Start listener action : beforeTestCase,Chrome 116.0.0.0,,,2023-08-24 11:18:14,2023-08-24 11:18:14,0.025s,PASSED
+handleWebDriver = new care.katalon.HandleWebDriver(),Chrome 116.0.0.0,,,2023-08-24 11:18:14,2023-08-24 11:18:14,0.007s,PASSED
+handleWebDriver.startAndOpenWebBrowser(baseUrl),Chrome 116.0.0.0,,,2023-08-24 11:18:14,2023-08-24 11:18:18,3.801s,PASSED
+generalAction = new care.katalon.GeneralAction(),Chrome 116.0.0.0,,,2023-08-24 11:18:18,2023-08-24 11:18:18,0.016s,PASSED
+handleTestData = new care.katalon.HandleTestData(),Chrome 116.0.0.0,,,2023-08-24 11:18:18,2023-08-24 11:18:18,0.008s,PASSED
+pengguna = new masterdata.care.Pengguna(),Chrome 116.0.0.0,,,2023-08-24 11:18:18,2023-08-24 11:18:18,0.009s,PASSED
+"generalAction.login("""")",Chrome 116.0.0.0,,,2023-08-24 11:18:18,2023-08-24 11:18:23,5.334s,PASSED
+pengguna.menuPengguna(),Chrome 116.0.0.0,,,2023-08-24 11:18:23,2023-08-24 11:18:28,4.810s,PASSED
+"excelLocation = ""Master Data\Pengguna\Pengguna - view.xlsx""",Chrome 116.0.0.0,,,2023-08-24 11:18:28,2023-08-24 11:18:28,0.000s,PASSED
+"sheetNamePengguna = ""Pengguna-view""",Chrome 116.0.0.0,,,2023-08-24 11:18:28,2023-08-24 11:18:28,0.001s,PASSED
+"listHashMapViewPengguna = handleTestData.readTestData(excelLocation, sheetNamePengguna, true)",Chrome 116.0.0.0,,,2023-08-24 11:18:28,2023-08-24 11:18:29,0.719s,PASSED
+"for ([i = 0, i < listHashMapViewPengguna.size(), (i++)])",Chrome 116.0.0.0,,,2023-08-24 11:18:29,2023-08-24 11:18:57,28.047s,PASSED
+Start listener action : afterTestCase,Chrome 116.0.0.0,,,2023-08-24 11:18:57,2023-08-24 11:18:57,0.181s,ERROR

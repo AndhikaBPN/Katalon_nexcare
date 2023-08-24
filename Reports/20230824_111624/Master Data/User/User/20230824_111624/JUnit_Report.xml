@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User" time="45.222" tests="1" failures="0" errors="0">
+   <testsuite name="User" tests="1" failures="0" errors="0" time="45.222" skipped="0" timestamp="2023-08-24 11:16:28" hostname="User - DESKTOP-7EENIV7" id="Test Suites/Master Data/User/User">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Tugas\\nexSOFT\\Katalon\\Katalon_nexcare\\Reports\\20230824_111624\\Master Data\\User\\User\\20230824_111624"/>
+         <property name="logFiles" value="D:\\Tugas\\nexSOFT\\Katalon\\Katalon_nexcare\\Reports\\20230824_111624\\Master Data\\User\\User\\20230824_111624\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - DESKTOP-7EENIV7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 116.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.183"/>
+         <property name="sessionId" value="58045fff10c37a27336129e7cedb393d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Master Data/Pengguna/Pengguna - view" time="42.36" classname="Test Cases/Master Data/Pengguna/Pengguna - view" status="PASSED">
+         <system-out><![CDATA[2023-08-24 11:16:31 - [TEST_CASE][PASSED] - Test Cases/Master Data/Pengguna/Pengguna - view: Test Cases/Master Data/Pengguna/Pengguna - view
+
+2023-08-24 11:16:31 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+2023-08-24 11:16:31 - [TEST_STEP][PASSED] - if (!(isSkipTestListener)): null
+
+2023-08-24 11:16:31 - [TEST_STEP][PASSED] - if (!(isSkipReport)): null
+
+2023-08-24 11:16:31 - [TEST_STEP][PASSED] - startTimeTC = simpleDateFormat.format(new java.util.Date()): null
+
+2023-08-24 11:16:31 - [TEST_STEP][PASSED] - currentTestCaseId = testCaseContext.getTestCaseId(): null
+
+2023-08-24 11:16:32 - [TEST_STEP][PASSED] - handleWebDriver = new care.katalon.HandleWebDriver(): null
+
+2023-08-24 11:16:32 - [TEST_STEP][PASSED] - handleWebDriver.startAndOpenWebBrowser(baseUrl): Wait for page load successfully
+
+2023-08-24 11:16:32 - [MESSAGE][INFO] - URL ENV = https://staging-care.nexcloud.id/
+
+2023-08-24 11:16:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-24 11:16:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-24 11:16:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-24 11:16:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-24 11:16:34 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-24 11:16:35 - [MESSAGE][PASSED] - Navigate to 'https://staging-care.nexcloud.id/' successfully
+
+2023-08-24 11:16:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-24 11:16:35 - [TEST_STEP][PASSED] - generalAction = new care.katalon.GeneralAction(): null
+
+2023-08-24 11:16:35 - [TEST_STEP][PASSED] - handleTestData = new care.katalon.HandleTestData(): null
+
+2023-08-24 11:16:35 - [TEST_STEP][PASSED] - pengguna = new masterdata.care.Pengguna(): null
+
+2023-08-24 11:16:35 - [TEST_STEP][PASSED] - generalAction.login(""): Wait for page load successfully
+
+2023-08-24 11:16:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/username' is clickable
+
+2023-08-24 11:16:36 - [MESSAGE][INFO] - Click Element = Object Repository/Login/username
+
+2023-08-24 11:16:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/username' is clicked on
+
+2023-08-24 11:16:36 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login/username' is: ''
+
+2023-08-24 11:16:37 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login/username'
+
+2023-08-24 11:16:37 - [MESSAGE][PASSED] - Object 'Object Repository/Login/password' is clickable
+
+2023-08-24 11:16:37 - [MESSAGE][INFO] - Click Element = Object Repository/Login/password
+
+2023-08-24 11:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/password' is clicked on
+
+2023-08-24 11:16:38 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login/password' is: ''
+
+2023-08-24 11:16:39 - [MESSAGE][PASSED] - Text 'Auth_server_2020' is set on object 'Object Repository/Login/password'
+
+2023-08-24 11:16:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login/masuk' is clickable
+
+2023-08-24 11:16:39 - [MESSAGE][INFO] - Click Element = Object Repository/Login/masuk
+
+2023-08-24 11:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/masuk' is clicked on
+
+2023-08-24 11:16:40 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_Tidak' is present
+
+2023-08-24 11:16:40 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_Tidak' is clickable
+
+2023-08-24 11:16:40 - [MESSAGE][INFO] - Click Element = Object Repository/Login/button_Tidak
+
+2023-08-24 11:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Tidak' is clicked on
+
+2023-08-24 11:16:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-24 11:16:41 - [TEST_STEP][PASSED] - pengguna.menuPengguna(): Object: 'Object Repository/Home Page(General)/btnUser' is clicked on
+
+2023-08-24 11:16:44 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar/Sidebar Master Data' is clickable
+
+2023-08-24 11:16:44 - [MESSAGE][INFO] - Click Element = Object Repository/Sidebar/Sidebar Master Data
+
+2023-08-24 11:16:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Sidebar/Sidebar Master Data' is clicked on
+
+2023-08-24 11:16:45 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page(General)/btnUser' is clickable
+
+2023-08-24 11:16:45 - [MESSAGE][INFO] - Click Element = Object Repository/Home Page(General)/btnUser
+
+2023-08-24 11:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page(General)/btnUser' is clicked on
+
+2023-08-24 11:16:45 - [TEST_STEP][PASSED] - excelLocation = "Master Data\Pengguna\Pengguna - view.xlsx": null
+
+2023-08-24 11:16:45 - [TEST_STEP][PASSED] - sheetNamePengguna = "Pengguna-view": null
+
+2023-08-24 11:16:45 - [TEST_STEP][PASSED] - listHashMapViewPengguna = handleTestData.readTestData(excelLocation, sheetNamePengguna, true): listHashMap di Method readTestData class care.katalon.HandleTestData : [[Kategori:Nexsoft, leader:, lastName:Mahayana Putra, Action:Add, role:cs_manager, gender:Laki-Laki, isLeader:Y, isCSO:N, listDist:, title:Tn, noTelp:81326225932, TD:TDG220601, csLevel:, NIK:3374063004930006, firstName:Brillian, dataGroup:nexsoft, csSpecialisasi:, email:brillian.mahayana@nexsoft.co.id, username:brillian, status:true], [Kategori:Nexsoft, leader:Khairina Wardina, lastName:Julistia, Action:Add, role:cso, gender:Laki-Laki, isLeader:N, isCSO:Y, listDist:, title:Tn, noTelp:89654373670, TD:TDG220602, csLevel:cslv1, NIK:3603122507960006, firstName:Deny, dataGroup:nexsoft, csSpecialisasi:Nexmile,GroMart, email:deny.julistia@nexsoft.co.id, username:denyjulistia, status:true]]
+
+2023-08-24 11:16:46 - [MESSAGE][INFO] - listHashMap di Method readTestData class care.katalon.HandleTestData : [[Kategori:Nexsoft, leader:, lastName:Mahayana Putra, Action:Add, role:cs_manager, gender:Laki-Laki, isLeader:Y, isCSO:N, listDist:, title:Tn, noTelp:81326225932, TD:TDG220601, csLevel:, NIK:3374063004930006, firstName:Brillian, dataGroup:nexsoft, csSpecialisasi:, email:brillian.mahayana@nexsoft.co.id, username:brillian, status:true], [Kategori:Nexsoft, leader:Khairina Wardina, lastName:Julistia, Action:Add, role:cso, gender:Laki-Laki, isLeader:N, isCSO:Y, listDist:, title:Tn, noTelp:89654373670, TD:TDG220602, csLevel:cslv1, NIK:3603122507960006, firstName:Deny, dataGroup:nexsoft, csSpecialisasi:Nexmile,GroMart, email:deny.julistia@nexsoft.co.id, username:denyjulistia, status:true]]
+
+2023-08-24 11:16:46 - [TEST_STEP][PASSED] - for ([i = 0, i < listHashMapViewPengguna.size(), (i++)]): Refresh successfully
+
+2023-08-24 11:16:46 - [TEST_STEP][PASSED] - try: Refresh successfully
+
+2023-08-24 11:16:46 - [TEST_STEP][PASSED] - getHashMapViewPengguna = listHashMapViewPengguna.get(i): null
+
+2023-08-24 11:16:46 - [TEST_STEP][PASSED] - groupID = getHashMapViewPengguna.get("groupID"): null
+
+2023-08-24 11:16:46 - [TEST_STEP][PASSED] - logInfo(getHashMapViewPengguna.toString()): [Kategori:Nexsoft, leader:, lastName:Mahayana Putra, Action:Add, role:cs_manager, gender:Laki-Laki, isLeader:Y, isCSO:N, listDist:, title:Tn, noTelp:81326225932, TD:TDG220601, csLevel:, NIK:3374063004930006, firstName:Brillian, dataGroup:nexsoft, csSpecialisasi:, email:brillian.mahayana@nexsoft.co.id, username:brillian, status:true]
+
+2023-08-24 11:16:46 - [MESSAGE][INFO] - [Kategori:Nexsoft, leader:, lastName:Mahayana Putra, Action:Add, role:cs_manager, gender:Laki-Laki, isLeader:Y, isCSO:N, listDist:, title:Tn, noTelp:81326225932, TD:TDG220601, csLevel:, NIK:3374063004930006, firstName:Brillian, dataGroup:nexsoft, csSpecialisasi:, email:brillian.mahayana@nexsoft.co.id, username:brillian, status:true]
+
+2023-08-24 11:16:46 - [TEST_STEP][PASSED] - testDataNumber = getHashMapViewPengguna.get("TD"): null
+
+2023-08-24 11:16:46 - [TEST_STEP][PASSED] - pengguna.findUser(getHashMapViewPengguna): Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-24 11:16:46 - [MESSAGE][INFO] - Username: brillian
+
+2023-08-24 11:16:46 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/searchUser' is clickable
+
+2023-08-24 11:16:46 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/searchUser
+
+2023-08-24 11:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/searchUser' is clicked on
+
+2023-08-24 11:16:47 - [MESSAGE][PASSED] - Text 'brillian' is set on object 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-24 11:16:47 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-24 11:16:48 - [TEST_STEP][PASSED] - pengguna.viewUser(): Object: 'Object Repository/Master Data/Pengguna/View' is clicked on
+
+2023-08-24 11:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/View' is clickable
+
+2023-08-24 11:16:48 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/View
+
+2023-08-24 11:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/View' is clicked on
+
+2023-08-24 11:16:48 - [TEST_STEP][PASSED] - pengguna.verifyData(getHashMapViewPengguna): Actual text 'nexsoft' and expected text 'nexsoft' are matched 
+
+2023-08-24 11:16:49 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/idPengguna' is present
+
+2023-08-24 11:16:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/VerifyKategori' is: 'Nexsoft'
+
+2023-08-24 11:16:49 - [MESSAGE][INFO] - Actual Kategori: Nexsoft
+
+2023-08-24 11:16:49 - [MESSAGE][INFO] - Expected Kategori: Nexsoft
+
+2023-08-24 11:16:49 - [MESSAGE][PASSED] - Actual text 'Nexsoft' and expected text 'Nexsoft' are matched 
+
+2023-08-24 11:16:50 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/CSOfficer' is not checked
+
+2023-08-24 11:16:50 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/VerifyEmail' is: 'brillian.mahayana@nexsoft.co.id'
+
+2023-08-24 11:16:50 - [MESSAGE][INFO] - Actual Email: brillian.mahayana@nexsoft.co.id
+
+2023-08-24 11:16:50 - [MESSAGE][INFO] - Expected Email: brillian.mahayana@nexsoft.co.id
+
+2023-08-24 11:16:50 - [MESSAGE][PASSED] - Actual text 'brillian.mahayana@nexsoft.co.id' and expected text 'brillian.mahayana@nexsoft.co.id' are matched 
+
+2023-08-24 11:16:50 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/StatusAtasan' is checked
+
+2023-08-24 11:16:51 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK' is: '3374063004930006'
+
+2023-08-24 11:16:51 - [MESSAGE][INFO] - Expected NIK: 3374063004930006
+
+2023-08-24 11:16:51 - [MESSAGE][INFO] - Expected NIK: 3374063004930006
+
+2023-08-24 11:16:51 - [MESSAGE][PASSED] - Actual text '3374063004930006' and expected text '3374063004930006' are matched 
+
+2023-08-24 11:16:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/VerifyTitle' is: 'Tn'
+
+2023-08-24 11:16:51 - [MESSAGE][INFO] - Actual Title: Tn
+
+2023-08-24 11:16:51 - [MESSAGE][INFO] - Expected Title: Tn
+
+2023-08-24 11:16:51 - [MESSAGE][PASSED] - Actual text 'Tn' and expected text 'Tn' are matched 
+
+2023-08-24 11:16:51 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan' is: 'Brillian'
+
+2023-08-24 11:16:51 - [MESSAGE][INFO] - Expected Firstname: Brillian
+
+2023-08-24 11:16:51 - [MESSAGE][INFO] - Expected Firstname: Brillian
+
+2023-08-24 11:16:51 - [MESSAGE][PASSED] - Actual text 'Brillian' and expected text 'Brillian' are matched 
+
+2023-08-24 11:16:52 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang' is: 'Mahayana Putra'
+
+2023-08-24 11:16:52 - [MESSAGE][INFO] - Expected Lastname: Mahayana Putra
+
+2023-08-24 11:16:52 - [MESSAGE][INFO] - Expected Lastname: Mahayana Putra
+
+2023-08-24 11:16:52 - [MESSAGE][PASSED] - Actual text 'Mahayana Putra' and expected text 'Mahayana Putra' are matched 
+
+2023-08-24 11:16:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin' is: 'Laki-Laki'
+
+2023-08-24 11:16:52 - [MESSAGE][INFO] - Actual Gender: Laki-Laki
+
+2023-08-24 11:16:52 - [MESSAGE][INFO] - Expected Gender: Laki-Laki
+
+2023-08-24 11:16:52 - [MESSAGE][PASSED] - Actual text 'Laki-Laki' and expected text 'Laki-Laki' are matched 
+
+2023-08-24 11:16:52 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/VerifyNomorTelepon' is: '81326225932'
+
+2023-08-24 11:16:52 - [MESSAGE][INFO] - Actual No Telp: 81326225932
+
+2023-08-24 11:16:52 - [MESSAGE][INFO] - Expected No Telp: 81326225932
+
+2023-08-24 11:16:52 - [MESSAGE][PASSED] - Actual text '81326225932' and expected text '81326225932' are matched 
+
+2023-08-24 11:16:53 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/VerifyStatus' is: 'true'
+
+2023-08-24 11:16:53 - [MESSAGE][INFO] - Actual Status: true
+
+2023-08-24 11:16:53 - [MESSAGE][INFO] - Expected Status: true
+
+2023-08-24 11:16:53 - [MESSAGE][PASSED] - Actual text 'true' and expected text 'true' are matched 
+
+2023-08-24 11:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnSelanjutnya' is clickable
+
+2023-08-24 11:16:53 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnSelanjutnya
+
+2023-08-24 11:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnSelanjutnya' is clicked on
+
+2023-08-24 11:16:54 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/Akun/NamaPengguna' is: 'brillian'
+
+2023-08-24 11:16:54 - [MESSAGE][INFO] - Actual Username: brillian
+
+2023-08-24 11:16:54 - [MESSAGE][INFO] - Expected Username: brillian
+
+2023-08-24 11:16:54 - [MESSAGE][PASSED] - Actual text 'brillian' and expected text 'brillian' are matched 
+
+2023-08-24 11:16:54 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername' is clickable
+
+2023-08-24 11:16:54 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername
+
+2023-08-24 11:16:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername' is clicked on
+
+2023-08-24 11:16:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Pengguna/PeranPengguna/VerifyPeran' is: 'cs_manager'
+
+2023-08-24 11:16:55 - [MESSAGE][INFO] - Actual Role: cs_manager
+
+2023-08-24 11:16:55 - [MESSAGE][INFO] - Expected Role: cs_manager
+
+2023-08-24 11:16:55 - [MESSAGE][PASSED] - Actual text 'cs_manager' and expected text 'cs_manager' are matched 
+
+2023-08-24 11:16:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Pengguna/PeranPengguna/VerifyDataGroup' is: 'nexsoft'
+
+2023-08-24 11:16:55 - [MESSAGE][INFO] - Actual Data Group: nexsoft
+
+2023-08-24 11:16:55 - [MESSAGE][INFO] - Expected Data Group: nexsoft
+
+2023-08-24 11:16:55 - [MESSAGE][PASSED] - Actual text 'nexsoft' and expected text 'nexsoft' are matched 
+
+2023-08-24 11:16:55 - [TEST_STEP][PASSED] - generalAction.clickElement(findTestObject("Object Repository/Home Page(General)/btnUser")): Object: 'Object Repository/Home Page(General)/btnUser' is clicked on
+
+2023-08-24 11:16:55 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page(General)/btnUser' is clickable
+
+2023-08-24 11:16:55 - [MESSAGE][INFO] - Click Element = Object Repository/Home Page(General)/btnUser
+
+2023-08-24 11:16:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page(General)/btnUser' is clicked on
+
+2023-08-24 11:16:56 - [TEST_STEP][PASSED] - pengguna.refreshPage(): Refresh successfully
+
+2023-08-24 11:16:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-24 11:16:59 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-24 11:16:59 - [TEST_STEP][PASSED] - try: Refresh successfully
+
+2023-08-24 11:16:59 - [TEST_STEP][PASSED] - getHashMapViewPengguna = listHashMapViewPengguna.get(i): null
+
+2023-08-24 11:16:59 - [TEST_STEP][PASSED] - groupID = getHashMapViewPengguna.get("groupID"): null
+
+2023-08-24 11:16:59 - [TEST_STEP][PASSED] - logInfo(getHashMapViewPengguna.toString()): [Kategori:Nexsoft, leader:Khairina Wardina, lastName:Julistia, Action:Add, role:cso, gender:Laki-Laki, isLeader:N, isCSO:Y, listDist:, title:Tn, noTelp:89654373670, TD:TDG220602, csLevel:cslv1, NIK:3603122507960006, firstName:Deny, dataGroup:nexsoft, csSpecialisasi:Nexmile,GroMart, email:deny.julistia@nexsoft.co.id, username:denyjulistia, status:true]
+
+2023-08-24 11:16:59 - [MESSAGE][INFO] - [Kategori:Nexsoft, leader:Khairina Wardina, lastName:Julistia, Action:Add, role:cso, gender:Laki-Laki, isLeader:N, isCSO:Y, listDist:, title:Tn, noTelp:89654373670, TD:TDG220602, csLevel:cslv1, NIK:3603122507960006, firstName:Deny, dataGroup:nexsoft, csSpecialisasi:Nexmile,GroMart, email:deny.julistia@nexsoft.co.id, username:denyjulistia, status:true]
+
+2023-08-24 11:16:59 - [TEST_STEP][PASSED] - testDataNumber = getHashMapViewPengguna.get("TD"): null
+
+2023-08-24 11:16:59 - [TEST_STEP][PASSED] - pengguna.findUser(getHashMapViewPengguna): Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-24 11:16:59 - [MESSAGE][INFO] - Username: denyjulistia
+
+2023-08-24 11:17:00 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/searchUser' is clickable
+
+2023-08-24 11:17:00 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/searchUser
+
+2023-08-24 11:17:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/searchUser' is clicked on
+
+2023-08-24 11:17:01 - [MESSAGE][PASSED] - Text 'denyjulistia' is set on object 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-24 11:17:01 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Master Data/Pengguna/searchUser'
+
+2023-08-24 11:17:01 - [TEST_STEP][PASSED] - pengguna.viewUser(): Object: 'Object Repository/Master Data/Pengguna/View' is clicked on
+
+2023-08-24 11:17:02 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/View' is clickable
+
+2023-08-24 11:17:02 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/View
+
+2023-08-24 11:17:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/View' is clicked on
+
+2023-08-24 11:17:02 - [TEST_STEP][PASSED] - pengguna.verifyData(getHashMapViewPengguna): Actual text 'nexsoft' and expected text 'nexsoft' are matched 
+
+2023-08-24 11:17:03 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/idPengguna' is present
+
+2023-08-24 11:17:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/VerifyKategori' is: 'Nexsoft'
+
+2023-08-24 11:17:03 - [MESSAGE][INFO] - Actual Kategori: Nexsoft
+
+2023-08-24 11:17:03 - [MESSAGE][INFO] - Expected Kategori: Nexsoft
+
+2023-08-24 11:17:03 - [MESSAGE][PASSED] - Actual text 'Nexsoft' and expected text 'Nexsoft' are matched 
+
+2023-08-24 11:17:03 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/CSOfficer' is checked
+
+2023-08-24 11:17:04 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/VerifyEmail' is: 'deny.julistia@nexsoft.co.id'
+
+2023-08-24 11:17:04 - [MESSAGE][INFO] - Actual Email: deny.julistia@nexsoft.co.id
+
+2023-08-24 11:17:04 - [MESSAGE][INFO] - Expected Email: deny.julistia@nexsoft.co.id
+
+2023-08-24 11:17:04 - [MESSAGE][PASSED] - Actual text 'deny.julistia@nexsoft.co.id' and expected text 'deny.julistia@nexsoft.co.id' are matched 
+
+2023-08-24 11:17:04 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/ProfilePengguna/StatusAtasan' is not checked
+
+2023-08-24 11:17:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/VerifyLead' is: 'Khairina Wardina'
+
+2023-08-24 11:17:04 - [MESSAGE][INFO] - Actual Leader: Khairina Wardina
+
+2023-08-24 11:17:04 - [MESSAGE][INFO] - Expected Leader: Khairina Wardina
+
+2023-08-24 11:17:04 - [MESSAGE][PASSED] - Actual text 'Khairina Wardina' and expected text 'Khairina Wardina' are matched 
+
+2023-08-24 11:17:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/LevelCS' is: 'cslv1'
+
+2023-08-24 11:17:05 - [MESSAGE][INFO] - Actual Level CS: cslv1
+
+2023-08-24 11:17:05 - [MESSAGE][INFO] - Expected Level CS: cslv1
+
+2023-08-24 11:17:05 - [MESSAGE][PASSED] - Actual text 'cslv1' and expected text 'cslv1' are matched 
+
+2023-08-24 11:17:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/VerifySpecialisasi' is: 'Nexmile'
+
+2023-08-24 11:17:05 - [MESSAGE][INFO] - Actual Specialisasi: Nexmile
+
+2023-08-24 11:17:05 - [MESSAGE][INFO] - Expected Specialisasi: Nexmile
+
+2023-08-24 11:17:05 - [MESSAGE][PASSED] - Actual text 'Nexmile' and expected text 'Nexmile' are matched 
+
+2023-08-24 11:17:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/VerifySpecialisasi' is: 'GroMart'
+
+2023-08-24 11:17:05 - [MESSAGE][INFO] - Actual Specialisasi: GroMart
+
+2023-08-24 11:17:05 - [MESSAGE][INFO] - Expected Specialisasi: GroMart
+
+2023-08-24 11:17:05 - [MESSAGE][PASSED] - Actual text 'GroMart' and expected text 'GroMart' are matched 
+
+2023-08-24 11:17:06 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NIK' is: '3603122507960006'
+
+2023-08-24 11:17:06 - [MESSAGE][INFO] - Expected NIK: 3603122507960006
+
+2023-08-24 11:17:06 - [MESSAGE][INFO] - Expected NIK: 3603122507960006
+
+2023-08-24 11:17:06 - [MESSAGE][PASSED] - Actual text '3603122507960006' and expected text '3603122507960006' are matched 
+
+2023-08-24 11:17:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/VerifyTitle' is: 'Tn'
+
+2023-08-24 11:17:06 - [MESSAGE][INFO] - Actual Title: Tn
+
+2023-08-24 11:17:06 - [MESSAGE][INFO] - Expected Title: Tn
+
+2023-08-24 11:17:06 - [MESSAGE][PASSED] - Actual text 'Tn' and expected text 'Tn' are matched 
+
+2023-08-24 11:17:06 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan' is: 'Deny'
+
+2023-08-24 11:17:06 - [MESSAGE][INFO] - Expected Firstname: Deny
+
+2023-08-24 11:17:06 - [MESSAGE][INFO] - Expected Firstname: Deny
+
+2023-08-24 11:17:06 - [MESSAGE][PASSED] - Actual text 'Deny' and expected text 'Deny' are matched 
+
+2023-08-24 11:17:07 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang' is: 'Julistia'
+
+2023-08-24 11:17:07 - [MESSAGE][INFO] - Expected Lastname: Julistia
+
+2023-08-24 11:17:07 - [MESSAGE][INFO] - Expected Lastname: Julistia
+
+2023-08-24 11:17:07 - [MESSAGE][PASSED] - Actual text 'Julistia' and expected text 'Julistia' are matched 
+
+2023-08-24 11:17:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin' is: 'Laki-Laki'
+
+2023-08-24 11:17:07 - [MESSAGE][INFO] - Actual Gender: Laki-Laki
+
+2023-08-24 11:17:07 - [MESSAGE][INFO] - Expected Gender: Laki-Laki
+
+2023-08-24 11:17:07 - [MESSAGE][PASSED] - Actual text 'Laki-Laki' and expected text 'Laki-Laki' are matched 
+
+2023-08-24 11:17:07 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/ProfilePengguna/VerifyNomorTelepon' is: '89654373670'
+
+2023-08-24 11:17:07 - [MESSAGE][INFO] - Actual No Telp: 89654373670
+
+2023-08-24 11:17:07 - [MESSAGE][INFO] - Expected No Telp: 89654373670
+
+2023-08-24 11:17:07 - [MESSAGE][PASSED] - Actual text '89654373670' and expected text '89654373670' are matched 
+
+2023-08-24 11:17:08 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/VerifyStatus' is: 'true'
+
+2023-08-24 11:17:08 - [MESSAGE][INFO] - Actual Status: true
+
+2023-08-24 11:17:08 - [MESSAGE][INFO] - Expected Status: true
+
+2023-08-24 11:17:08 - [MESSAGE][PASSED] - Actual text 'true' and expected text 'true' are matched 
+
+2023-08-24 11:17:08 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnSelanjutnya' is clickable
+
+2023-08-24 11:17:08 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnSelanjutnya
+
+2023-08-24 11:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnSelanjutnya' is clicked on
+
+2023-08-24 11:17:09 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Master Data/Pengguna/Akun/NamaPengguna' is: 'denyjulistia'
+
+2023-08-24 11:17:09 - [MESSAGE][INFO] - Actual Username: denyjulistia
+
+2023-08-24 11:17:09 - [MESSAGE][INFO] - Expected Username: denyjulistia
+
+2023-08-24 11:17:09 - [MESSAGE][PASSED] - Actual text 'denyjulistia' and expected text 'denyjulistia' are matched 
+
+2023-08-24 11:17:09 - [MESSAGE][PASSED] - Object 'Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername' is clickable
+
+2023-08-24 11:17:09 - [MESSAGE][INFO] - Click Element = Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername
+
+2023-08-24 11:17:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername' is clicked on
+
+2023-08-24 11:17:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Pengguna/PeranPengguna/VerifyPeran' is: 'cso'
+
+2023-08-24 11:17:10 - [MESSAGE][INFO] - Actual Role: cso
+
+2023-08-24 11:17:10 - [MESSAGE][INFO] - Expected Role: cso
+
+2023-08-24 11:17:10 - [MESSAGE][PASSED] - Actual text 'cso' and expected text 'cso' are matched 
+
+2023-08-24 11:17:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/Master Data/Pengguna/PeranPengguna/VerifyDataGroup' is: 'nexsoft'
+
+2023-08-24 11:17:10 - [MESSAGE][INFO] - Actual Data Group: nexsoft
+
+2023-08-24 11:17:10 - [MESSAGE][INFO] - Expected Data Group: nexsoft
+
+2023-08-24 11:17:10 - [MESSAGE][PASSED] - Actual text 'nexsoft' and expected text 'nexsoft' are matched 
+
+2023-08-24 11:17:10 - [TEST_STEP][PASSED] - generalAction.clickElement(findTestObject("Object Repository/Home Page(General)/btnUser")): Object: 'Object Repository/Home Page(General)/btnUser' is clicked on
+
+2023-08-24 11:17:10 - [MESSAGE][PASSED] - Object 'Object Repository/Home Page(General)/btnUser' is clickable
+
+2023-08-24 11:17:10 - [MESSAGE][INFO] - Click Element = Object Repository/Home Page(General)/btnUser
+
+2023-08-24 11:17:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page(General)/btnUser' is clicked on
+
+2023-08-24 11:17:10 - [TEST_STEP][PASSED] - pengguna.refreshPage(): Refresh successfully
+
+2023-08-24 11:17:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-24 11:17:14 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-08-24 11:17:14 - [TEST_STEP][ERROR] - Start listener action : afterTestCase: org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver@41582899' with class 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver' to class 'org.openqa.selenium.remote.RemoteWebDriver'
+	at WebTestListener.afterTestCase(WebTestListener.groovy:116)
+	at WebTestListener.invokeMethod(WebTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692850584956.run(TempTestSuite1692850584956.groovy:36)
+
+
+2023-08-24 11:17:14 - [TEST_STEP][ERROR] - if (!(isSkipTestListener)): org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver@41582899' with class 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver' to class 'org.openqa.selenium.remote.RemoteWebDriver'
+	at WebTestListener.afterTestCase(WebTestListener.groovy:116)
+	at WebTestListener.invokeMethod(WebTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692850584956.run(TempTestSuite1692850584956.groovy:36)
+
+
+2023-08-24 11:17:14 - [TEST_STEP][ERROR] - if (!(isSkipReport)): org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver@41582899' with class 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver' to class 'org.openqa.selenium.remote.RemoteWebDriver'
+	at WebTestListener.afterTestCase(WebTestListener.groovy:116)
+	at WebTestListener.invokeMethod(WebTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692850584956.run(TempTestSuite1692850584956.groovy:36)
+
+
+2023-08-24 11:17:14 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-08-24 11:17:14 - [TEST_STEP][PASSED] - endTimeTC = simpleDateFormat.format(new java.util.Date()): null
+
+2023-08-24 11:17:14 - [TEST_STEP][PASSED] - projectId = projectID: null
+
+2023-08-24 11:17:14 - [TEST_STEP][PASSED] - testCase = currentTestCaseId: null
+
+2023-08-24 11:17:14 - [TEST_STEP][PASSED] - tc = findTestCase(testCase): null
+
+2023-08-24 11:17:14 - [TEST_STEP][PASSED] - subject = name: null
+
+2023-08-24 11:17:14 - [TEST_STEP][PASSED] - tag = tc.getTag(): null
+
+2023-08-24 11:17:14 - [TEST_STEP][PASSED] - desc = tc.getDescription(): null
+
+2023-08-24 11:17:14 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+2023-08-24 11:17:14 - [TEST_STEP][ERROR] - caps = driver.getCapabilities(): org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver@41582899' with class 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver' to class 'org.openqa.selenium.remote.RemoteWebDriver'
+	at WebTestListener.afterTestCase(WebTestListener.groovy:116)
+	at WebTestListener.invokeMethod(WebTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692850584956.run(TempTestSuite1692850584956.groovy:36)
+
+
+2023-08-24 11:17:14 - [MESSAGE][ERROR] - org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver@41582899' with class 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver' to class 'org.openqa.selenium.remote.RemoteWebDriver'
+	at WebTestListener.afterTestCase(WebTestListener.groovy:116)
+	at WebTestListener.invokeMethod(WebTestListener.groovy)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692850584956.run(TempTestSuite1692850584956.groovy:36)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-24 11:16:28 - [TEST_SUITE][PASSED] - User: Test Cases/Master Data/Pengguna/Pengguna - view]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

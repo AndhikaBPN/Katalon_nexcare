@@ -92,7 +92,6 @@ public class Pengguna {
 		String role = hashMapVerifyData.get("role")
 		String dataGroup = hashMapVerifyData.get("dataGroup")
 		String status = hashMapVerifyData.get("status")
-		String verifystatus = hashMapVerifyData.get("verifstatus")
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Master Data/Pengguna/idPengguna'), 3, FailureHandling.STOP_ON_FAILURE)
 
@@ -190,8 +189,8 @@ public class Pengguna {
 			
 			String ActualStatus = GeneralAction.getAttributeFromElement(findTestObject('Object Repository/Master Data/Pengguna/VerifyStatus'), 'value')
 			KeywordUtil.logInfo('Actual Status: ' + ActualStatus)
-			KeywordUtil.logInfo('Expected Status: ' + verifystatus)
-			VerifyElement.verifyMatch(ActualStatus, verifystatus, false)
+			KeywordUtil.logInfo('Expected Status: ' + status)
+			VerifyElement.verifyMatch(ActualStatus, status, false)
 
 			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
 

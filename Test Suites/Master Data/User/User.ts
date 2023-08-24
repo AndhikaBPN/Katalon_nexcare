@@ -28,7 +28,7 @@
    <testCaseLink>
       <guid>83bdd346-8f2c-42ce-948c-e041194e4a4c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Master Data/Pengguna/Pengguna - view</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
