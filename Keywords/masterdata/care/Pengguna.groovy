@@ -91,12 +91,15 @@ public class Pengguna {
 		String confrimPassword = hashMapVerifyData.get("confrimPassword")
 		String role = hashMapVerifyData.get("role")
 		String dataGroup = hashMapVerifyData.get("dataGroup")
+		String status = hashMapVerifyData.get("status")
+		String verifystatus = hashMapVerifyData.get("verifstatus")
 
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Master Data/Pengguna/idPengguna'), 3, FailureHandling.STOP_ON_FAILURE)
 
 		if(Action.equalsIgnoreCase("Add")) {
 			String ActualKategori = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/VerifyKategori'))
-			KeywordUtil.logInfo(ActualKategori)
+			KeywordUtil.logInfo('Actual Kategori: ' + ActualKategori)
+			KeywordUtil.logInfo('Expected Kategori: ' + Kategori)
 			VerifyElement.verifyMatch(ActualKategori, Kategori, false)
 
 			if(isCSO.equalsIgnoreCase("Y")) {
@@ -106,7 +109,8 @@ public class Pengguna {
 			}
 
 			String Actualemail = GeneralAction.getAttributeFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/VerifyEmail'), 'value')
-			KeywordUtil.logInfo(Actualemail)
+			KeywordUtil.logInfo('Actual Email: ' + Actualemail)
+			KeywordUtil.logInfo('Expected Email: ' + email)
 			VerifyElement.verifyMatch(Actualemail, email, false)
 
 			if(leader.equalsIgnoreCase("") && isLeader.equalsIgnoreCase("Y")) {
@@ -114,22 +118,26 @@ public class Pengguna {
 			}else if(!leader.equalsIgnoreCase("") && isLeader.equalsIgnoreCase("Y")){
 				WebUI.verifyElementChecked(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/StatusAtasan'), 3)
 				String Actualleader = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/VerifyLead'))
-				KeywordUtil.logInfo(Actualleader)
+				KeywordUtil.logInfo('Actual Leader: ' + Actualleader)
+				KeywordUtil.logInfo('Expected Leader: ' + leader)
 				VerifyElement.verifyMatch(Actualleader, leader, false)
 			}else if(isLeader.equalsIgnoreCase("N")) {
 				WebUI.verifyElementNotChecked(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/StatusAtasan'), 3)
 				String Actualleader = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/VerifyLead'))
-				KeywordUtil.logInfo(Actualleader)
+				KeywordUtil.logInfo('Actual Leader: ' + Actualleader)
+				KeywordUtil.logInfo('Expected Leader: ' + leader)
 				VerifyElement.verifyMatch(Actualleader, leader, false)
 			}else{
 				String Actualleader = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/VerifyLead'))
-				KeywordUtil.logInfo(Actualleader)
+				KeywordUtil.logInfo('Actual Leader: ' + Actualleader)
+				KeywordUtil.logInfo('Expected Leader: ' + leader)
 				VerifyElement.verifyMatch(Actualleader, leader, false)
 			}
 
 			if(!csLevel.equalsIgnoreCase("")) {
 				String ActualcsLevel = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/LevelCS'))
-				KeywordUtil.logInfo(ActualcsLevel)
+				KeywordUtil.logInfo('Actual Level CS: ' + ActualcsLevel)
+				KeywordUtil.logInfo('Expected Level CS: ' + csLevel)
 				VerifyElement.verifyMatch(ActualcsLevel, csLevel, false)
 			}
 
@@ -137,56 +145,71 @@ public class Pengguna {
 				List allcsSpecialisasi = csSpecialisasi.split(',')
 				for(int i = 0; i < allcsSpecialisasi.size(); i++) {
 					String ActualcsSpecialisasi = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/VerifySpecialisasi', [('indexRow') : (i+1).toString()]))
-					KeywordUtil.logInfo(ActualcsSpecialisasi.toString())
+					KeywordUtil.logInfo('Actual Specialisasi: ' + ActualcsSpecialisasi.toString())
+					KeywordUtil.logInfo('Expected Specialisasi: ' + allcsSpecialisasi[i])
 					VerifyElement.verifyMatch(ActualcsSpecialisasi, allcsSpecialisasi[i], false)
 				}
 			}
 
 			if(!NIK.equalsIgnoreCase("")) {
 				String ActualNIK = GeneralAction.getAttributeFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'), 'value')
-				KeywordUtil.logInfo(ActualNIK)
+				KeywordUtil.logInfo('Expected NIK: ' + ActualNIK)
+				KeywordUtil.logInfo('Expected NIK: ' + NIK)
 				VerifyElement.verifyMatch(ActualNIK, NIK, false)
 			}
 
 			if(!title.equalsIgnoreCase("")) {
 				String Actualtitle = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/VerifyTitle'))
-				KeywordUtil.logInfo(Actualtitle)
+				KeywordUtil.logInfo('Actual Title: ' + Actualtitle)
+				KeywordUtil.logInfo('Expected Title: ' + title)
 				VerifyElement.verifyMatch(Actualtitle, title, false)
 			}
 
 			String ActualfirstName = GeneralAction.getAttributeFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan'), 'value')
-			KeywordUtil.logInfo(ActualfirstName)
+			KeywordUtil.logInfo('Expected Firstname: ' + ActualfirstName)
+			KeywordUtil.logInfo('Expected Firstname: ' + firstName)
 			VerifyElement.verifyMatch(ActualfirstName, firstName, false)
 
 			if(!lastName.equalsIgnoreCase("")) {
 				String ActuallastName = GeneralAction.getAttributeFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang'), 'value')
-				KeywordUtil.logInfo(ActuallastName)
+				KeywordUtil.logInfo('Expected Lastname: ' + ActuallastName)
+				KeywordUtil.logInfo('Expected Lastname: ' + lastName)
 				VerifyElement.verifyMatch(ActuallastName, lastName, false)
 			}
 
 			String Actualgender = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin'))
-			KeywordUtil.logInfo(Actualgender)
+			KeywordUtil.logInfo('Actual Gender: ' + Actualgender)
+			KeywordUtil.logInfo('Expected Gender: ' + gender)
 			VerifyElement.verifyMatch(Actualgender, gender, false)
 
 
 			String ActualnoTelp = GeneralAction.getAttributeFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/VerifyNomorTelepon'), 'value')
-			KeywordUtil.logInfo(ActualnoTelp)
+			KeywordUtil.logInfo('Actual No Telp: ' + ActualnoTelp)
+			KeywordUtil.logInfo('Expected No Telp: ' + noTelp)
 			VerifyElement.verifyMatch(ActualnoTelp, noTelp, false)
+			
+			String ActualStatus = GeneralAction.getAttributeFromElement(findTestObject('Object Repository/Master Data/Pengguna/VerifyStatus'), 'value')
+			KeywordUtil.logInfo('Actual Status: ' + ActualStatus)
+			KeywordUtil.logInfo('Expected Status: ' + verifystatus)
+			VerifyElement.verifyMatch(ActualStatus, verifystatus, false)
 
 			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
 
 			String Actualusername = GeneralAction.getAttributeFromElement(findTestObject('Object Repository/Master Data/Pengguna/Akun/NamaPengguna'), 'value')
-			KeywordUtil.logInfo(Actualusername)
+			KeywordUtil.logInfo('Actual Username: ' + Actualusername)
+			KeywordUtil.logInfo('Expected Username: ' + username)
 			VerifyElement.verifyMatch(Actualusername, username, false)
 
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername'))
 
 			String Actualrole = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/VerifyPeran'))
-			KeywordUtil.logInfo(Actualrole)
+			KeywordUtil.logInfo('Actual Role: ' + Actualrole)
+			KeywordUtil.logInfo('Expected Role: ' + role)
 			VerifyElement.verifyMatch(Actualrole, role, false)
 
 			String ActualdataGroup = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/VerifyDataGroup'))
-			KeywordUtil.logInfo(ActualdataGroup)
+			KeywordUtil.logInfo('Actual Data Group: ' + ActualdataGroup)
+			KeywordUtil.logInfo('Expected Data Group: ' + dataGroup)
 			VerifyElement.verifyMatch(ActualdataGroup, dataGroup, false)
 		}
 		if(Action.equalsIgnoreCase("Edit")) {
@@ -201,22 +224,26 @@ public class Pengguna {
 			}else if(!leader.equalsIgnoreCase("") && isLeader.equalsIgnoreCase("Y")){
 				WebUI.verifyElementChecked(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/StatusAtasan'), 3)
 				String Actualleader = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/VerifyLead'))
-				KeywordUtil.logInfo(Actualleader)
+				KeywordUtil.logInfo('Actual Leader: ' + Actualleader)
+				KeywordUtil.logInfo('Expected Leader: ' + leader)
 				VerifyElement.verifyMatch(Actualleader, leader, false)
 			}else if(isLeader.equalsIgnoreCase("N")) {
 				WebUI.verifyElementNotChecked(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/StatusAtasan'), 3)
 				String Actualleader = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/VerifyLead'))
-				KeywordUtil.logInfo(Actualleader)
+				KeywordUtil.logInfo('Actual Leader: ' + Actualleader)
+				KeywordUtil.logInfo('Expected Leader: ' + leader)
 				VerifyElement.verifyMatch(Actualleader, leader, false)
 			}else{
 				String Actualleader = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/VerifyLead'))
-				KeywordUtil.logInfo(Actualleader)
+				KeywordUtil.logInfo('Actual Leader: ' + Actualleader)
+				KeywordUtil.logInfo('Expected Leader: ' + leader)
 				VerifyElement.verifyMatch(Actualleader, leader, false)
 			}
 
 			if(!csLevel.equalsIgnoreCase("")) {
 				String ActualcsLevel = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/LevelCS'))
-				KeywordUtil.logInfo(ActualcsLevel)
+				KeywordUtil.logInfo('Actual Level CS: ' + ActualcsLevel)
+				KeywordUtil.logInfo('Expected Level CS: ' + csLevel)
 				VerifyElement.verifyMatch(ActualcsLevel, csLevel, false)
 			}
 
@@ -224,46 +251,54 @@ public class Pengguna {
 				List allcsSpecialisasi = csSpecialisasi.split(',')
 				for(int i = 0; i < allcsSpecialisasi.size(); i++) {
 					String ActualcsSpecialisasi = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/VerifySpecialisasi', [('indexRow') : (i+1).toString()]))
-					KeywordUtil.logInfo(ActualcsSpecialisasi.toString())
+					KeywordUtil.logInfo('Actual Specialisasi: ' + ActualcsSpecialisasi.toString())
+					KeywordUtil.logInfo('Expected Specialisasi: ' + allcsSpecialisasi[i])
 					VerifyElement.verifyMatch(ActualcsSpecialisasi, allcsSpecialisasi[i], false)
 				}
 			}
 
 			if(!NIK.equalsIgnoreCase("")) {
 				String ActualNIK = GeneralAction.getAttributeFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/NIK'), 'value')
-				KeywordUtil.logInfo(ActualNIK)
+				KeywordUtil.logInfo('Expected NIK: ' + ActualNIK)
+				KeywordUtil.logInfo('Expected NIK: ' + NIK)
 				VerifyElement.verifyMatch(ActualNIK, NIK, false)
 			}
 
 			if(!title.equalsIgnoreCase("")) {
 				String Actualtitle = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/VerifyTitle'))
-				KeywordUtil.logInfo(Actualtitle)
+				KeywordUtil.logInfo('Actual Title: ' + Actualtitle)
+				KeywordUtil.logInfo('Expected Title: ' + title)
 				VerifyElement.verifyMatch(Actualtitle, title, false)
 			}
 
 			String ActualfirstName = GeneralAction.getAttributeFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/NamaDepan'), 'value')
-			KeywordUtil.logInfo(ActualfirstName)
+			KeywordUtil.logInfo('Expected Firstname: ' + ActualfirstName)
+			KeywordUtil.logInfo('Expected Firstname: ' + firstName)
 			VerifyElement.verifyMatch(ActualfirstName, firstName, false)
 
 			if(!lastName.equalsIgnoreCase("")) {
 				String ActuallastName = GeneralAction.getAttributeFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/NamaBelakang'), 'value')
-				KeywordUtil.logInfo(ActuallastName)
+				KeywordUtil.logInfo('Expected Lastname: ' + ActuallastName)
+				KeywordUtil.logInfo('Expected Lastname: ' + lastName)
 				VerifyElement.verifyMatch(ActuallastName, lastName, false)
 			}
 
 			String Actualgender = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/ProfilePengguna/JenisKelamin'))
-			KeywordUtil.logInfo(Actualgender)
+			KeywordUtil.logInfo('Actual Gender: ' + Actualgender)
+			KeywordUtil.logInfo('Expected Gender: ' + gender)
 			VerifyElement.verifyMatch(Actualgender, gender, false)
 
 			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
-			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnya'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Pengguna/btnSelanjutnyaUsername'))
 
 			String Actualrole = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/VerifyPeran'))
-			KeywordUtil.logInfo(Actualrole)
+			KeywordUtil.logInfo('Actual Role: ' + Actualrole)
+			KeywordUtil.logInfo('Expected Role: ' + role)
 			VerifyElement.verifyMatch(Actualrole, role, false)
 
 			String ActualdataGroup = GeneralAction.getTextFromElement(findTestObject('Object Repository/Master Data/Pengguna/PeranPengguna/VerifyDataGroup'))
-			KeywordUtil.logInfo(ActualdataGroup)
+			KeywordUtil.logInfo('Actual Data Group: ' + ActualdataGroup)
+			KeywordUtil.logInfo('Expected Data Group: ' + dataGroup)
 			VerifyElement.verifyMatch(ActualdataGroup, dataGroup, false)
 		}
 	}
