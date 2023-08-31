@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnQnA</name>
+   <tag></tag>
+   <elementGuidId>ce75c5c1-231d-43ab-82ed-ec88a32c695d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='messageTemplate']/div/div[2]/div[2]/div/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>2031c906-3e4e-4c76-ac9e-f1bc822d477c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex justify-between items-center p-4 border-l-8 border-limegreen rounded-md mb-3 shadow-md transition w-full duration-200 text-secondary-text bg-white hover:bg-lightbluegrey</value>
+      <webElementGuid>c4d031c5-91cd-4407-8698-a248d7a1d5c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Produk apa yang akan anda pilih hari ini</value>
+      <webElementGuid>1b2559ed-ec5e-4331-96b3-4980c1e2281b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/settings/flow-chatbot?qnaid=1</value>
+      <webElementGuid>18fa8579-9965-42ca-aab6-af8ebf9fca64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Produk apa yang akan anda pilih hari ini</value>
+      <webElementGuid>de523a36-f3a5-47d9-bf14-cbee72ced1fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;messageTemplate&quot;)/div[@class=&quot;w-full h-full max-h-full overflow-auto px-4&quot;]/div[@class=&quot;collapsible bg-white-7 px-4 py-4 shadow-md rounded-md w-full&quot;]/div[@class=&quot;collapsible-body overflow-hidden transition-all duration-200&quot;]/div[@class=&quot;overflow-auto&quot;]/div[@class=&quot;mb-3 overflow-auto relative&quot;]/a[@class=&quot;flex justify-between items-center p-4 border-l-8 border-limegreen rounded-md mb-3 shadow-md transition w-full duration-200 text-secondary-text bg-white hover:bg-lightbluegrey&quot;]</value>
+      <webElementGuid>6bc45841-2fe0-4009-bc3e-02e0966acda6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='messageTemplate']/div/div[2]/div[2]/div/div/a</value>
+      <webElementGuid>6f22f3cc-1ccb-4690-b218-98ede50c5c10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanya &amp; Jawab'])[1]/following::a[1]</value>
+      <webElementGuid>553a7f28-4523-46c4-9c3c-c6a2d6859344</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pesan Timeout'])[1]/following::a[1]</value>
+      <webElementGuid>89b0f400-d24d-48d5-9166-c0e470a653ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tambah'])[1]/preceding::a[1]</value>
+      <webElementGuid>6cfaff97-ccac-40ab-926c-f2c8c22506d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/settings/flow-chatbot?qnaid=1')]</value>
+      <webElementGuid>21ffd587-f0b9-44eb-800d-fcf27e27f496</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/a</value>
+      <webElementGuid>0312b800-6e6c-42d9-947f-84b44a956fab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@title = 'Produk apa yang akan anda pilih hari ini' and @href = '/settings/flow-chatbot?qnaid=1' and (text() = 'Produk apa yang akan anda pilih hari ini' or . = 'Produk apa yang akan anda pilih hari ini')]</value>
+      <webElementGuid>19f28658-78f8-41d6-9bc3-ae9e0e57b878</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

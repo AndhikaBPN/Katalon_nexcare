@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_AddLinkQnA</name>
+   <tag></tag>
+   <elementGuidId>ce610aca-1192-437a-ba61-8edd012ae5cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Link URL'])[list jawban]/preceding::*[name()='svg'][2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>dc5433a6-9253-41eb-8542-899d597d0c1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>svg-inline--fa-title-aUACYPxQJa2d</value>
+      <webElementGuid>06ff8a88-1e47-4f29-bca2-e529704915fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-prefix</name>
+      <type>Main</type>
+      <value>fas</value>
+      <webElementGuid>dcb4bfcd-0957-41ed-abab-5e4307c52dae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-icon</name>
+      <type>Main</type>
+      <value>link</value>
+      <webElementGuid>c07e9029-bb66-4079-bdb8-2f6486c5f627</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>svg-inline--fa fa-link </value>
+      <webElementGuid>dd80c026-6ca4-4752-88e8-37e589091fb2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>41056af7-9d7f-4115-8053-3296c020a69d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>3e7eb687-5ec8-4f17-b93f-8e07774793b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 640 512</value>
+      <webElementGuid>b5b28fd3-2dd6-48cd-92ed-7a7450712684</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Link</value>
+      <webElementGuid>239ea0b9-46f7-41ec-b7ef-9eb65ff3120b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-layout&quot;]/div[@class=&quot;main-layout px-10 overflow-auto&quot;]/div[@class=&quot;pb-8&quot;]/div[2]/div[@class=&quot;flex justify-between items-start gap-2 h-full&quot;]/form[@class=&quot;chatbot-flow-form flex flex-col w-2/4 h-full p-6 bg-white shadow-md rounded-md border border-gray-300 overflow-auto&quot;]/div[@class=&quot;flex gap-6 mb-8&quot;]/div[@class=&quot;card-form flex flex-col w-full shadow-md rounded-lg border border-gray-300 bg-white&quot;]/div[@class=&quot;card-body h-full max-h-full px-6 py-6 overflow-auto&quot;]/div[@class=&quot;flex-1 flex flex-col mb-1&quot;]/div[@class=&quot;mb-3 overflow-auto relative&quot;]/div[@class=&quot;LinkedInput_linked-input__2wnJF answer-option mb-3&quot;]/div[@class=&quot;LinkedInput_input__1zSB6&quot;]/div[@class=&quot;LinkedInput_padding-right__2AFf9&quot;]/div[@class=&quot;LinkedInput_link-icon__1eMj9 btnlinkattach&quot;]/svg[@class=&quot;svg-inline--fa fa-link&quot;]</value>
+      <webElementGuid>c5a876a9-8d36-4ffa-b43d-23e0ea7fd666</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='List Jawaban'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>2c93f910-450f-43df-a140-fa8a9960aaca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Silahkan pilih produk'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>f2e8eb52-bfa2-48c1-b36c-0785ec047556</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Link URL'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>d5f97aa5-74e9-4d70-bbe4-ba59e0906832</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Link URL'])[2]/preceding::*[name()='svg'][4]</value>
+      <webElementGuid>d681221d-e731-4a4e-ac34-84a30fa6c0a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//svg[(text() = 'Add Link' or . = 'Add Link')]</value>
+      <webElementGuid>976559b8-65ad-424d-b8fc-0262e69e6d8b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

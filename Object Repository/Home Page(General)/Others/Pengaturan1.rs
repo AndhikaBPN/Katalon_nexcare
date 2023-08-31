@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Master data</name>
+   <name>Pengaturan1</name>
    <tag></tag>
-   <elementGuidId>f5621fe6-8688-46f9-9d9a-332a83c11c3c</elementGuidId>
+   <elementGuidId>04f22f7f-db59-4848-b24a-c2d99976c8d6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'btnmasterdatamenu']</value>
+         <value>//*[@id = 'btnsettingsmenu']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>btnmasterdatamenu</value>
-      <webElementGuid>cbb223b2-93f3-416b-acaa-d7ce1382e436</webElementGuid>
+      <value>btnsettingsmenu</value>
+      <webElementGuid>d08c03fa-9ec3-4ca7-a865-5ef642709913</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

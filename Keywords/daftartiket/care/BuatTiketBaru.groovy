@@ -38,7 +38,7 @@ public class BuatTiketBaru {
 	public void menuCreateTicket() {
 		GeneralAction.refreshPage()
 		GeneralAction.clickElement(findTestObject('Object Repository/Buat Tiket/DaftarTiket'))
-		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Buat Tiket Baru'))
+		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Others/Buat Tiket Baru'))
 	}
 
 	def setCreateNewTicket(HashMap hashMapDataTicket) {

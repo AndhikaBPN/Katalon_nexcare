@@ -36,7 +36,7 @@ public class Pengguna {
 
 	public void menuPengguna() {
 		GeneralAction.clickElement(findTestObject('Object Repository/Sidebar/Sidebar Master Data'))
-		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/btnUser'))
+		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Master Data/btnUser'))
 	}
 
 	public void addUser() {

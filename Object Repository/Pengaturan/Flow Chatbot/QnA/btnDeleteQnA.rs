@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnDeleteQnA</name>
+   <tag></tag>
+   <elementGuidId>2681fd1a-6583-4021-8846-536658d4ced5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Link URL'])[list jawban]/preceding::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;messageTemplate&quot;)/div[@class=&quot;w-full h-full max-h-full overflow-auto px-4&quot;]/div[@class=&quot;collapsible bg-white-7 px-4 py-4 shadow-md rounded-md w-full&quot;]/div[@class=&quot;collapsible-body overflow-hidden transition-all duration-200&quot;]/div[@class=&quot;overflow-auto&quot;]/div[@class=&quot;mb-3 overflow-auto relative&quot;]/a[@class=&quot;flex justify-between items-center p-4 border-l-8 border-limegreen rounded-md mb-3 shadow-md transition w-full duration-200 text-secondary-text bg-white hover:bg-lightbluegrey&quot;]/div[@class=&quot;btndelete ml-3&quot;]/svg[@class=&quot;svg-inline--fa fa-xmark border-2 rounded-full w-3 h-3 p-0.5 cursor-pointer border-secondary-text&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>47ec4356-ef6d-4dd3-b55b-1a1b7ce3afa4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>91d0ecf0-871e-476d-8bdc-a38d051e484a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>786dc00f-954b-43b1-99fc-5661ffc6b8df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-prefix</name>
+      <type>Main</type>
+      <value>fas</value>
+      <webElementGuid>28e2e75b-4998-47ec-80fe-a3de15dbde7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-icon</name>
+      <type>Main</type>
+      <value>xmark</value>
+      <webElementGuid>5960ff03-e9a7-4249-82ae-40a5a17af6be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>svg-inline--fa fa-xmark border-2 rounded-full w-3 h-3 p-0.5 cursor-pointer border-secondary-text</value>
+      <webElementGuid>f1a63e13-b00a-492e-94a7-761a0493c863</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>e675650d-d576-4f8c-b25a-1d0c4415953a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>2bc1a655-ecad-4a1d-b512-618cd4ace199</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 384 512</value>
+      <webElementGuid>d08cdb30-423d-4c0d-b6d9-e6715e24b2f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;messageTemplate&quot;)/div[@class=&quot;w-full h-full max-h-full overflow-auto px-4&quot;]/div[@class=&quot;collapsible bg-white-7 px-4 py-4 shadow-md rounded-md w-full&quot;]/div[@class=&quot;collapsible-body overflow-hidden transition-all duration-200&quot;]/div[@class=&quot;overflow-auto&quot;]/div[@class=&quot;mb-3 overflow-auto relative&quot;]/a[@class=&quot;flex justify-between items-center p-4 border-l-8 border-limegreen rounded-md mb-3 shadow-md transition w-full duration-200 text-secondary-text bg-white hover:bg-lightbluegrey&quot;]/div[@class=&quot;btndelete ml-3&quot;]/svg[@class=&quot;svg-inline--fa fa-xmark border-2 rounded-full w-3 h-3 p-0.5 cursor-pointer border-secondary-text&quot;]</value>
+      <webElementGuid>078ca6da-7b30-4682-a9e8-14d53311dd57</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Produk apa yang akan anda pilih hari ini'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>58654e22-906e-454e-a1ef-2bca17a3a85f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanya &amp; Jawab'])[1]/following::*[name()='svg'][3]</value>
+      <webElementGuid>a495f796-b22f-45b1-a3bc-5508c1043f13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ND6'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>7d19fbc5-39b3-45e0-b969-f90c14bb13b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ND6 Kontrol Stok'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>917d69a1-325e-4dff-957a-3fd057353b36</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

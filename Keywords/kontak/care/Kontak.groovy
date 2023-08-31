@@ -35,7 +35,7 @@ public class Kontak {
 	VerifyElement VerifyElement = new VerifyElement()
 
 	public void menuKontak() {
-		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Kontak'))
+		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Others/Kontak'))
 	}
 
 	public void setEditKontak(HashMap hashMapEditKontak) {

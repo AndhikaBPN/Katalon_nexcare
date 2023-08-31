@@ -353,9 +353,9 @@ class GeneralAction {
 	def logoutAndCloseBrowser() {
 		try {
 			WebUI.delay(3)
-			WebUI.waitForElementClickable(findTestObject('Object Repository/Home Page(General)/Page_NexCARE/btnLogOut'), 5)
-			clickElement(findTestObject('Object Repository/Home Page(General)/Page_NexCARE/btnLogOut'))
-			clickElement(findTestObject('Object Repository/Home Page(General)/Konfrimasi Keluar'))
+			WebUI.waitForElementClickable(findTestObject('Object Repository/Home Page(General)/Logout/btnLogOut'), 5)
+			clickElement(findTestObject('Object Repository/Home Page(General)/Logout/btnLogOut'))
+			clickElement(findTestObject('Object Repository/Home Page(General)/Logout/Konfrimasi Keluar'))
 			WebUI.delay(3)
 			def driver = DriverFactory.getWebDriver()
 			driver.quit()
@@ -366,8 +366,8 @@ class GeneralAction {
 	}
 
 	def logout() {
-		clickElement(findTestObject('Object Repository/Home Page(General)/Keluar'))
-		clickElement(findTestObject('Object Repository/Home Page(General)/Konfrimasi Keluar'))
+		clickElement(findTestObject('Object Repository/Home Page(General)/Logout/btnLogOut'))
+		clickElement(findTestObject('Object Repository/Home Page(General)/Logout/Konfrimasi Keluar'))
 	}
 
 	def closeBrowser() {

@@ -35,8 +35,8 @@ public class DetailTiket {
 	VerifyElement VerifyElement = new VerifyElement()
 
 	public void cariTiket (String ticket_number) {
-		GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Home Page(General)/Search'),
-				findTestObject('Object Repository/Home Page(General)/Search'), ticket_number)
+		GeneralAction.clickElementSearchAndSelect(findTestObject('Object Repository/Home Page(General)/Others/Search'),
+				findTestObject('Object Repository/Home Page(General)/Others/Search'), ticket_number)
 	}
 
 	public void detailTiket(String ticket_number) {
@@ -44,7 +44,7 @@ public class DetailTiket {
 	}
 
 	public void backToList() {
-		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Daftar tiket'))
+		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Others/Daftar tiket'))
 	}
 
 	public void tambahNote(String note) {

@@ -38,7 +38,7 @@ public class DataGroup {
 
 	public void menuDataGroup() {
 		GeneralAction.clickElement(findTestObject('Object Repository/Sidebar/Sidebar Master Data'))
-		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/btnDataGroup'))
+		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Master Data/btnDataGroup'))
 	}
 
 	public void addDataGroup() {
@@ -285,7 +285,7 @@ public class DataGroup {
 		if (notif.equalsIgnoreCase("Data dengan group_id ini sudah pernah disimpan") || notif.equalsIgnoreCase("Data Scope Distributor dan Principal tidak boleh kosong!") || notif.equalsIgnoreCase("Kolom description belum diisi. Silakan cek kembali")) {
 			KeywordUtil.logInfo('Message: ' + tD + ' ' + notif)
 			GeneralAction.clickElement(findTestObject('Object Repository/Master Data/Data Group/TambahEditDetail/button_OK'))
-			GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/btnDataGroup'))
+			GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Master Data/btnDataGroup'))
 		}
 	}
 }

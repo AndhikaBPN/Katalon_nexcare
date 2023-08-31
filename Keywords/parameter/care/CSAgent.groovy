@@ -39,7 +39,7 @@ public class CSAgent {
 
 	public void menuCSAgent() {
 		GeneralAction.clickElement(findTestObject('Object Repository/Sidebar/Sidebar Pengaturan'))
-		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/btnCSAgent'))
+		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Master Data/btnCSAgent'))
 		refreshPage()
 	}
 

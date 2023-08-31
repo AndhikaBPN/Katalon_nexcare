@@ -40,7 +40,7 @@ public class DataCustomer {
 
 	public void menuDataCustomer() {
 		GeneralAction.clickElement(findTestObject('Object Repository/Sidebar/Sidebar Master Data'))
-		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/btnDataDistributor'))
+		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Master Data/btnDataDistributor'))
 		refreshWeb()
 	}
 

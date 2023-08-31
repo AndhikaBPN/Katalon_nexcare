@@ -48,7 +48,7 @@ for (int i = 0; i < listHashMapViewPengguna.size(); i++) {
 		pengguna.findUser(getHashMapViewPengguna)
 		pengguna.viewUser()
 		pengguna.verifyData(getHashMapViewPengguna)
-		generalAction.clickElement(findTestObject('Object Repository/Home Page(General)/btnUser'))
+		generalAction.clickElement(findTestObject('Object Repository/Home Page(General)/Master Data/btnUser'))
 		pengguna.refreshPage()
 		
 	} catch (Exception e) {

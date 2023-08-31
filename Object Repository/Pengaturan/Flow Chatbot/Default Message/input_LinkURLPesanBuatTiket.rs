@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_LinkURLPesanBuatTiket</name>
+   <tag></tag>
+   <elementGuidId>f44729a9-0f2a-4280-acfc-c303c46efd34</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div[3]/div[2]/div[2]/div/form/div/div[2]/div[2]/div/div[2]/div/div[list jawaban]/div[2]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>688d154f-96b8-41ec-947b-293ab1b5fd8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input-link form-control</value>
+      <webElementGuid>66c40463-8814-4493-ab3b-515e7e0b667a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>5893e887-3849-4a46-9263-7d2b51cc615f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Tulis Link URL</value>
+      <webElementGuid>1be89945-7566-4383-951c-f8488c352376</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-layout&quot;]/div[@class=&quot;main-layout px-10 overflow-auto&quot;]/div[@class=&quot;pb-8&quot;]/div[2]/div[@class=&quot;flex justify-between items-start gap-2 h-full&quot;]/form[@class=&quot;chatbot-flow-form w-2/4 flex flex-col h-full p-6 bg-white shadow-md rounded-md border border-gray-300 overflow-auto&quot;]/div[@class=&quot;flex gap-6 mb-10&quot;]/div[@class=&quot;card-form w-full shadow-md rounded-lg border border-gray-300&quot;]/div[@class=&quot;card-body py-6&quot;]/div[@class=&quot;px-6 h-full max-h-full overflow-auto&quot;]/div[@class=&quot;answer-list&quot;]/div[@class=&quot;max-h-full mb-3 overflow-auto relative&quot;]/div[@class=&quot;LinkedInput_linked-input__2wnJF answer-option mb-3&quot;]/div[@class=&quot;LinkedInput_input-link__2Bvly&quot;]/input[@class=&quot;input-link form-control&quot;]</value>
+      <webElementGuid>fb431878-e62b-4724-9725-7fdc5ab7458d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[2]</value>
+      <webElementGuid>8fd99807-76eb-4dcc-b533-0b1ce75dbff2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[3]/div[2]/div[2]/div/form/div/div[2]/div[2]/div/div[2]/div/div[2]/div[2]/input</value>
+      <webElementGuid>77c36647-5946-4de9-a47a-021a24d4a1bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/input</value>
+      <webElementGuid>07f00c3d-b05f-4cb4-ad3c-0dda2d120175</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Tulis Link URL']</value>
+      <webElementGuid>5ee2e522-fbf7-4801-beeb-787041c8b620</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

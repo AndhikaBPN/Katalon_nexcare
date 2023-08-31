@@ -33,8 +33,8 @@ public class Parameter {
 	VerifyElement VerifyElement = new VerifyElement()
 
 	public void MenuParameter() {
-		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Pengaturan'))
-		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Menu Level 2 Pengaturan/Parameter'))
+		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Others/Pengaturan1'))
+		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Others/Menu Level 2 Pengaturan/Parameter'))
 	}
 
 	public void saveParameter() {

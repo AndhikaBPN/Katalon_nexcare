@@ -33,7 +33,7 @@ public class Laporan {
 	VerifyElement VerifyElement = new VerifyElement()
 
 	public void menuLaporan() {
-		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Laporan'))
+		GeneralAction.clickElement(findTestObject('Object Repository/Home Page(General)/Others/Laporan'))
 	}
 
 	public void refreshPage() {
