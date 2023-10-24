@@ -7,25 +7,37 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='react-select-2-input']</value>
+         <value>//input[@id='ddsinputlistanswer']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'react-select-2-input']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>7338cae7-c87c-441b-9234-2e3eed8d8cec</webElementGuid>
+      <webElementGuid>9c89ee1f-85ae-468b-af01-555de7c4ef3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1693452860751</value>
-      <webElementGuid>76c99353-375b-4816-98af-69459149ff34</webElementGuid>
+      <webElementGuid>6adcdf18-aacc-4a6e-a616-ce399fe002f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>react-select-2-input</value>
+      <webElementGuid>560203ad-91e4-4b6a-b284-8ea791aa5119</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

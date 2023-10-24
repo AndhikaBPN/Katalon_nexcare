@@ -35,8 +35,8 @@ public class HandleTestData {
 
 		int i,j;
 
-//		need to change path test data
-		String pathFileTestData = GlobalVariable.pathDataFiles + pathFile
+		//		need to change path test data
+		String pathFileTestData = GlobalVariable.pathTestData + pathFile
 
 		List<HashMap> listHashMap = new ArrayList<HashMap>()
 

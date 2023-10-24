@@ -6,12 +6,11 @@
    <elementGuidId>c56c9b93-163f-4a30-b0e7-ef81d18bdecd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='ddslistanswer']/div/div/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='ddslistanswer']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>8d340105-af85-4cca-a96b-91f16f39fc7b</webElementGuid>
+      <webElementGuid>d9be7094-7723-4720-9134-4998cace0a60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value> css-1hwfws3</value>
-      <webElementGuid>e26b3859-2011-40a6-bb15-ddc516299eae</webElementGuid>
+      <webElementGuid>81fde297-c65a-4c2b-8168-bf3654ce6e60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Pilih Jawaban</value>
-      <webElementGuid>2cf103ee-dfa2-453c-8686-a39f01bfcc64</webElementGuid>
+      <webElementGuid>56d2e32a-902e-415e-a051-654eae739060</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ddslistanswer&quot;)/div[@class=&quot;css-yk16xz-control&quot;]/div[@class=&quot;css-1hwfws3&quot;]</value>
-      <webElementGuid>447fb7e7-d871-40fb-8e75-d3da11f4fffc</webElementGuid>
+      <webElementGuid>43eb8a8a-0b48-4b20-a39b-7694d085c733</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='ddslistanswer']/div/div</value>
-      <webElementGuid>eec7a136-8a77-431e-9cb3-fd0a57af8044</webElementGuid>
+      <webElementGuid>6e8a62f4-e7dd-4d57-821d-adb7bd29c1bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Terhubung Dengan Jawaban'])[1]/following::div[3]</value>
-      <webElementGuid>94003136-6b76-4ebe-873f-7d81b98b697e</webElementGuid>
+      <webElementGuid>4cf23d26-e34d-4d9f-b74a-6dc4395a178e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pesan Pengguna'])[1]/following::div[4]</value>
-      <webElementGuid>bdcb952e-7dcf-42cf-9306-e21fee66c798</webElementGuid>
+      <webElementGuid>606e117e-98be-4d3d-ab63-29eac0891e3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Iya'])[1]/preceding::div[7]</value>
-      <webElementGuid>704d11af-ab3c-489b-8309-c08422becf0e</webElementGuid>
+      <webElementGuid>84b58ae9-4586-4dec-a94f-be21874ccbfc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/div/div[2]/div/div/div</value>
-      <webElementGuid>0cdcaf76-84e1-4442-9b83-457ad0d9b3dd</webElementGuid>
+      <webElementGuid>91971f96-a816-43cc-b478-45b80b3dbb5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Pilih Jawaban' or . = 'Pilih Jawaban')]</value>
-      <webElementGuid>cf214943-6f1f-4409-be15-e4f0e0c4a4ec</webElementGuid>
+      <webElementGuid>242788f2-9893-49c6-9532-0d9da4060d0d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

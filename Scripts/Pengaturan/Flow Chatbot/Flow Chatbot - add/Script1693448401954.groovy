@@ -34,20 +34,48 @@ generalAction.login("")
 flowChatbot.menuFlowChatbot()
 
 String excelLocation = 'Pengaturan\\Flow Chatbot\\Flow Chatbot - add.xlsx'
-String sheetName = 'pesantimeout'
+String sheetName = 'flowchatbot -add'
+String sheet = 'pesansolusi'
 
 List<HashMap> listHashMapFlowChatbot = handleTestData.readTestData(excelLocation, sheetName, true)
+
 for(int i = 0; i<listHashMapFlowChatbot.size(); i++) {
 	HashMap getHashMapFlowCHatbot = listHashMapFlowChatbot.get(i)
 	String TD = getHashMapFlowCHatbot.get('TD')
+	String defMessage = getHashMapFlowCHatbot.get('default-message')
 	KeywordUtil.logInfo("TD: " + TD)
+	KeywordUtil.logInfo("DEFAULT MESAGE: " + defMessage)
 	
 	try {
-//		flowChatbot.openPesanPembuka()
-//		flowChatbot.setPesanPembuka(getHashMapFlowCHatbot)
-		flowChatbot.openPesanTimeout()
-		flowChatbot.setPesanTimeout(getHashMapFlowCHatbot)
+		if(defMessage.equalsIgnoreCase('pesanpembuka')) {
+			flowChatbot.openPesanPembuka()
+			flowChatbot.setPesanPembuka(getHashMapFlowCHatbot)
+		}
 		
+		if(defMessage.equalsIgnoreCase('pesansolusi')) {
+			flowChatbot.openPesanSolusi()
+			flowChatbot.setPesanSolusi(getHashMapFlowCHatbot)
+		}
+		
+		if(defMessage.equalsIgnoreCase('pesanpenutup')) {
+			flowChatbot.openPesanPenutup()
+			flowChatbot.setPesanPenutup(getHashMapFlowCHatbot)
+		}
+		
+		if(defMessage.equalsIgnoreCase('pesanerror')) {
+			flowChatbot.openPesanError()
+			flowChatbot.setPesanError(getHashMapFlowCHatbot)
+		}
+		
+		if(defMessage.equalsIgnoreCase('pesanbuattiket')) {
+			flowChatbot.openPesanBuatTiket()
+			flowChatbot.setPesanBuatTiket(getHashMapFlowCHatbot)
+		}
+		
+		if(defMessage.equalsIgnoreCase('pesantimeout')) {
+			flowChatbot.openPesanTimeout()
+			flowChatbot.setPesanTimeout(getHashMapFlowCHatbot)
+		}
 	} catch (Exception e) {
 		
 	}

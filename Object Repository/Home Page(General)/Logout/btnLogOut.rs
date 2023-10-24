@@ -6,16 +6,16 @@
    <elementGuidId>6ea9e72b-0024-4383-8867-ced67bd0970f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.btnlogout.cursor-pointer.ml-5 > svg</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@class='btnlogout cursor-pointer ml-5']</value>
+         <value>//div[@class='btnlogout ml-5 cursor-pointer']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;topbar shadow-md flex justify-between items-center px-10&quot;]/div[@class=&quot;date-time-notification flex items-center&quot;]/div[@class=&quot;flex&quot;]/div[@class=&quot;btnlogout cursor-pointer ml-5&quot;]/svg[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.btnlogout.cursor-pointer.ml-5 > svg</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>9d39444f-6972-4452-8e6d-65eafbbd746c</webElementGuid>
+      <webElementGuid>d60f2653-0246-44d9-bf9d-4ff1b5c2912c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>bfb32cef-5bc0-4968-9ee5-649b8a9a5ef4</webElementGuid>
+      <webElementGuid>f2c57c81-63db-4018-bb0b-7a936410afae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>width</name>
       <type>Main</type>
       <value>25</value>
-      <webElementGuid>e6a75d39-17e7-43f9-8498-5103f3e74462</webElementGuid>
+      <webElementGuid>8af03cd6-1d5b-4940-a5c4-4df278f11817</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>height</name>
       <type>Main</type>
       <value>25</value>
-      <webElementGuid>657c47e3-482d-4934-be1a-3cb004ce2c77</webElementGuid>
+      <webElementGuid>a2ffb21b-95d3-4292-9733-82267dbac9b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>2e67b819-ea71-462a-a2ea-e0a2fcfb2793</webElementGuid>
+      <webElementGuid>9d5a3451-7d12-4476-a0b4-c66f904699a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 25 25</value>
-      <webElementGuid>c3c7e3f1-02dc-4849-b551-b8092db6b1e8</webElementGuid>
+      <webElementGuid>9a0518cc-9cbd-4da8-bf92-7c0981230a2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;topbar shadow-md flex justify-between items-center px-10&quot;]/div[@class=&quot;date-time-notification flex items-center&quot;]/div[@class=&quot;flex&quot;]/div[@class=&quot;btnlogout cursor-pointer ml-5&quot;]/svg[1]</value>
-      <webElementGuid>6bc6d89a-210c-4564-9293-f349bc82e488</webElementGuid>
+      <webElementGuid>1baa95b5-ce10-48f3-9172-11e24c11c60f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Semua'])[1]/following::*[name()='svg'][1]</value>
-      <webElementGuid>a9bf0b1c-d344-4fa7-8c97-84b508354f53</webElementGuid>
+      <webElementGuid>df743331-b02c-4641-b158-a7d66299ef19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin NexCare'])[1]/following::*[name()='svg'][5]</value>
-      <webElementGuid>c158497d-bef9-40b9-8cef-d7671894d93c</webElementGuid>
+      <webElementGuid>079dfcee-13d0-4833-86ae-773b15781d12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Principal'])[1]/preceding::*[name()='svg'][9]</value>
-      <webElementGuid>276eaa06-1e9c-46ce-9024-e095150fbbee</webElementGuid>
+      <webElementGuid>0be3f3d6-e37a-4489-962e-17fccddabef4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Manager'])[1]/preceding::*[name()='svg'][10]</value>
-      <webElementGuid>66d0860d-749f-4a27-ad53-59bfb6185e44</webElementGuid>
+      <webElementGuid>74e60125-43ac-48f7-937e-acb6860b470e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
