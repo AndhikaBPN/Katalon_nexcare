@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "6D5E92A64648C54F5627C492A27D65C9",
+  "keywordFileContentHash": "89D17EBD3508DA15A0FFBE1DD72DB3E0",
   "keywordClasses": [
     {
       "name": "pengaturan.care.FlowChatbot",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

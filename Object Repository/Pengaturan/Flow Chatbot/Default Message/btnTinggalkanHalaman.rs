@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dds_LinkedAnswerQnA</name>
+   <name>btnTinggalkanHalaman</name>
    <tag></tag>
-   <elementGuidId>04bb5be9-bc3c-4b42-8733-4567a780e8cd</elementGuidId>
+   <elementGuidId>e02b06c6-9f7d-4d18-9163-4493fd8b3dfd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='ddsinputlistanswer']</value>
+         <key>CSS</key>
+         <value>#btnno</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#react-select-2-option-0</value>
+         <key>XPATH</key>
+         <value>//button[@id='btnno']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,111 +21,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>55a63fc9-9cef-4778-abd0-5dd0cec61acd</webElementGuid>
+      <value>button</value>
+      <webElementGuid>def965bc-aa99-49aa-9554-1dbc716d0dc6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>type</name>
       <type>Main</type>
-      <value> css-9gakcf-option</value>
-      <webElementGuid>416a84e7-bbd3-4e5b-bb9d-a75ee3c16649</webElementGuid>
+      <value>button</value>
+      <webElementGuid>5035f55d-7ffa-421c-8e44-b6369c4f420c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>react-select-2-option-0</value>
-      <webElementGuid>423e33b8-338a-4208-9b47-8565ba94f113</webElementGuid>
+      <value>btnno</value>
+      <webElementGuid>5a72af39-0c1a-47f7-a479-2560badf4874</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>class</name>
       <type>Main</type>
-      <value>-1</value>
-      <webElementGuid>cb6a3caa-e5a6-4757-8244-3762c0f52668</webElementGuid>
+      <value>false bg-transparent rounded-md border border-nexcaredefault text-nexcaredefault focus:outline-none font-medium px-6 py-2</value>
+      <webElementGuid>083d18a6-9a1a-4fc7-b7a7-55e7cfb703db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Pilih Jawaban</value>
-      <webElementGuid>1a0300de-9bd4-4a3b-8834-86ed0b3d5b65</webElementGuid>
+      <value>Tinggalkan Halaman</value>
+      <webElementGuid>1f798223-4ee7-4e5f-804b-79e302cd6bf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react-select-2-option-0&quot;)</value>
-      <webElementGuid>aeebba8f-03f2-4cfc-9e66-32c1eb7ce09c</webElementGuid>
+      <value>id(&quot;btnno&quot;)</value>
+      <webElementGuid>02cde844-5b9a-4982-8508-3c1d60d526ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='react-select-2-option-0']</value>
-      <webElementGuid>88a05d83-b70b-44f0-b9e2-1a023aef1cb3</webElementGuid>
+      <value>//button[@id='btnno']</value>
+      <webElementGuid>39aad499-4015-4db3-b490-a0103703cfef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='ddslistanswer']/div[2]/div/div</value>
-      <webElementGuid>011c8af0-8ed1-4d0b-9dfe-3ea430d6f012</webElementGuid>
+      <value>//div[@id='root']/div[2]/div[3]/div[2]/div[2]/div/div[2]/div/div/div[3]/button</value>
+      <webElementGuid>89bb2507-2025-4ce0-9bb3-f989133be4e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Jawaban'])[1]/following::div[8]</value>
-      <webElementGuid>96788cd9-2e74-4d25-b0f2-a773c244a236</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perubahan yang Anda buat mungkin tidak disimpan'])[1]/following::button[1]</value>
+      <webElementGuid>3ad52fab-4393-4b71-bd6c-f67ebb99db0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terhubung Dengan Jawaban'])[1]/following::div[12]</value>
-      <webElementGuid>199add5c-7edf-401f-9bac-b51e203f4eaf</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tinggalkan Halaman'])[1]/following::button[1]</value>
+      <webElementGuid>3fca1c75-b16f-4a82-9919-1e6a3cd0fd33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Link Buat Ticket'])[1]/preceding::div[1]</value>
-      <webElementGuid>28d549e2-f146-46f8-ba3e-84907fec7407</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tetap Dihalaman'])[1]/preceding::button[1]</value>
+      <webElementGuid>7fe80878-d556-462f-9002-2594f0d92abd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nexmile'])[1]/preceding::div[2]</value>
-      <webElementGuid>17300301-bc74-4d6d-969e-db933017ddd6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::button[2]</value>
+      <webElementGuid>63aa503b-8006-4781-8f91-44ddaa4d03e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/div/div[2]/div/div</value>
-      <webElementGuid>240afd67-18d8-4981-b90b-f97fa80d22f1</webElementGuid>
+      <value>//div[3]/button</value>
+      <webElementGuid>a025d1f1-b800-46bb-a8e1-2b3652ee9781</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'react-select-2-option-0' and (text() = 'Pilih Jawaban' or . = 'Pilih Jawaban')]</value>
-      <webElementGuid>2450460e-642a-49b3-8a01-a0692791d2b1</webElementGuid>
+      <value>//button[@type = 'button' and @id = 'btnno' and (text() = 'Tinggalkan Halaman' or . = 'Tinggalkan Halaman')]</value>
+      <webElementGuid>41ba8feb-3b8e-487c-842d-8bbace78a4df</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

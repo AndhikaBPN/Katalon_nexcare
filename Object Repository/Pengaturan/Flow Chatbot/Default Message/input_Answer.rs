@@ -6,12 +6,12 @@
    <elementGuidId>92451a4a-861b-463f-8e3a-8d80eb186540</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;root&quot;]/div[2]/div[3]/div[2]/div[2]/div/form/div[1]/div/div[2]/div/div[2]/div/div[${indeks}]/div[1]/input</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input.tslanswer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;root&quot;]/div[2]/div[3]/div[2]/div[2]/div/form/div[1]/div/div[2]/div/div[2]/div/div[${indeks}]/div[1]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>fe520b85-5d8e-43bd-aad2-2c72f2ba9cde</webElementGuid>
+      <webElementGuid>244509c1-c4d4-4b63-bc3b-1c34a6e8fb52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>tslanswer</value>
-      <webElementGuid>a7359e37-d923-4a4e-8998-78683d6575d7</webElementGuid>
+      <webElementGuid>ed75958d-1cbb-42f6-87a1-848de453450d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>61f25ca0-a5c1-4d35-af87-4074a2aaeb1d</webElementGuid>
+      <webElementGuid>48f2b046-e056-4085-9c3d-7636913cb719</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Tulis Jawaban</value>
-      <webElementGuid>fdf4f8b4-524c-4432-9784-58d2adf58e0c</webElementGuid>
+      <webElementGuid>611b4b12-5f81-48b1-b1ea-9bfa977ef56c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>50</value>
-      <webElementGuid>7c527b0b-514b-4aeb-9c4a-0e6f03becb6e</webElementGuid>
+      <webElementGuid>177dd479-6181-40b0-8265-0a1f40133973</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Iya</value>
-      <webElementGuid>fb5f3716-cc83-442b-9103-5965eaaa7d70</webElementGuid>
+      <webElementGuid>43bb9334-8a1d-45b1-888d-cc1bcafbaa94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;container-layout&quot;]/div[@class=&quot;main-layout px-10 overflow-auto&quot;]/div[@class=&quot;pb-8&quot;]/div[2]/div[@class=&quot;flex justify-between items-start gap-2 h-full&quot;]/form[@class=&quot;chatbot-flow-form flex flex-col w-2/4 h-full p-6 bg-white shadow-md rounded-md border border-gray-300 overflow-auto&quot;]/div[@class=&quot;mb-10&quot;]/div[@class=&quot;card-form w-full shadow-md rounded-lg&quot;]/div[@class=&quot;card-body bg-white p-6 rounded-b-lg border border-gray-300&quot;]/div[@class=&quot;flex h-full gap-10&quot;]/div[@class=&quot;flex-1 flex flex-col h-full&quot;]/div[@class=&quot;max-h-full mb-3 overflow-auto relative&quot;]/div[@class=&quot;LinkedInput_linked-input__2wnJF answer-option mb-3&quot;]/div[@class=&quot;LinkedInput_input__1zSB6&quot;]/input[@class=&quot;tslanswer&quot;]</value>
-      <webElementGuid>7999ea5b-8e99-4bdf-ada1-7e2d8dfaab40</webElementGuid>
+      <webElementGuid>9f5018b3-e6f5-4299-98e6-ebf27e3abbb7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='Iya']</value>
-      <webElementGuid>f400a325-9549-4c40-a462-76b922727962</webElementGuid>
+      <webElementGuid>4abdfd49-a2da-4087-b7e2-840237e02ebc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[2]/div[3]/div[2]/div[2]/div/form/div/div/div[2]/div/div[2]/div/div/div/input</value>
-      <webElementGuid>0001d950-db7b-47b3-87f2-54a6afe11489</webElementGuid>
+      <webElementGuid>ac8e0ea8-fa43-46fa-91ac-b5108c5ac0ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>9db8beaa-0b24-41c0-a3a3-99fa14200f4c</webElementGuid>
+      <webElementGuid>70ef77fd-d808-48e7-b3de-cb68ad867c76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Tulis Jawaban']</value>
-      <webElementGuid>6c39b2b4-9452-4f19-9b70-de9760aab791</webElementGuid>
+      <webElementGuid>c3b59fb5-bcd7-482b-8aff-3881c905285f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

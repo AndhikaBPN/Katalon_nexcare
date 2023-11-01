@@ -33,10 +33,11 @@ FlowChatbot flowChatbot = new FlowChatbot()
 generalAction.login("")
 flowChatbot.menuFlowChatbot()
 
-String excelLocation = 'Pengaturan\\Flow Chatbot\\Flow Chatbot - add.xlsx'
-String sheetName = 'flowchatbot -add'
+String excelLocation = 'Pengaturan\\Flow Chatbot\\Flow Chatbot - view.xlsx'
+String sheetName = 'flowchatbot -view'
+String sheet = 'Sheet1'
 
-List<HashMap> listHashMapFlowChatbot = handleTestData.readTestData(excelLocation, sheetName, true)
+List<HashMap> listHashMapFlowChatbot = handleTestData.readTestData(excelLocation, sheet, true)
 
 for(int i = 0; i<listHashMapFlowChatbot.size(); i++) {
 	HashMap getHashMapFlowCHatbot = listHashMapFlowChatbot.get(i)
@@ -46,39 +47,40 @@ for(int i = 0; i<listHashMapFlowChatbot.size(); i++) {
 	KeywordUtil.logInfo("DEFAULT MESAGE: " + defMessage)
 	
 	try {
-		if(defMessage.equalsIgnoreCase('pesanpembuka')) {
-			flowChatbot.openPesanPembuka()
-			flowChatbot.setPesanPembuka(getHashMapFlowCHatbot)
-		}
-		
-		if(defMessage.equalsIgnoreCase('pesansolusi')) {
-			flowChatbot.openPesanSolusi()
-			flowChatbot.setPesanSolusi(getHashMapFlowCHatbot)
-		}
-		
-		if(defMessage.equalsIgnoreCase('pesanpenutup')) {
-			flowChatbot.openPesanPenutup()
-			flowChatbot.setPesanPenutup(getHashMapFlowCHatbot)
-		}
-		
-		if(defMessage.equalsIgnoreCase('pesanerror')) {
-			flowChatbot.openPesanError()
-			flowChatbot.setPesanError(getHashMapFlowCHatbot)
-		}
-		
-		if(defMessage.equalsIgnoreCase('pesanbuattiket')) {
-			flowChatbot.openPesanBuatTiket()
-			flowChatbot.setPesanBuatTiket(getHashMapFlowCHatbot)
-		}
-		
+//		if(defMessage.equalsIgnoreCase('pesanpembuka')) {
+//			flowChatbot.openPesanPembuka()
+//			flowChatbot.viewPesanPembuka(getHashMapFlowCHatbot)
+//		}
+//		
+//		if(defMessage.equalsIgnoreCase('pesansolusi')) {
+//			flowChatbot.openPesanSolusi()
+//			flowChatbot.viewPesanSolusi(getHashMapFlowCHatbot)
+//		}
+//		
+//		if(defMessage.equalsIgnoreCase('pesanpenutup')) {
+//			flowChatbot.openPesanPenutup()
+//			flowChatbot.viewPesanPenutup(getHashMapFlowCHatbot)
+//		}
+//		
+//		if(defMessage.equalsIgnoreCase('pesanerror')) {
+//			flowChatbot.openPesanError()
+//			flowChatbot.viewPesanError(getHashMapFlowCHatbot)
+//		}
+//		
+//		if(defMessage.equalsIgnoreCase('pesanbuattiket')) {
+//			flowChatbot.openPesanBuatTiket()
+//			flowChatbot.viewPesanBuatTiket(getHashMapFlowCHatbot)
+//		}
+//		
 		if(defMessage.equalsIgnoreCase('pesantimeout')) {
 			flowChatbot.openPesanTimeout()
-			flowChatbot.setPesanTimeout(getHashMapFlowCHatbot)
+			flowChatbot.viewPesanTimeout(getHashMapFlowCHatbot)
 		}
-		
-		if(defMessage.equalsIgnoreCase('qna')) {
-			flowChatbot.addQNA(getHashMapFlowCHatbot)
-		}
+//		
+//		if(defMessage.equalsIgnoreCase('qna')) {
+//			flowChatbot.searchQNA(getHashMapFlowCHatbot)
+//			flowChatbot.editQna(getHashMapFlowCHatbot)
+//		}
 		
 	} catch (Exception e) {
 		

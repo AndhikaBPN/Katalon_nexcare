@@ -33,8 +33,8 @@ FlowChatbot flowChatbot = new FlowChatbot()
 generalAction.login("")
 flowChatbot.menuFlowChatbot()
 
-String excelLocation = 'Pengaturan\\Flow Chatbot\\Flow Chatbot - add.xlsx'
-String sheetName = 'flowchatbot -add'
+String excelLocation = 'Pengaturan\\Flow Chatbot\\Flow Chatbot - edit.xlsx'
+String sheetName = 'flowchatbot -edit'
 
 List<HashMap> listHashMapFlowChatbot = handleTestData.readTestData(excelLocation, sheetName, true)
 
@@ -53,12 +53,12 @@ for(int i = 0; i<listHashMapFlowChatbot.size(); i++) {
 		
 		if(defMessage.equalsIgnoreCase('pesansolusi')) {
 			flowChatbot.openPesanSolusi()
-			flowChatbot.setPesanSolusi(getHashMapFlowCHatbot)
+			flowChatbot.updateSolusi(getHashMapFlowCHatbot)
 		}
 		
 		if(defMessage.equalsIgnoreCase('pesanpenutup')) {
 			flowChatbot.openPesanPenutup()
-			flowChatbot.setPesanPenutup(getHashMapFlowCHatbot)
+			flowChatbot.updatePenutup(getHashMapFlowCHatbot)
 		}
 		
 		if(defMessage.equalsIgnoreCase('pesanerror')) {
@@ -68,7 +68,7 @@ for(int i = 0; i<listHashMapFlowChatbot.size(); i++) {
 		
 		if(defMessage.equalsIgnoreCase('pesanbuattiket')) {
 			flowChatbot.openPesanBuatTiket()
-			flowChatbot.setPesanBuatTiket(getHashMapFlowCHatbot)
+			flowChatbot.updateBuatTiket(getHashMapFlowCHatbot)
 		}
 		
 		if(defMessage.equalsIgnoreCase('pesantimeout')) {
@@ -77,12 +77,13 @@ for(int i = 0; i<listHashMapFlowChatbot.size(); i++) {
 		}
 		
 		if(defMessage.equalsIgnoreCase('qna')) {
-			flowChatbot.addQNA(getHashMapFlowCHatbot)
+			flowChatbot.searchQNA(getHashMapFlowCHatbot)
+			flowChatbot.editQna(getHashMapFlowCHatbot)
 		}
 		
 	} catch (Exception e) {
 		
 	}
+	
 }
-
 generalAction.logoutAndCloseBrowser()

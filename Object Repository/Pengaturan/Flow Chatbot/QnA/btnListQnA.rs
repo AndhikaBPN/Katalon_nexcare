@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='messageTemplate']/div/div[2]/div[2]/div/div/a</value>
+         <value>//a[@title='${nama_qna}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>714cc69e-3bd9-45d1-962a-e853a4cd4a34</webElementGuid>
+      <webElementGuid>91b7c33f-4289-4615-8cab-892fb2b9ad4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flex justify-between items-center p-4 border-l-8 border-limegreen rounded-md mb-3 shadow-md transition w-full duration-200 text-white bg-white-3</value>
-      <webElementGuid>315d55da-41a3-462f-8c0b-6cb00fd0b5fd</webElementGuid>
+      <webElementGuid>5a11799e-7712-4cff-b103-31543296b6c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Produk ND6</value>
-      <webElementGuid>93ea2a95-89b8-4293-9b3b-b57e4f9d9d6a</webElementGuid>
+      <webElementGuid>9fd8b657-3b7e-4358-8fff-8f794cefb1bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/settings/flow-chatbot?qnaid=15</value>
-      <webElementGuid>80c18348-56c9-42b4-9b15-99ce19e4bd7e</webElementGuid>
+      <webElementGuid>f5e450c3-e177-4856-ad7a-cba512544f6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Produk ND6</value>
-      <webElementGuid>ea1f762e-efae-41a9-81cd-fe55cff6d8a7</webElementGuid>
+      <webElementGuid>627eeb5e-298d-422a-8538-5d218cff4af7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;messageTemplate&quot;)/div[@class=&quot;w-full h-full max-h-full overflow-auto px-4&quot;]/div[@class=&quot;collapsible bg-white-7 px-4 py-4 shadow-md rounded-md w-full&quot;]/div[@class=&quot;collapsible-body overflow-hidden transition-all duration-200&quot;]/div[@class=&quot;overflow-auto&quot;]/div[@class=&quot;mb-3 overflow-auto relative&quot;]/a[@class=&quot;flex justify-between items-center p-4 border-l-8 border-limegreen rounded-md mb-3 shadow-md transition w-full duration-200 text-white bg-white-3&quot;]</value>
-      <webElementGuid>11ccad9e-319b-4f7c-ae24-7671d44bb5fc</webElementGuid>
+      <webElementGuid>e40ca2c2-3cc7-4c82-a28a-8cf54ad11c3b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='messageTemplate']/div/div[2]/div[2]/div/div/a</value>
-      <webElementGuid>2f9df0e9-14bb-458f-a332-151390e76a64</webElementGuid>
+      <webElementGuid>129f6259-8161-4107-9031-4429c8694fcf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanya &amp; Jawab'])[1]/following::a[1]</value>
-      <webElementGuid>b448466f-e890-44fd-9259-9aef20f8a1bf</webElementGuid>
+      <webElementGuid>17f508e6-b3b3-428d-a5b1-55c2e6a3d191</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pesan Timeout'])[1]/following::a[1]</value>
-      <webElementGuid>b0af81b4-d11d-44ba-b26f-1febacefe0e9</webElementGuid>
+      <webElementGuid>15c362a0-a3b2-4b31-bbf7-b15994a45fa5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tambah'])[1]/preceding::a[1]</value>
-      <webElementGuid>2d10cc6d-5c36-49a0-8ae2-3fd875e61331</webElementGuid>
+      <webElementGuid>7137f4f0-36d2-41b0-bc96-9ea3f5f24c1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/settings/flow-chatbot?qnaid=15')]</value>
-      <webElementGuid>57cc9772-8a9d-40a9-89f4-5f1ea8a221fa</webElementGuid>
+      <webElementGuid>8815274f-118d-46c5-9fb8-3ad79bdfe876</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/a</value>
-      <webElementGuid>1a4c5c79-4cd4-4bc9-afc8-9f123ed72409</webElementGuid>
+      <webElementGuid>464768df-f858-49f8-b3c0-533d852566fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@title = 'Produk ND6' and @href = '/settings/flow-chatbot?qnaid=15' and (text() = 'Produk ND6' or . = 'Produk ND6')]</value>
-      <webElementGuid>f0893d0f-79d8-4833-adfb-9e71be570706</webElementGuid>
+      <webElementGuid>89ae9f39-4c6a-4dd9-a454-467e30a3fd35</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

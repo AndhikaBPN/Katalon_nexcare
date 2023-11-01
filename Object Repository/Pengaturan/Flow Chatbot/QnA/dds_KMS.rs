@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='react-select-3-input']</value>
+         <value>//*[@id=&quot;ddsinputkmslist&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>19c87f53-4523-4fa1-9715-60d7f33291ec</webElementGuid>
+      <webElementGuid>c6673c0a-baf9-4b0c-bfb4-2d1056906358</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value> css-1n7v3ny-option</value>
-      <webElementGuid>4cca49d6-3fd1-41af-83de-d2cd556043e1</webElementGuid>
+      <webElementGuid>b836d06a-4453-4f73-a40c-c438e5668ac5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>react-select-3-option-0</value>
-      <webElementGuid>092a4753-41e0-46cb-ade9-86cfec07432d</webElementGuid>
+      <webElementGuid>80f1814b-523e-4466-ac43-0220407e03b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>aee79c18-8321-41a1-8d8f-8a098bbd1130</webElementGuid>
+      <webElementGuid>3e9a62b6-2ebd-439e-b7f8-0f41fd7a0998</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Data New KMS 1</value>
-      <webElementGuid>f8c834ca-0612-4264-aec8-894e8bff5b6c</webElementGuid>
+      <webElementGuid>48fd1646-964e-4d1f-ad05-73eb0ee61f2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;react-select-3-option-0&quot;)</value>
-      <webElementGuid>c0a16cd5-73a1-4701-acc6-a4e2fc967ab3</webElementGuid>
+      <webElementGuid>807ffb3a-3d98-484a-b9f3-6b469a60a515</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='react-select-3-option-0']</value>
-      <webElementGuid>e6038617-37e3-4413-9aa9-5d380c58e662</webElementGuid>
+      <webElementGuid>8e547c91-4749-4537-aed4-009754662d64</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='ddskmslist']/div[2]/div/div</value>
-      <webElementGuid>e28a705d-1d25-4901-bb0b-1d23385e643a</webElementGuid>
+      <webElementGuid>5d00dbd5-d4bc-4e80-9d8f-1ab145e222b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ND6 Mutasi adjust stock HA'])[1]/following::div[9]</value>
-      <webElementGuid>d3d993d1-bc90-47e0-af66-8de8e0d70e7f</webElementGuid>
+      <webElementGuid>c015c129-9737-487f-960d-c6d302cfe3ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pesan Terhubung Dengan KMS'])[1]/following::div[13]</value>
-      <webElementGuid>61261108-6f09-4427-ab3c-30cb03aa8df6</webElementGuid>
+      <webElementGuid>300930a6-8789-4eec-ada0-11a15056f094</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Data baru?'])[1]/preceding::div[1]</value>
-      <webElementGuid>05535837-5dca-49cd-b93c-d17dcdea7919</webElementGuid>
+      <webElementGuid>469618ab-8b9f-41fb-bc0f-95a78f5bc34c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Hyper Link ?'])[1]/preceding::div[2]</value>
-      <webElementGuid>59471fae-1005-4151-89ce-0aad4ed183d5</webElementGuid>
+      <webElementGuid>2974b5e4-fc16-4a2c-8f1c-7932ed8f833e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Data New KMS 1']/parent::*</value>
-      <webElementGuid>a309972b-46e3-455a-ab08-756465a0b87a</webElementGuid>
+      <webElementGuid>9a2b7d00-4c15-4131-b5fd-6dce7d218781</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[2]/div/div</value>
-      <webElementGuid>b265030a-27ee-412d-8f8e-09d779073dd6</webElementGuid>
+      <webElementGuid>4cc37ab2-88bf-47fb-8121-03a149c911e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'react-select-3-option-0' and (text() = 'Data New KMS 1' or . = 'Data New KMS 1')]</value>
-      <webElementGuid>45411f8e-6c88-4dc3-8b5b-7b35ad5d1f37</webElementGuid>
+      <webElementGuid>97c60b55-ab92-4819-b56a-7238d6763172</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

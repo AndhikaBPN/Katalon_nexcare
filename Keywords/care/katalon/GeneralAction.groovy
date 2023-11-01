@@ -237,8 +237,8 @@ class GeneralAction {
 
 				break;
 			case "cslevel1" :
-				username = "felixfebriano"
-				password = "Felix@nexsoft123"
+				username = "randipujakusuma"
+				password = "Randi@nexsoft123"
 
 				break;
 			case "cslevel2" :
@@ -286,8 +286,12 @@ class GeneralAction {
 		clickElementAndType(findTestObject('Object Repository/Login/username'), username)
 		clickElementAndType(findTestObject('Object Repository/Login/password'), password)
 		clickElement(findTestObject('Object Repository/Login/masuk'))
+		
+		boolean popup = WebUI.verifyElementVisible(findTestObject('Object Repository/Login/button_Tidak'))
+		KeywordUtil.logInfo("POPUP: " + popup)
+//		boolean popup = WebUI.verifyElementPresent(findTestObject('Object Repository/Login/button_Tidak'), 5, FailureHandling.OPTIONAL)
 
-		if (WebUI.verifyElementPresent(findTestObject('Object Repository/Login/button_Tidak'), 5)) {
+		if (popup) {
 			clickElement(findTestObject('Object Repository/Login/button_Tidak'))
 		}
 
