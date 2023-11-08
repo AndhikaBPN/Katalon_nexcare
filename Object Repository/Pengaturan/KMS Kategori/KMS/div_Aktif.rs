@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Aktif</name>
+   <tag></tag>
+   <elementGuidId>f3f48779-31ad-4934-9dc1-a0ac73e73772</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.px-5.py-2.cursor-pointer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div[3]/div/div[2]/div/div[2]/div/div[2]/div[3]/div[2]/label/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>aa4b410c-ca17-4a2f-ae84-93c86000e6b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-5 py-2 cursor-pointer</value>
+      <webElementGuid>433169be-4b3d-40da-9dac-2c65a33a5a05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Aktif</value>
+      <webElementGuid>dec510be-9539-4ae3-8780-5311ef698367</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-layout&quot;]/div[@class=&quot;main-layout px-10 overflow-auto&quot;]/div[@class=&quot;space-y-3&quot;]/div[@class=&quot;white-container pb-24&quot;]/div[@class=&quot;w-full bg-white border border-gray-300 rounded-lg p-8&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;space-x-20 flex&quot;]/div[@class=&quot;space-y-4 flex-initial w-3/12&quot;]/div[@class=&quot;space-y-1&quot;]/div[@class=&quot;text-gray-400 font-medium select-none
+                radio-tab&quot;]/label[1]/div[@class=&quot;px-5 py-2 cursor-pointer&quot;]</value>
+      <webElementGuid>53b9f19d-3d26-427c-8f1d-6ba58b94e6e6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[3]/div/div[2]/div/div[2]/div/div[2]/div[3]/div[2]/label/div</value>
+      <webElementGuid>87cce0b1-0cc9-49a7-b0b5-e0e5afd9cb02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tulis Tag'])[1]/following::div[9]</value>
+      <webElementGuid>0bcca708-a345-42fe-81ad-b539e2a04a1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cari File'])[1]/following::div[18]</value>
+      <webElementGuid>20e4439f-c57b-4dd9-8792-09a28aded0f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tidak Aktif'])[1]/preceding::div[1]</value>
+      <webElementGuid>c6b0dd4b-c11c-49bc-8538-5c73bf2728ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batal'])[1]/preceding::div[2]</value>
+      <webElementGuid>515a38da-a21d-4624-81aa-bfdac82e66e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Aktif']/parent::*</value>
+      <webElementGuid>7b2eacc3-b4cb-453b-a66f-4e7cfa4ec365</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/div</value>
+      <webElementGuid>7c39a2b4-2ed7-4d95-ae45-2db8eb9976d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Aktif' or . = 'Aktif')]</value>
+      <webElementGuid>fa9b85b1-8002-46bb-8d1a-e85f42f645c5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

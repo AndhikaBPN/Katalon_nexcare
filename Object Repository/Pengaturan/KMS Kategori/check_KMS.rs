@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>check_KMS</name>
+   <tag></tag>
+   <elementGuidId>e9087f1d-7dcd-4439-8fd6-c15ac0d31654</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-xs.text-darkred.mt-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div[3]/div/div[2]/div/div[2]/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d9db3b8f-2c98-4c7b-a720-63e14ecca8f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-xs text-darkred mt-1</value>
+      <webElementGuid>865fba5f-f6ae-45b3-ac74-f8050137690e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kategori KMS tidak boleh kosong!</value>
+      <webElementGuid>e26688ed-69e7-4620-8078-e07b122a9c4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-layout&quot;]/div[@class=&quot;main-layout px-10 overflow-auto&quot;]/div[@class=&quot;space-y-3&quot;]/div[@class=&quot;white-container pb-24&quot;]/div[@class=&quot;w-full bg-white border border-gray-300 rounded-lg p-8&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;space-y-4&quot;]/div[@class=&quot;w-3/12 space-y-1&quot;]/div[@class=&quot;text-xs text-darkred mt-1&quot;]</value>
+      <webElementGuid>972343d5-6734-459c-8efb-648a04e069dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[3]/div/div[2]/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>de7af63f-d781-4e11-84bb-56651ef8f460</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::div[1]</value>
+      <webElementGuid>af495603-a9c0-4a8c-8075-e7066b9b26ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar KMS'])[1]/following::div[5]</value>
+      <webElementGuid>6ffcac24-afd9-47c9-9f66-73e49877fdcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::div[1]</value>
+      <webElementGuid>3918fd79-7c1c-45d9-8e0f-9d6a4b532ca3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Tipe'])[1]/preceding::div[2]</value>
+      <webElementGuid>282a5e53-18be-41bd-b20c-8192e124df17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kategori KMS tidak boleh kosong!']/parent::*</value>
+      <webElementGuid>2d6c392a-0550-4907-9629-4abe33b6be41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>41bd2b6c-3dce-4c63-9660-95be88862de7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Kategori KMS tidak boleh kosong!' or . = 'Kategori KMS tidak boleh kosong!')]</value>
+      <webElementGuid>98dc160a-938c-49c6-a569-c0a19cd3961a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

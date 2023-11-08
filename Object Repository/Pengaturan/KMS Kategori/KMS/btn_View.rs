@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_View</name>
+   <tag></tag>
+   <elementGuidId>9ed24519-5062-4461-aed4-fd5ff2788bfa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='btnview'])[${indeks}]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f85bbda1-1833-49fa-acb0-f7e7274a768e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btnview</value>
+      <webElementGuid>9954c8f5-45a0-41da-aa56-95513cfc8172</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-blue-700 rounded-full w-7 h-7 flex justify-center items-center cursor-pointer</value>
+      <webElementGuid>23eed333-bb60-41be-8535-78a00bea435f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-layout&quot;]/div[@class=&quot;main-layout px-10 overflow-auto&quot;]/div[@class=&quot;space-y-3&quot;]/div[@class=&quot;white-container pb-24&quot;]/div[@class=&quot;w-full bg-white border border-gray-300 rounded-lg p-8&quot;]/div[@class=&quot;space-y-4&quot;]/div[3]/div[@class=&quot;container-table overflow-y-hidden overflow-x-auto shadow-table rounded-t-2xl&quot;]/table[@class=&quot;w-full table-fix&quot;]/tbody[@class=&quot;container-table-body text-gray-500 block overflow-y-auto overflow-x-hidden&quot;]/tr[@class=&quot;border-b-2 table w-full table-fixed&quot;]/td[@class=&quot;px-5 py-3 break-words
+                                                            text-left
+                                                            w-36&quot;]/div[@class=&quot;flex items-center justify-between&quot;]/div[@id=&quot;btnview&quot;]</value>
+      <webElementGuid>91d33345-6ecd-437a-8e83-41482345c561</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//div[@id='btnview'])[2]</value>
+      <webElementGuid>0fecb57d-ca5e-40f8-9f90-ae1c3fa03065</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[3]/div/div[2]/div/div[2]/div[3]/div/table/tbody/tr[2]/td[5]/div/div[2]</value>
+      <webElementGuid>c0f25f2e-eb1f-4e46-83e4-b83ea8e7cb40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FAQ Chatbot'])[1]/following::div[6]</value>
+      <webElementGuid>72754a5f-b90e-4c52-b7ea-f9acf10a7d3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='asdad'])[1]/following::div[6]</value>
+      <webElementGuid>ae693da9-349c-494e-9b58-de63bafcc8b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='&lt;'])[1]/preceding::div[1]</value>
+      <webElementGuid>240c92bf-428c-449d-b797-239571961d29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='>'])[1]/preceding::div[1]</value>
+      <webElementGuid>314112cf-88df-4d8d-86c3-61cfa41eba78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[5]/div/div[2]</value>
+      <webElementGuid>bdd0ecae-8e59-4035-8bde-64b487c93f95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'btnview']</value>
+      <webElementGuid>b237b9d3-9bad-4e47-9394-3a86de34da61</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

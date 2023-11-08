@@ -6,17 +6,17 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>Username API QMA</description>
-      <initValue>'andhika'</initValue>
+      <initValue>'katalon'</initValue>
       <name>usernameQMA</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Password API QMA</description>
-      <initValue>'andhika202211001'</initValue>
+      <initValue>'katalon#2022'</initValue>
       <name>passwordQMA</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>APK Version</description>
-      <initValue>'5.0.0'</initValue>
+      <initValue>'1.0.0'</initValue>
       <name>appVersion</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -26,12 +26,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Project ID</description>
-      <initValue>13</initValue>
+      <initValue>1</initValue>
       <name>projectId</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Current Test Case ID</description>
-      <initValue>'1'</initValue>
+      <initValue>''</initValue>
       <name>currentTestCaseId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Base URL QMA</description>
+      <initValue>'https://testingqa-office.nexcloud.id'</initValue>
+      <name>baseUrlQMA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>X Request ID (Header Log)</description>
+      <initValue>''</initValue>
+      <name>xRequestID</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

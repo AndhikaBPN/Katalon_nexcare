@@ -10,6 +10,7 @@ import com.kms.katalon.core.testobject.TestObjectProperty
 import com.kms.katalon.core.testobject.impl.HttpTextBodyContent
 
 import groovy.json.JsonSlurper
+import internal.GlobalVariable
 import groovy.json.JsonOutput
 import org.json.JSONObject
 
@@ -18,8 +19,7 @@ public class QMARequestResponseObject {
 	 * Login QMA Request
 	 */
 	public static ResponseObject loginQMA(String user, String pass) {
-		String baseUrl = "https://testingqa-office.nexcloud.id"
-		String endpoint = baseUrl + "/testingqa/login"
+		String endpoint = GlobalVariable.baseUrlQMA + "/testingqa/login"
 		String token = ""
 
 		/* encode user and pass */
@@ -32,15 +32,8 @@ public class QMARequestResponseObject {
 		TestObjectProperty header3 = new TestObjectProperty("Accept", ConditionType.EQUALS, "*/*")
 		ArrayList defaultHeaders = Arrays.asList(header1, header2, header3)
 
-		/* build request */
-		RequestObject ro = new RestRequestObjectBuilder()
-				.withRestUrl(endpoint)
-				.withHttpHeaders(defaultHeaders)
-				.withRestRequestMethod("POST")
-				.build()
-
 		/* request to api and get the response */
-		ResponseObject respObj = WS.sendRequest(ro)
+		ResponseObject respObj = postApiRequest(endpoint, defaultHeaders)
 
 		return respObj
 	}
@@ -49,17 +42,21 @@ public class QMARequestResponseObject {
 	 * Convert to JSON
 	 */
 
-	public static String convertToJSON(int projectId, String testCase, String subject, String tag, String desc, String status, String platform, String platformVersion, String appVersion, String profile, String startExecutionTime, String endExecutionTime, String addProperties, String[][] addValues) {
-		return JsonOutput.toJson(["project_id": projectId, "test_case": testCase, "subject": subject, "tag": tag, "description": desc, "status": status, "platform": platform, "platform_version": platformVersion, "app_version": appVersion, "profile": profile, "start_execution_time": startExecutionTime, "end_execution_time": endExecutionTime, "additional_properties": addProperties, "additional_values": addValues])
+	public static String convertToJSON(int projectId, String testCaseId, String testDataId, String subject, String tag, String desc, String status, String platform, String platformVersion, String appVersion, String profile, String startExecutionTime, String endExecutionTime, String addProperties, String[][] addValues) {
+		/* addValues data type : String[][] */
+		return JsonOutput.toJson(["project_id": projectId, "test_case_id": testCaseId, "test_data_id": testDataId, "subject": subject, "tag": tag, "description": desc, "status": status, "platform": platform, "platform_version": platformVersion, "app_version": appVersion, "profile": profile, "start_execution_time": startExecutionTime, "end_execution_time": endExecutionTime, "additional_properties": addProperties, "additional_values": addValues])
+	}
+
+	public static String convertToJSON(int projectId, String testCaseId, String testDataId, String subject, String tag, String desc, String status, String platform, String platformVersion, String appVersion, String profile, String startExecutionTime, String endExecutionTime, String addProperties, Object[] addValues) {
+		/* addValues data type : Object[] */
+		return JsonOutput.toJson(["project_id": projectId, "test_case_id": testCaseId, "test_data_id": testDataId, "subject": subject, "tag": tag, "description": desc, "status": status, "platform": platform, "platform_version": platformVersion, "app_version": appVersion, "profile": profile, "start_execution_time": startExecutionTime, "end_execution_time": endExecutionTime, "additional_properties": addProperties, "additional_values": addValues])
 	}
 
 	/**
-	 * Automation Log Request
+	 * QMA Check Health
 	 */
-
-	public static ResponseObject automationLogRequest(String token, String body) {
-		String baseUrl = "https://testingqa-office.nexcloud.id"
-		String endpoint = baseUrl + "/testingqa/automation/log"
+	public static ResponseObject checkHealthQMA(String token) {
+		String endpoint = GlobalVariable.baseUrlQMA + "/testingqa/health"
 
 		/* set up header */
 		String authHeaderValue = "Bearer " + token
@@ -68,16 +65,29 @@ public class QMARequestResponseObject {
 		TestObjectProperty header3 = new TestObjectProperty("Accept", ConditionType.EQUALS, "*/*")
 		ArrayList defaultHeaders = Arrays.asList(header1, header2, header3)
 
-		/* build request */
-		RequestObject ro = new RestRequestObjectBuilder()
-				.withRestUrl(endpoint)
-				.withHttpHeaders(defaultHeaders)
-				.withRestRequestMethod("POST")
-				.withTextBodyContent(body)
-				.build()
+		/* request to api and get the response */
+		ResponseObject respObj = getApiRequest(endpoint, defaultHeaders)
+
+		return respObj
+	}
+
+	/**
+	 * Automation Log Request
+	 */
+
+	public static ResponseObject automationLogRequest(String token, String body, String xRequestID) {
+		String endpoint = GlobalVariable.baseUrlQMA + "/testingqa/automation/log"
+
+		/* set up header */
+		String authHeaderValue = "Bearer " + token
+		TestObjectProperty header1 = new TestObjectProperty("Authorization", ConditionType.EQUALS, authHeaderValue)
+		TestObjectProperty header2 = new TestObjectProperty("Content-Type", ConditionType.EQUALS, "application/json")
+		TestObjectProperty header3 = new TestObjectProperty("Accept", ConditionType.EQUALS, "*/*")
+		TestObjectProperty header4 = new TestObjectProperty("X-Request-ID", ConditionType.EQUALS, xRequestID)
+		ArrayList defaultHeaders = Arrays.asList(header1, header2, header3, header4)
 
 		/* request to api and get the response */
-		ResponseObject respObj = WS.sendRequest(ro)
+		ResponseObject respObj = postApiRequest(endpoint, defaultHeaders, body)
 
 		return respObj
 	}
@@ -87,6 +97,7 @@ public class QMARequestResponseObject {
 	 */
 
 	public static ResponseObject postApiRequest(String endpoint, ArrayList<TestObjectProperty> headers, String body) {
+		/* post request with body */
 
 		/* build request */
 		RequestObject ro = new RestRequestObjectBuilder()
@@ -94,6 +105,22 @@ public class QMARequestResponseObject {
 				.withHttpHeaders(headers)
 				.withRestRequestMethod("POST")
 				.withTextBodyContent(body)
+				.build()
+
+		/* request to api and get the response */
+		ResponseObject respObj = WS.sendRequest(ro)
+
+		return respObj
+	}
+
+	public static ResponseObject postApiRequest(String endpoint, ArrayList<TestObjectProperty> headers) {
+		/* post request without body */
+
+		/* build request */
+		RequestObject ro = new RestRequestObjectBuilder()
+				.withRestUrl(endpoint)
+				.withHttpHeaders(headers)
+				.withRestRequestMethod("POST")
 				.build()
 
 		/* request to api and get the response */

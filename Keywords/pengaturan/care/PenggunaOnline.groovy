@@ -25,7 +25,7 @@ import org.junit.internal.runners.statements.FailOnTimeout
 import org.openqa.selenium.Keys
 import org.openqa.selenium.WebElement
 
-import internal.GlobalVariable
+//import internal.GlobalVariable
 import care.katalon.GeneralAction
 import care.katalon.VerifyElement
 import groovy.json.StringEscapeUtils
@@ -92,20 +92,20 @@ public class PenggunaOnline {
 			i++;
 		}
 	}
-	
+
 	public void checkOnlineUser(HashMap hashMapSetPenggunaOnline) {
 		int i = 1
 		boolean match = false
-		
+
 		while(!match) {
 			String actualName = hashMapSetPenggunaOnline.get("Name")
 			KeywordUtil.logInfo("Actual Name: " + actualName)
 			String targetName = GeneralAction.getTextFromElement(findTestObject('Object Repository/Pengaturan/Pengguna Online/checkName', [('indeks') : (i).toString()]))
 			KeywordUtil.logInfo("Target Name: " + targetName)
-			
+
 			boolean verifyName = actualName.equalsIgnoreCase(targetName)
 			KeywordUtil.logInfo("Name match: " + verifyName)
-			
+
 			if(verifyName) {
 				match = true
 				String expectedStatus = "Online"
@@ -115,7 +115,7 @@ public class PenggunaOnline {
 				boolean verifyStatus = VerifyElement.verifyMatch(actualStatus, expectedStatus, false)
 				KeywordUtil.logInfo("Status match: " + verifyStatus)
 			}
-			
+
 			i++
 		}
 	}

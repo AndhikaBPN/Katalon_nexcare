@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_EditKMS</name>
+   <tag></tag>
+   <elementGuidId>aac0db49-e2aa-42ba-a9e6-03472d2257a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#btnedit > svg > path</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='${judul}'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>59b4ea4b-6de2-4633-90c6-3064d2316f5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#424242</value>
+      <webElementGuid>fcdb237c-0352-4d12-b18d-99e1ad433a14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M26 6.506c-.03 1.423-.508 2.54-1.443 3.476-4.726 4.725-9.452 9.44-14.178 14.175-.224.224-.468.376-.783.437-2.144.457-4.289.925-6.433 1.382-.712.152-1.29-.447-1.138-1.158.477-2.185.935-4.36 1.422-6.544.041-.193.153-.407.285-.539 3.832-3.841 7.673-7.662 11.505-11.493.955-.955 1.89-1.94 2.876-2.875 1.332-1.27 2.917-1.677 4.686-1.128 1.748.548 2.764 1.788 3.13 3.577.05.254.05.528.071.69zM4.128 23.832c.051.01.082.02.102.01 1.535-.325 3.08-.65 4.604-.996.173-.04.356-.152.478-.274 3.516-3.496 7.023-7.011 10.529-10.507.071-.071.183-.102.234-.132L16.11 7.97c.01-.01-.01 0-.02.01-3.598 3.597-7.196 7.184-10.784 10.781a.632.632 0 00-.152.295c-.132.57-.254 1.138-.376 1.707a330.03 330.03 0 01-.65 3.069zm17.258-13.383c.65-.62 1.3-1.25 1.951-1.88.671-.67.915-1.493.762-2.418-.172-1.057-.782-1.789-1.788-2.134-1.037-.356-1.992-.173-2.805.59-.63.589-1.23 1.219-1.84 1.828-.061.061-.112.122-.142.153l3.862 3.861z</value>
+      <webElementGuid>eff4667f-9106-472e-bb17-2e61199a4684</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btnedit&quot;)/svg[1]/path[1]</value>
+      <webElementGuid>a0eb9490-48a5-4812-8e9f-3ede3bd85bf8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

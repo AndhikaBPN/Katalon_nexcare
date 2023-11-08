@@ -26,7 +26,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import care.katalon.GeneralAction
 import internal.GlobalVariable
-import jdk.nashorn.internal.runtime.FindProperty
+//import jdk.nashorn.internal.runtime.FindProperty
 
 public class CreateKomisi {
 	GeneralAction gAction = new GeneralAction()

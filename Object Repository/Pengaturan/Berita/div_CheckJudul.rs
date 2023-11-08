@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_CheckJudul</name>
+   <tag></tag>
+   <elementGuidId>0cd84519-97ad-433c-ab67-8dfebbc2d724</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-xs.text-darkred.mt-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div[3]/div/div[2]/div/div/div/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8a2b9258-d262-4d97-87af-3402aad064a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-xs text-darkred mt-1</value>
+      <webElementGuid>a5f09afa-eed0-4d9c-8e54-ed190807bfa2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Judul tidak boleh kosong!</value>
+      <webElementGuid>0c8b7b7e-f2ca-4e30-8e8a-64714ca0e594</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-layout&quot;]/div[@class=&quot;main-layout px-10 overflow-auto&quot;]/div[@class=&quot;h-full mb-5&quot;]/div[@class=&quot;white-container pb-24&quot;]/div[@class=&quot;w-full bg-white border border-gray-300 rounded-lg p-8&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;space-x-20 flex&quot;]/div[@class=&quot;space-y-4 flex-initial w-3/12&quot;]/div[@class=&quot;space-y-1&quot;]/div[@class=&quot;text-xs text-darkred mt-1&quot;]</value>
+      <webElementGuid>82635941-bfcb-4d48-a3ea-73bb0908eefb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[3]/div/div[2]/div/div/div/div/div/div[2]</value>
+      <webElementGuid>8e719bc5-5de4-47e6-ad03-fc8d6cfcc6ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::div[1]</value>
+      <webElementGuid>10a44b21-aa9b-4a83-8b35-aaf8f65f6167</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tambah Berita'])[2]/following::div[8]</value>
+      <webElementGuid>0b62ee10-2dec-4bbd-82d3-8824ce1cd20a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cari File'])[1]/preceding::div[4]</value>
+      <webElementGuid>35d69ab5-205f-4cf8-abdb-7e4e6151050c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::div[9]</value>
+      <webElementGuid>e16e1b17-22d5-43dd-a2b8-596751c47a22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Judul tidak boleh kosong!']/parent::*</value>
+      <webElementGuid>580406b3-3b21-4e66-a837-775a795a9051</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/div/div/div/div/div[2]</value>
+      <webElementGuid>92469e1c-0325-4f62-b21a-31e986339652</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Judul tidak boleh kosong!' or . = 'Judul tidak boleh kosong!')]</value>
+      <webElementGuid>31f4eaeb-5248-4951-88f8-c4aa626d9ead</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

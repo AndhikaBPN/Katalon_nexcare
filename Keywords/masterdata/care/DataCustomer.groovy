@@ -26,7 +26,7 @@ import internal.GlobalVariable
 import care.katalon.GeneralAction
 import care.katalon.VerifyElement
 import groovy.json.StringEscapeUtils
-import groovy.ui.Console
+//import groovy.ui.Console
 
 public class DataCustomer {
 

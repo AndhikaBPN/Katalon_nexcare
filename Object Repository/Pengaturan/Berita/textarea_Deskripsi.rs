@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_Deskripsi</name>
+   <tag></tag>
+   <elementGuidId>4f98bb21-ca18-41b7-851d-d1865859feb6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>textarea.font-medium.w-full.h-96</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div[3]/div/div[2]/div[2]/div/div/div[3]/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>54f31f9e-eebe-4616-adc8-105de8c9aa2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-medium w-full h-96</value>
+      <webElementGuid>f585121c-0d47-409b-8e50-f221e80a1690</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>asda</value>
+      <webElementGuid>48c17e15-9358-40c8-866c-c0bb892662f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-layout&quot;]/div[@class=&quot;main-layout px-10 overflow-auto&quot;]/div[@class=&quot;h-full pb-12&quot;]/div[@class=&quot;h-content&quot;]/div[@class=&quot;white-container pt-5 h-full&quot;]/div[@class=&quot;w-full h-full bg-white border border-gray-300 rounded-lg p-8 flex item center text-gray-700&quot;]/div[@class=&quot;w-1/4 pr-20&quot;]/div[@class=&quot;mb-5&quot;]/textarea[@class=&quot;font-medium w-full h-96&quot;]</value>
+      <webElementGuid>8f5eac84-51ec-49eb-a711-41aa03dc56f2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[3]/div/div[2]/div[2]/div/div/div[3]/textarea</value>
+      <webElementGuid>15591741-6a91-4579-94d8-7e830b886dd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='|'])[1]/following::textarea[1]</value>
+      <webElementGuid>5f2b5d4f-cb64-49ac-b293-df96d5acb65c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin NexCare'])[2]/following::textarea[1]</value>
+      <webElementGuid>81c1469d-23c0-498f-850f-530bf49903fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='https://www.youtube.com/watch?v=xvFZjo5PgG0'])[1]/preceding::textarea[1]</value>
+      <webElementGuid>41d60ae6-1c9c-4dab-973f-8a1d4ed07732</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tutup'])[1]/preceding::textarea[1]</value>
+      <webElementGuid>91933cfe-2263-45ba-a66d-115387c9b6e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='asda']/parent::*</value>
+      <webElementGuid>404826d4-2579-430e-9f35-f4e9f4420f89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//textarea</value>
+      <webElementGuid>dc18da86-0667-4647-89e1-11b459901682</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[(text() = 'asda' or . = 'asda')]</value>
+      <webElementGuid>fd86b5dc-2e9e-450f-8240-7ac5e4d1cce7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

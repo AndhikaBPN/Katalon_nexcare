@@ -29,7 +29,7 @@ import com.kms.katalon.core.testobject.ResponseObject
 
 import groovy.json.JsonSlurper
 import internal.GlobalVariable
-import jdk.nashorn.api.scripting.JSObject
+//import jdk.nashorn.api.scripting.JSObject
 import okhttp3.Credentials
 import okhttp3.MultipartBody
 import okhttp3.OkHttpClient

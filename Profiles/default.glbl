@@ -51,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'1.5.0'</initValue>
+      <initValue>'1.6.0'</initValue>
       <name>appVersion</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -68,5 +68,15 @@
       <description></description>
       <initValue>''</initValue>
       <name>currentTestCaseId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Base URL QMA</description>
+      <initValue>'https://testingqa-office.nexcloud.id'</initValue>
+      <name>baseUrlQMA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>X Request ID (Header Log)</description>
+      <initValue>''</initValue>
+      <name>xRequestID</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

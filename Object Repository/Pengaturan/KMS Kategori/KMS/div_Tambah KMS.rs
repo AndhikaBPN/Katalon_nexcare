@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Tambah KMS</name>
+   <tag></tag>
+   <elementGuidId>496b5a78-a1c3-44f7-9b99-f815e5a68ff1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#btnadd</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='btnadd']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>224c61e5-9c2f-40e3-8daa-f88e6dbeb000</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btnadd</value>
+      <webElementGuid>d67f4617-81a5-4942-9e9d-b0efad28f71e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center cursor-pointer bg-olddarkblue text-white py-2 px-6 rounded-lg</value>
+      <webElementGuid>c973597b-6188-4c73-92d5-767ab6a70291</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tambah KMS</value>
+      <webElementGuid>9ded07cd-0b8b-4942-bbfd-4fa4040f3214</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btnadd&quot;)</value>
+      <webElementGuid>5647ae44-14a4-4582-9d15-4dc584a939d7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='btnadd']</value>
+      <webElementGuid>4b67c8db-2dd4-4e09-aff0-7471f40f6e59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[3]/div/div[2]/div/div[2]/div/div[2]</value>
+      <webElementGuid>25f17886-a4f4-415d-9bc5-21fcc9bd8d2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar KMS'])[2]/following::div[6]</value>
+      <webElementGuid>dfcaa2bb-1073-4634-a8df-00d6b9cec06e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori KMS'])[1]/following::div[6]</value>
+      <webElementGuid>f49c2f43-137a-4fe3-bfb5-42bda28a8a20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ND6 Kontrol Stok'])[1]/preceding::div[1]</value>
+      <webElementGuid>54a79c9e-9340-4d69-8d0a-9e568b796ab5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div[2]</value>
+      <webElementGuid>9df3f9de-b887-4d3c-ac6a-817524f284cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'btnadd' and (text() = 'Tambah KMS' or . = 'Tambah KMS')]</value>
+      <webElementGuid>d9c4c067-06ad-487f-b08b-eed8a82436aa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
